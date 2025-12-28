@@ -1,0 +1,15 @@
+# Site settings
+title: skeptict
+description: Personal website and weblog
+url: "https://skeptict.github.io"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+permalink: /posts/:year/:month/:day/:title/
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - CLAUDE.md
+  - .gitignore
