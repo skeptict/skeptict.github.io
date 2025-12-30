@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DrawThings Feed Test - All Methods</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            padding: 2rem;
+            background: #f5f5f5;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+        .subtitle {
+            color: #666;
+            margin-bottom: 2rem;
+            font-size: 0.9rem;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+        .method {
+            background: #fff;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .method h2 {
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+            color: #333;
+        }
+        .method .status {
+            font-size: 0.85rem;
+            color: #666;
+            margin-bottom: 1.5rem;
+            padding: 0.5rem;
+            background: #f9f9f9;
+            border-radius: 4px;
+        }
+        .feed-content {
+            min-height: 200px;
+        }
+        .post-item {
+            margin-bottom: 1.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid #eee;
+        }
+        .post-item:last-child {
+            border-bottom: none;
+        }
+        .post-date {
+            font-size: 0.75rem;
+            color: #999;
+            margin-bottom: 0.3rem;
+        }
+        .post-text {
+            font-size: 0.9rem;
+            line-height: 1.5;
+            margin-bottom: 0.5rem;
+        }
+        .post-link {
+            font-size: 0.8rem;
+            color: #0066cc;
+            text-decoration: none;
+        }
+        .post-link:hover {
+            text-decoration: underline;
+        }
+        .loading {
+            color: #999;
+            font-style: italic;
+        }
+        .error {
+            color: #cc0000;
+            font-size: 0.9rem;
+        }
+        iframe {
+            width: 100%;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        @media (max-width: 768px) {
+            .grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>DrawThings Feed Test Page</h1>
+        <p class="subtitle">Testing all 4 methods to see which one works best</p>
+
+        <div class="grid">
+            <!-- Method 1: xcancel.com -->
+            <div class="method">
+                <h2>Method 1: xcancel.com RSS</h2>
+                <div class="status">Using xcancel.com (working nitter alternative) via rss2json</div>
+                <div class="feed-content" id="feed-xcancel">
+                    <p class="loading">Loading...</p>
+                </div>
+            </div>
+
+            <!-- Method 2: nitter.poast.org -->
+            <div class="method">
+                <h2>Method 2: nitter.poast.org RSS</h2>
+                <div class="status">Using nitter.poast.org instance via rss2json</div>
+                <div class="feed-content" id="feed-poast">
+                    <p class="loading">Loading...</p>
+                </div>
+            </div>
+
+            <!-- Method 3: Direct nitter.net -->
+            <div class="method">
+                <h2>Method 3: nitter.net RSS (original)</h2>
+                <div class="status">Using original nitter.net via rss2json</div>
+                <div class="feed-content" id="feed-nitter">
+                    <p class="loading">Loading...</p>
+                </div>
+            </div>
+
+            <!-- Method 4: Simple Link -->
+            <div class="method">
+                <h2>Method 4: Simple Link (Fallback)</h2>
+                <div class="status">No feed fetching - just a direct link</div>
+                <div class="feed-content">
+                    <p style="margin-bottom: 1rem;">This is the simplest, most reliable option:</p>
+                    <a href="https://nitter.net/drawthingsapp" target="_blank" class="post-link" style="font-size: 1rem;">View DrawThings Updates on Nitter →</a>
+                    <p style="margin-top: 1rem; font-size: 0.85rem; color: #666;">
+                        <strong>Pros:</strong> Always works, no dependencies<br>
+                        <strong>Cons:</strong> Requires clicking to see updates
+                    </p>
+                </div>
+            </div>
+
+            <!-- Method 5: Official X Embed -->
+            <div class="method" style="grid-column: 1 / -1;">
+                <h2>Method 5: Official X/Twitter Embed</h2>
+                <div class="status">Using Twitter's official embed widget (loads X's JavaScript)</div>
+                <div class="feed-content">
+                    <a class="twitter-timeline"
+                       data-height="400"
+                       data-theme="light"
+                       data-chrome="noheader nofooter noborders"
+                       href="https://twitter.com/drawthingsapp?ref_src=twsrc%5Etfw">
+                       Loading tweets...
+                    </a>
+                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    <p style="margin-top: 1rem; font-size: 0.85rem; color: #666;">
+                        <strong>Pros:</strong> Most reliable, shows images/media, official styling<br>
+                        <strong>Cons:</strong> Loads external JavaScript from Twitter/X
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Helper functions
+        function stripHTML(html) {
+            const tmp = document.createElement('div');
+            tmp.innerHTML = html;
+            return tmp.textContent || tmp.innerText || '';
+        }
+
+        function formatDate(dateString) {
+            const date = new Date(dateString);
+            const now = new Date();
+            const diffTime = Math.abs(now - date);
+            const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
+
+            if (diffDays === 0) return 'Today';
+            if (diffDays === 1) return 'Yesterday';
+            if (diffDays < 7) return `${diffDays}d ago`;
+
+            return date.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+        }
+
+        function truncateText(text, maxLength) {
+            if (text.length <= maxLength) return text;
+            return text.substr(0, maxLength).trim() + '...';
+        }
+
+        function displayPosts(containerId, data) {
+            const container = document.getElementById(containerId);
+
+            if (!data || !data.items || data.items.length === 0) {
+                container.innerHTML = '<p class="error">No posts found or feed unavailable</p>';
+                return;
+            }
+
+            let html = '';
+            data.items.slice(0, 3).forEach(item => {
+                const cleanText = stripHTML(item.description || item.content || '');
+                const shortText = truncateText(cleanText, 150);
+                const date = formatDate(item.pubDate);
+
+                html += `
+                    <div class="post-item">
+                        <div class="post-date">${date}</div>
+                        <div class="post-text">${shortText}</div>
+                        <a href="${item.link}" target="_blank" class="post-link">View post →</a>
+                    </div>
+                `;
+            });
+
+            container.innerHTML = html;
+        }
+
+        function loadFeed(feedUrl, containerId, label) {
+            const RSS2JSON_API = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(feedUrl)}&count=3`;
+
+            fetch(RSS2JSON_API)
+                .then(response => response.json())
+                .then(data => {
+                    console.log(`${label}:`, data);
+                    if (data.status === 'ok') {
+                        displayPosts(containerId, data);
+                    } else {
+                        throw new Error(data.message || 'Feed load failed');
+                    }
+                })
+                .catch(error => {
+                    console.error(`Error loading ${label}:`, error);
+                    const container = document.getElementById(containerId);
+                    container.innerHTML = `<p class="error">Failed to load: ${error.message}</p>`;
+                });
+        }
+
+        // Load all feeds
+        loadFeed('https://xcancel.com/drawthingsapp/rss', 'feed-xcancel', 'xcancel.com');
+        loadFeed('https://nitter.poast.org/drawthingsapp/rss', 'feed-poast', 'nitter.poast.org');
+        loadFeed('https://nitter.net/drawthingsapp/rss', 'feed-nitter', 'nitter.net');
+    </script>
+</body>
+</html>
