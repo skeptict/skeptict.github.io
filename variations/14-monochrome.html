@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>skeptict - Monochrome</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Courier New', monospace;
+            background: #fff;
+            color: #000;
+            line-height: 1.6;
+            padding: 60px 40px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        header {
+            border: 4px solid #000;
+            padding: 40px;
+            margin-bottom: 60px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 4em;
+            font-weight: 700;
+            letter-spacing: 10px;
+            text-transform: uppercase;
+            border-bottom: 3px solid #000;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+
+        .subtitle {
+            font-size: 1.1em;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+        }
+
+        .section {
+            margin-bottom: 50px;
+            border: 2px solid #000;
+            padding: 40px;
+        }
+
+        h2 {
+            font-size: 2em;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            border-bottom: 2px solid #000;
+            padding-bottom: 15px;
+        }
+
+        .links a {
+            display: block;
+            color: #000;
+            text-decoration: none;
+            padding: 15px 20px;
+            margin-bottom: 10px;
+            border: 2px solid #000;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: 700;
+            transition: all 0.3s ease;
+            background: #fff;
+        }
+
+        .links a:hover {
+            background: #000;
+            color: #fff;
+        }
+
+        .post {
+            margin-bottom: 40px;
+            padding: 30px;
+            border: 2px solid #000;
+            background: #fff;
+        }
+
+        .post:nth-child(even) {
+            background: #f5f5f5;
+        }
+
+        .post h3 {
+            font-size: 1.8em;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
+
+        .post-date {
+            font-size: 0.9em;
+            margin-bottom: 20px;
+            padding: 8px 15px;
+            background: #000;
+            color: #fff;
+            display: inline-block;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .post-content {
+            font-size: 1.05em;
+            line-height: 1.8;
+            text-align: justify;
+        }
+
+        .grid-layout {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin-bottom: 50px;
+        }
+
+        .divider {
+            width: 100%;
+            height: 2px;
+            background: #000;
+            margin: 40px 0;
+        }
+
+        @media (max-width: 768px) {
+            .grid-layout {
+                grid-template-columns: 1fr;
+            }
+
+            h1 {
+                font-size: 2.5em;
+                letter-spacing: 5px;
+            }
+
+            body {
+                padding: 30px 20px;
+            }
+
+            .section {
+                padding: 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>skeptict</h1>
+            <div class="subtitle">Digital Minimalism</div>
+        </header>
+
+        <div class="grid-layout">
+            <div class="section">
+                <h2>Daily Reading</h2>
+                <div class="links">
+                    <a href="https://www.economist.com">The Economist</a>
+                    <a href="https://www.theatlantic.com">The Atlantic</a>
+                    <a href="https://www.nytimes.com">The New York Times</a>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>Draw Things &etc</h2>
+                <div class="links">
+                    <a href="https://drawthings.ai">Draw Things Official</a>
+                    <a href="https://github.com/drawthingsai">Draw Things GitHub</a>
+                    <a href="https://www.youtube.com/@cutsceneartist">CutScene Artist</a>
+                    <a href="https://www.youtube.com/@toolbuddy">Toolbuddy</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="section">
+            <h2>Weblog</h2>
+
+            <div class="post">
+                <h3>The Power of Constraints</h3>
+                <div class="post-date">December 28, 2025</div>
+                <div class="post-content">
+                    Monochrome design is the ultimate exercise in restraint. By removing color from the equation, we're forced to focus on what truly matters: typography, layout, spacing, and hierarchy. The absence of color is not a limitation—it's a liberation. Every decision becomes deliberate, every element must earn its place through form and function alone.
+                </div>
+            </div>
+
+            <div class="post">
+                <h3>Black and White Thinking</h3>
+                <div class="post-date">December 25, 2025</div>
+                <div class="post-content">
+                    There's a timeless quality to black and white design. It transcends trends and speaks to something fundamental in visual communication. The stark contrast creates clarity and impact. In a world oversaturated with color, sometimes the most radical choice is to strip everything back to the essentials.
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

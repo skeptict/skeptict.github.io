@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>skeptict - Memphis Style</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial Black', 'Arial', sans-serif;
+            background: #FFD700;
+            background-image:
+                repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(0,0,0,0.1) 10px, rgba(0,0,0,0.1) 20px),
+                repeating-linear-gradient(-45deg, transparent, transparent 10px, rgba(255,255,255,0.1) 10px, rgba(255,255,255,0.1) 20px);
+            color: #000;
+            padding: 40px 20px;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        header {
+            background: #FF6B9D;
+            padding: 50px 40px;
+            margin-bottom: 40px;
+            transform: rotate(-1deg);
+            box-shadow: 10px 10px 0 #000;
+            border: 5px solid #000;
+            position: relative;
+        }
+
+        header:before {
+            content: '';
+            position: absolute;
+            width: 80px;
+            height: 80px;
+            background: #00CED1;
+            border-radius: 50%;
+            top: -40px;
+            right: 50px;
+            border: 5px solid #000;
+        }
+
+        header:after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 0;
+            border-left: 40px solid transparent;
+            border-right: 40px solid transparent;
+            border-bottom: 70px solid #9B59B6;
+            bottom: -50px;
+            left: 40px;
+            border: 5px solid #000;
+        }
+
+        h1 {
+            font-size: 5em;
+            color: #000;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            transform: rotate(1deg);
+            text-shadow: 5px 5px 0 #FFD700;
+        }
+
+        .content-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+
+        .section {
+            background: #fff;
+            padding: 35px;
+            border: 5px solid #000;
+            box-shadow: 8px 8px 0 #000;
+            position: relative;
+            transform: rotate(0.5deg);
+        }
+
+        .section:nth-child(even) {
+            transform: rotate(-0.5deg);
+            background: #FFF5BA;
+        }
+
+        .section:before {
+            content: '';
+            position: absolute;
+            width: 60px;
+            height: 60px;
+            background: #00CED1;
+            top: -30px;
+            right: -30px;
+            border-radius: 50%;
+            border: 5px solid #000;
+            z-index: 10;
+        }
+
+        .section:nth-child(even):before {
+            background: #FF6B9D;
+            width: 50px;
+            height: 50px;
+            border-radius: 0;
+            transform: rotate(45deg);
+        }
+
+        h2 {
+            font-size: 2.5em;
+            margin-bottom: 25px;
+            color: #9B59B6;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            border-bottom: 5px solid #000;
+            padding-bottom: 15px;
+        }
+
+        .links a {
+            display: block;
+            color: #000;
+            text-decoration: none;
+            padding: 18px 25px;
+            margin-bottom: 15px;
+            background: linear-gradient(135deg, #00CED1 0%, #00CED1 45%, #FF6B9D 45%, #FF6B9D 55%, #FFD700 55%);
+            border: 4px solid #000;
+            font-weight: 900;
+            font-size: 1.1em;
+            text-transform: uppercase;
+            transition: all 0.3s ease;
+            letter-spacing: 1px;
+        }
+
+        .links a:hover {
+            transform: translate(-5px, -5px);
+            box-shadow: 8px 8px 0 #000;
+        }
+
+        .weblog-section {
+            grid-column: 1 / -1;
+            background: #E8F4F8;
+            transform: rotate(-0.3deg);
+        }
+
+        .post {
+            background: #fff;
+            padding: 35px;
+            margin-bottom: 30px;
+            border: 5px solid #000;
+            position: relative;
+            box-shadow: 6px 6px 0 #9B59B6;
+        }
+
+        .post:before {
+            content: '';
+            position: absolute;
+            width: 100px;
+            height: 15px;
+            background: #FF6B9D;
+            top: 20px;
+            left: -20px;
+            border: 3px solid #000;
+        }
+
+        .post h3 {
+            font-size: 2.2em;
+            color: #000;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .post-date {
+            color: #9B59B6;
+            font-size: 1em;
+            margin-bottom: 20px;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .post-content {
+            color: #000;
+            line-height: 1.7;
+            font-size: 1.05em;
+            font-family: 'Arial', sans-serif;
+            font-weight: 500;
+        }
+
+        .geometric-bg {
+            position: absolute;
+            width: 150px;
+            height: 150px;
+            background: #FFD700;
+            border: 5px solid #000;
+            transform: rotate(15deg);
+            z-index: -1;
+            opacity: 0.3;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 3em;
+            }
+
+            .content-grid {
+                grid-template-columns: 1fr;
+            }
+
+            header {
+                transform: rotate(0deg);
+            }
+
+            .section {
+                transform: rotate(0deg) !important;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>skeptict</h1>
+        </header>
+
+        <div class="content-grid">
+            <div class="section">
+                <h2>Daily Reading</h2>
+                <div class="links">
+                    <a href="https://www.economist.com">The Economist</a>
+                    <a href="https://www.theatlantic.com">The Atlantic</a>
+                    <a href="https://www.nytimes.com">The New York Times</a>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>Draw Things</h2>
+                <div class="links">
+                    <a href="https://drawthings.ai">Draw Things Official</a>
+                    <a href="https://github.com/drawthingsai">Draw Things GitHub</a>
+                    <a href="https://www.youtube.com/@cutsceneartist">CutScene Artist</a>
+                    <a href="https://www.youtube.com/@toolbuddy">Toolbuddy</a>
+                </div>
+            </div>
+
+            <div class="section weblog-section">
+                <h2>Weblog</h2>
+
+                <div class="post">
+                    <h3>The Memphis Revolution</h3>
+                    <div class="post-date">December 28, 2025</div>
+                    <div class="post-content">
+                        In 1981, a group of Italian designers turned the design world upside down. The Memphis Group rejected minimalism and good taste in favor of bold colors, clashing patterns, and geometric chaos. It was playful, irreverent, and unapologetically loud. Memphis design celebrated kitsch and artifice, proving that design could be fun, expressive, and totally bonkers. Circles, triangles, squiggles, and wild color combinations became the signature of an era.
+                    </div>
+                </div>
+
+                <div class="post">
+                    <h3>Pattern and Chaos as Design Philosophy</h3>
+                    <div class="post-date">December 25, 2025</div>
+                    <div class="post-content">
+                        Memphis style teaches us that rules are meant to be broken. Why choose one color when you can use ten? Why make things symmetrical when asymmetry is more interesting? This aesthetic embraced contradiction—high art meets pop culture, sophisticated meets silly. In today's often-sterile digital landscape, Memphis design reminds us that personality and playfulness have a place. Sometimes more is more.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

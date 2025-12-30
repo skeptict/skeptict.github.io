@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>skeptict - Vaporwave</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Courier New', 'MS Gothic', monospace;
+            background: linear-gradient(180deg, #1a0033 0%, #330066 50%, #ff00ff 100%);
+            color: #00ffff;
+            min-height: 100vh;
+            padding: 40px 20px;
+            position: relative;
+            overflow-x: hidden;
+        }
+
+        body:before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image:
+                repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0, 255, 255, 0.03) 2px, rgba(0, 255, 255, 0.03) 4px),
+                repeating-linear-gradient(90deg, transparent, transparent 2px, rgba(255, 0, 255, 0.03) 2px, rgba(255, 0, 255, 0.03) 4px);
+            pointer-events: none;
+            z-index: 1;
+        }
+
+        .vhs-effect {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: repeating-linear-gradient(
+                0deg,
+                rgba(0, 0, 0, 0.1),
+                rgba(0, 0, 0, 0.1) 1px,
+                transparent 1px,
+                transparent 2px
+            );
+            pointer-events: none;
+            z-index: 1000;
+            animation: vhsScroll 0.5s linear infinite;
+        }
+
+        @keyframes vhsScroll {
+            0% { transform: translateY(0); }
+            100% { transform: translateY(2px); }
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 2;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 60px;
+            padding: 60px 40px;
+            background: rgba(0, 0, 0, 0.5);
+            border: 3px solid #ff00ff;
+            box-shadow:
+                0 0 20px #ff00ff,
+                0 0 40px #00ffff,
+                inset 0 0 20px rgba(255, 0, 255, 0.2);
+            position: relative;
+        }
+
+        header:before {
+            content: '∙ ∙ ∙ ＳＫＥＰＴＩＣＴ ∙ ∙ ∙';
+            position: absolute;
+            top: -30px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #ff00ff;
+            color: #000;
+            padding: 10px 30px;
+            font-size: 0.8em;
+            letter-spacing: 5px;
+            border: 2px solid #00ffff;
+        }
+
+        h1 {
+            font-size: 5em;
+            font-weight: 700;
+            background: linear-gradient(90deg, #ff00ff, #00ffff, #ff00ff);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow:
+                0 0 20px #ff00ff,
+                0 0 40px #00ffff;
+            letter-spacing: 15px;
+            animation: glitch 3s infinite;
+        }
+
+        @keyframes glitch {
+            0%, 100% { transform: translate(0); }
+            20% { transform: translate(-2px, 2px); }
+            40% { transform: translate(-2px, -2px); }
+            60% { transform: translate(2px, 2px); }
+            80% { transform: translate(2px, -2px); }
+        }
+
+        .tagline {
+            margin-top: 20px;
+            color: #ff00ff;
+            font-size: 1.2em;
+            letter-spacing: 8px;
+            text-shadow: 0 0 10px #ff00ff;
+        }
+
+        .content-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+
+        .section {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 40px;
+            border: 2px solid #00ffff;
+            box-shadow:
+                0 0 15px #00ffff,
+                inset 0 0 15px rgba(0, 255, 255, 0.1);
+            position: relative;
+        }
+
+        .section:before {
+            content: '';
+            position: absolute;
+            top: -10px;
+            left: 20px;
+            right: 20px;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, #ff00ff, transparent);
+        }
+
+        h2 {
+            font-size: 2em;
+            color: #ff00ff;
+            margin-bottom: 30px;
+            text-shadow: 0 0 10px #ff00ff;
+            letter-spacing: 5px;
+            text-transform: uppercase;
+            border-bottom: 2px solid #00ffff;
+            padding-bottom: 15px;
+        }
+
+        .links a {
+            display: block;
+            color: #00ffff;
+            text-decoration: none;
+            padding: 18px 25px;
+            margin-bottom: 12px;
+            background: linear-gradient(90deg, rgba(255, 0, 255, 0.2), rgba(0, 255, 255, 0.2));
+            border: 2px solid #00ffff;
+            border-left: 5px solid #ff00ff;
+            text-shadow: 0 0 5px #00ffff;
+            transition: all 0.3s ease;
+            font-size: 1.05em;
+            letter-spacing: 3px;
+        }
+
+        .links a:hover {
+            background: linear-gradient(90deg, rgba(255, 0, 255, 0.4), rgba(0, 255, 255, 0.4));
+            box-shadow:
+                0 0 20px #00ffff,
+                inset 0 0 10px rgba(0, 255, 255, 0.3);
+            transform: translateX(10px);
+            text-shadow: 0 0 10px #00ffff;
+        }
+
+        .links a:before {
+            content: '▶ ';
+            color: #ff00ff;
+        }
+
+        .weblog-section {
+            grid-column: 1 / -1;
+        }
+
+        .post {
+            background: rgba(0, 0, 0, 0.8);
+            border: 2px solid #ff00ff;
+            padding: 35px;
+            margin-bottom: 30px;
+            box-shadow:
+                0 0 15px rgba(255, 0, 255, 0.5),
+                inset 0 0 15px rgba(255, 0, 255, 0.1);
+            position: relative;
+        }
+
+        .post:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, #ff00ff, #00ffff, #ff00ff);
+        }
+
+        .post h3 {
+            color: #00ffff;
+            font-size: 2em;
+            margin-bottom: 12px;
+            text-shadow: 0 0 10px #00ffff;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+        }
+
+        .post-date {
+            color: #ff00ff;
+            font-size: 0.9em;
+            margin-bottom: 20px;
+            text-shadow: 0 0 5px #ff00ff;
+            letter-spacing: 3px;
+        }
+
+        .post-content {
+            color: #00ffff;
+            line-height: 1.8;
+            font-size: 1.05em;
+            text-shadow: 0 0 3px rgba(0, 255, 255, 0.5);
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 3em;
+                letter-spacing: 8px;
+            }
+
+            .content-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .section {
+                padding: 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="vhs-effect"></div>
+
+    <div class="container">
+        <header>
+            <h1>ＳＫＥＰＴＩＣＴ</h1>
+            <div class="tagline">Ａ Ｅ Ｓ Ｔ Ｈ Ｅ Ｔ Ｉ Ｃ</div>
+        </header>
+
+        <div class="content-grid">
+            <div class="section">
+                <h2>Daily Reading</h2>
+                <div class="links">
+                    <a href="https://www.economist.com">The Economist</a>
+                    <a href="https://www.theatlantic.com">The Atlantic</a>
+                    <a href="https://www.nytimes.com">The New York Times</a>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>Draw Things</h2>
+                <div class="links">
+                    <a href="https://drawthings.ai">Draw Things Official</a>
+                    <a href="https://github.com/drawthingsai">Draw Things GitHub</a>
+                    <a href="https://www.youtube.com/@cutsceneartist">CutScene Artist</a>
+                    <a href="https://www.youtube.com/@toolbuddy">Toolbuddy</a>
+                </div>
+            </div>
+
+            <div class="section weblog-section">
+                <h2>Weblog</h2>
+
+                <div class="post">
+                    <h3>リラックス・マクス</h3>
+                    <div class="post-date">２８．１２．２０２５</div>
+                    <div class="post-content">
+                        Vaporwave emerged as a critique of capitalism and consumer culture, wrapped in a hazy nostalgic aesthetic. It sampled 80s and 90s corporate muzak, Japanese city pop, and early internet imagery to create something simultaneously ironic and beautiful. The visual language—pink and cyan gradients, Roman busts, retro computer graphics, palm trees, and Japanese text—creates a dreamlike digital landscape. It's nostalgia for a future that never arrived.
+                    </div>
+                </div>
+
+                <div class="post">
+                    <h3>Digital Melancholy</h3>
+                    <div class="post-date">２５．１２．２０２５</div>
+                    <div class="post-content">
+                        The vaporwave aesthetic captures a specific feeling: longing for the optimism of early digital culture, combined with awareness of its commercial cooption. Glitchy VHS effects, corporate logos reimagined as art, smooth jazz corrupted into something surreal—it's all about finding beauty in the dated and discarded. This style transformed the detritus of 80s and 90s consumer culture into a new form of digital art, proving that even the most mundane artifacts can become sublime.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

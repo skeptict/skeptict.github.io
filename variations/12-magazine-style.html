@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>skeptict - Magazine Style</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', 'Times New Roman', serif;
+            background: #fff;
+            color: #1a1a1a;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 60px 80px;
+        }
+
+        header {
+            border-bottom: 4px solid #1a1a1a;
+            padding-bottom: 40px;
+            margin-bottom: 60px;
+        }
+
+        h1 {
+            font-size: 8em;
+            font-weight: 900;
+            letter-spacing: -5px;
+            line-height: 0.9;
+            text-transform: uppercase;
+            font-family: 'Impact', 'Arial Black', sans-serif;
+        }
+
+        .tagline {
+            font-size: 1.2em;
+            font-style: italic;
+            color: #666;
+            margin-top: 20px;
+        }
+
+        .content-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 60px;
+            margin-bottom: 80px;
+        }
+
+        .column-full {
+            grid-column: 1 / -1;
+        }
+
+        h2 {
+            font-size: 3em;
+            font-weight: 900;
+            margin-bottom: 20px;
+            line-height: 1.1;
+            text-transform: uppercase;
+            font-family: 'Arial Black', sans-serif;
+            letter-spacing: -1px;
+        }
+
+        .section {
+            margin-bottom: 60px;
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .links a {
+            color: #1a1a1a;
+            text-decoration: none;
+            font-size: 1.3em;
+            font-weight: 700;
+            padding: 20px;
+            background: #f0f0f0;
+            border-left: 6px solid #1a1a1a;
+            transition: all 0.3s ease;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .links a:hover {
+            background: #1a1a1a;
+            color: white;
+            padding-left: 30px;
+        }
+
+        .post {
+            margin-bottom: 50px;
+            padding-bottom: 50px;
+            border-bottom: 2px solid #e0e0e0;
+        }
+
+        .post:last-child {
+            border-bottom: none;
+        }
+
+        .post h3 {
+            font-size: 2.5em;
+            font-weight: 900;
+            margin-bottom: 15px;
+            line-height: 1.2;
+            font-family: 'Arial Black', sans-serif;
+        }
+
+        .post-date {
+            font-size: 1.1em;
+            color: #999;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: 600;
+            margin-bottom: 20px;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .post-content {
+            font-size: 1.2em;
+            line-height: 1.8;
+            columns: 2;
+            column-gap: 40px;
+            text-align: justify;
+        }
+
+        .drop-cap::first-letter {
+            font-size: 4em;
+            font-weight: 900;
+            float: left;
+            line-height: 0.8;
+            margin-right: 10px;
+            font-family: 'Georgia', serif;
+        }
+
+        @media (max-width: 1024px) {
+            .content-grid {
+                grid-template-columns: 1fr;
+            }
+
+            h1 {
+                font-size: 5em;
+            }
+
+            .post-content {
+                columns: 1;
+            }
+
+            .container {
+                padding: 40px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>skeptict</h1>
+            <div class="tagline">A Digital Publication</div>
+        </header>
+
+        <div class="content-grid">
+            <div class="section">
+                <h2>Daily Reading</h2>
+                <div class="links">
+                    <a href="https://www.economist.com">The Economist</a>
+                    <a href="https://www.theatlantic.com">The Atlantic</a>
+                    <a href="https://www.nytimes.com">The New York Times</a>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>Draw Things &etc</h2>
+                <div class="links">
+                    <a href="https://drawthings.ai">Draw Things Official</a>
+                    <a href="https://github.com/drawthingsai">Draw Things GitHub</a>
+                    <a href="https://www.youtube.com/@cutsceneartist">CutScene Artist YouTube</a>
+                    <a href="https://www.youtube.com/@toolbuddy">Toolbuddy YouTube</a>
+                </div>
+            </div>
+
+            <div class="column-full">
+                <div class="section">
+                    <h2>Weblog</h2>
+
+                    <div class="post">
+                        <h3>The Typography Revolution in Editorial Design</h3>
+                        <div class="post-date">December 28, 2025</div>
+                        <div class="post-content drop-cap">
+                            Magazine-style layouts bring the elegance and sophistication of print media to the digital realm. Large, bold typography commands attention and creates a clear visual hierarchy that guides readers through content with ease. The use of serif fonts for body text and sans-serif for headlines creates a classic editorial feel that never goes out of style.
+                        </div>
+                    </div>
+
+                    <div class="post">
+                        <h3>Column Layouts and Readability</h3>
+                        <div class="post-date">December 25, 2025</div>
+                        <div class="post-content drop-cap">
+                            Multi-column layouts are not just aesthetically pleasing—they're functional. By limiting line length, columns improve readability and comprehension. The human eye can track shorter lines more easily, reducing fatigue and encouraging deeper engagement with the content. This technique, borrowed from centuries of print design, remains relevant in our digital age.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

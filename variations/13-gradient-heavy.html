@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>skeptict - Gradient Heavy</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 25%, #f093fb 50%, #4facfe 75%, #00f2fe 100%);
+            background-size: 400% 400%;
+            animation: gradientShift 15s ease infinite;
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+
+        @keyframes gradientShift {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        h1 {
+            font-size: 5em;
+            font-weight: 800;
+            background: linear-gradient(45deg, #fff, #f0f0f0, #fff);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 0 0 30px rgba(255, 255, 255, 0.3);
+            animation: shimmer 3s ease-in-out infinite;
+        }
+
+        @keyframes shimmer {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.8; }
+        }
+
+        .content-wrapper {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+
+        .section {
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05));
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 40px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            font-size: 2em;
+            color: white;
+            margin-bottom: 25px;
+            background: linear-gradient(90deg, #fff, #e0e0e0);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .links a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 18px 25px;
+            margin-bottom: 15px;
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.1));
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            transition: all 0.4s ease;
+            font-weight: 500;
+        }
+
+        .links a:hover {
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.2));
+            transform: translateY(-3px);
+            box-shadow: 0 5px 20px rgba(255, 255, 255, 0.2);
+        }
+
+        .weblog-section {
+            grid-column: 1 / -1;
+        }
+
+        .post {
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.08));
+            backdrop-filter: blur(10px);
+            padding: 35px;
+            margin-bottom: 25px;
+            border-radius: 18px;
+            border: 1px solid rgba(255, 255, 255, 0.25);
+            transition: all 0.4s ease;
+        }
+
+        .post:hover {
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.12));
+            transform: translateY(-5px);
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+        }
+
+        .post h3 {
+            color: white;
+            font-size: 1.8em;
+            margin-bottom: 12px;
+            background: linear-gradient(90deg, #fff, #f5f5f5, #fff);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .post-date {
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 0.9em;
+            margin-bottom: 15px;
+        }
+
+        .post-content {
+            color: rgba(255, 255, 255, 0.9);
+            line-height: 1.7;
+            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 3em;
+            }
+
+            .content-wrapper {
+                grid-template-columns: 1fr;
+            }
+
+            .section {
+                padding: 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>skeptict</h1>
+        </header>
+
+        <div class="content-wrapper">
+            <div class="section">
+                <h2>Daily Reading</h2>
+                <div class="links">
+                    <a href="https://www.economist.com">The Economist</a>
+                    <a href="https://www.theatlantic.com">The Atlantic</a>
+                    <a href="https://www.nytimes.com">The New York Times</a>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>Draw Things &etc</h2>
+                <div class="links">
+                    <a href="https://drawthings.ai">Draw Things Official</a>
+                    <a href="https://github.com/drawthingsai">Draw Things GitHub</a>
+                    <a href="https://www.youtube.com/@cutsceneartist">CutScene Artist YouTube</a>
+                    <a href="https://www.youtube.com/@toolbuddy">Toolbuddy YouTube</a>
+                </div>
+            </div>
+
+            <div class="section weblog-section">
+                <h2>Weblog</h2>
+
+                <div class="post">
+                    <h3>The Art of Gradient Design</h3>
+                    <div class="post-date">December 28, 2025</div>
+                    <div class="post-content">
+                        Gradients have made a triumphant return to modern web design, moving far beyond the garish effects of the early 2000s. Today's gradients are sophisticated, subtle, and purposeful. They create depth, guide attention, and add visual interest without overwhelming the content. The key is in the transition—smooth, well-chosen color combinations that feel natural and pleasing to the eye.
+                    </div>
+                </div>
+
+                <div class="post">
+                    <h3>Animated Backgrounds and User Experience</h3>
+                    <div class="post-date">December 25, 2025</div>
+                    <div class="post-content">
+                        A slowly shifting gradient background can create an engaging, dynamic experience that feels alive. However, subtlety is crucial—animations should enhance rather than distract. The gentle movement keeps the page feeling fresh and modern while maintaining readability through careful use of transparency and contrast.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

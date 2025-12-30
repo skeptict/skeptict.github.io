@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Variations - skeptict</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 3rem 2rem;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: rgba(255,255,255,0.95);
+            backdrop-filter: blur(10px);
+            padding: 3rem;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.2);
+        }
+        h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-align: center;
+        }
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 3rem;
+            font-size: 1.1rem;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 2rem;
+        }
+        .variation-card {
+            background: #fff;
+            border-radius: 15px;
+            padding: 1.5rem;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+        }
+        .variation-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 24px rgba(0,0,0,0.15);
+            border-color: #667eea;
+        }
+        .variation-number {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: #fff;
+            font-size: 0.9rem;
+            font-weight: 700;
+            padding: 0.4rem 0.8rem;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+        }
+        .variation-name {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: #333;
+        }
+        .variation-desc {
+            font-size: 0.9rem;
+            color: #666;
+            margin-bottom: 1rem;
+            line-height: 1.5;
+        }
+        .btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: #fff;
+            padding: 0.75rem 1.5rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s;
+            text-align: center;
+        }
+        .btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+        }
+        .back-link {
+            display: inline-block;
+            margin-bottom: 2rem;
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 768px) {
+            .grid {
+                grid-template-columns: 1fr;
+            }
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="../" class="back-link">← Back to Main Site</a>
+        <h1>Design Variations</h1>
+        <p class="subtitle">25 different styles to explore — Click to view each design</p>
+
+        <div class="grid">
+            <div class="variation-card">
+                <span class="variation-number">01</span>
+                <div class="variation-name">Clean Minimal White</div>
+                <div class="variation-desc">Ultra-minimal black on white design with subtle borders and elegant typography</div>
+                <a href="01-clean-minimal.html" class="btn" target="_blank">View Design</a>
+            </div>
+
+            <div class="variation-card">
+                <span class="variation-number">02</span>
+                <div class="variation-name">Dark Elegant</div>
+                <div class="variation-desc">Sophisticated dark theme with gold accents and serif typography</div>
+                <a href="02-dark-elegant.html" class="btn" target="_blank">View Design</a>
+            </div>
+
+            <div class="variation-card">
+                <span class="variation-number">03</span>
+                <div class="variation-name">Newspaper Layout</div>
+                <div class="variation-desc">Classic newspaper-inspired design with columns and editorial styling</div>
+                <a href="03-newspaper.html" class="btn" target="_blank">View Design</a>
+            </div>
+
+            <div class="variation-card">
+                <span class="variation-number">04</span>
+                <div class="variation-name">Card-Based Design</div>
+                <div class="variation-desc">Modern card layout with gradient background and hover effects</div>
+                <a href="04-card-based.html" class="btn" target="_blank">View Design</a>
+            </div>
+
+            <div class="variation-card">
+                <span class="variation-number">05</span>
+                <div class="variation-name">Sidebar Layout</div>
+                <div class="variation-desc">Fixed sidebar navigation with main content area</div>
+                <a href="05-sidebar-layout.html" class="btn" target="_blank">View Design</a>
+            </div>
+
+            <div class="variation-card">
+                <span class="variation-number">06</span>
+                <div class="variation-name">Terminal/Hacker</div>
+                <div class="variation-desc">Green-on-black terminal aesthetic with monospace fonts</div>
+                <a href="06-terminal-hacker.html" class="btn" target="_blank">View Design</a>
+            </div>
+
+            <div class="variation-card">
+                <span class="variation-number">07</span>
+                <div class="variation-name">Pastel Soft</div>
+                <div class="variation-desc">Gentle pastel gradients with soft rounded shapes</div>
+                <a href="07-pastel-soft.html" class="btn" target="_blank">View Design</a>
+            </div>
+
+            <div class="variation-card">
+                <span class="variation-number">08</span>
+                <div class="variation-name">Bold Colorful</div>
+                <div class="variation-desc">Vibrant gradient blocks with bold typography</div>
+                <a href="08-bold-colorful.html" class="btn" target="_blank">View Design</a>
+            </div>
+
+            <div class="variation-card">
+                <span class="variation-number">09</span>
+                <div class="variation-name">Brutalist Design</div>
+                <div class="variation-desc">Raw, bold brutalist style with thick borders and bright colors</div>
+                <a href="09-brutalist.html" class="btn" target="_blank">View Design</a>
+            </div>
+
+            <div class="variation-card">
+                <span class="variation-number">10</span>
+                <div class="variation-name">Neumorphic</div>
+                <div class="variation-desc">Soft UI with subtle shadows and embossed elements</div>
+                <a href="10-neumorphic.html" class="btn" target="_blank">View Design</a>
+            </div>
+
+            <div class="variation-card">
+                <span class="variation-number">11</span>
+                <div class="variation-name">Split Screen</div>
+                <div class="variation-desc">Left/right split with fixed navigation panel</div>
+                <a href="11-split-screen.html" class="btn" target="_blank">View Design</a>
+            </div>
+
+            <div class="variation-card">
+                <span class="variation-number">12</span>
+                <div class="variation-name">Magazine Style</div>
+                <div class="variation-desc">Editorial layout with large typography and columns</div>
+                <a href="12-magazine-style.html" class="btn" target="_blank">View Design</a>
+            </div>
+
+            <div class="variation-card">
+                <span class="variation-number">13</span>
+                <div class="variation-name">Gradient Heavy</div>
+                <div class="variation-desc">Animated gradients and vibrant color transitions</div>
+                <a href="13-gradient-heavy.html" class="btn" target="_blank">View Design</a>
+            </div>
+
+            <div class="variation-card">
+                <span class="variation-number">14</span>
+                <div class="variation-name">Monochrome</div>
+                <div class="variation-desc">Strict black and white minimalist design</div>
+                <a href="14-monochrome.html" class="btn" target="_blank">View Design</a>
+            </div>
+
+            <div class="variation-card">
+                <span class="variation-number">15</span>
+                <div class="variation-name">Retro 90s</div>
+                <div class="variation-desc">Nostalgic 90s web design with Comic Sans and bright colors</div>
+                <a href="15-retro-90s.html" class="btn" target="_blank">View Design</a>
+            </div>
+
+            <div class="variation-card">
+                <span class="variation-number">16</span>
+                <div class="variation-name">Art Deco</div>
+                <div class="variation-desc">1920s-inspired design with gold and geometric patterns</div>
+                <a href="16-art-deco.html" class="btn" target="_blank">View Design</a>
+            </div>
+
+            <div class="variation-card">
+                <span class="variation-number">17</span>
+                <div class="variation-name">Earth Tones</div>
+                <div class="variation-desc">Natural color palette with terracotta and sage</div>
+                <a href="17-earth-tones.html" class="btn" target="_blank">View Design</a>
+            </div>
+
+            <div class="variation-card">
+                <span class="variation-number">18</span>
+                <div class="variation-name">Neon Cyberpunk</div>
+                <div class="variation-desc">Dark with cyan and magenta neon effects</div>
+                <a href="18-neon-cyberpunk.html" class="btn" target="_blank">View Design</a>
+            </div>
+
+            <div class="variation-card">
+                <span class="variation-number">19</span>
+                <div class="variation-name">Japanese Minimal</div>
+                <div class="variation-desc">Zen-inspired minimalism with generous whitespace</div>
+                <a href="19-japanese-minimal.html" class="btn" target="_blank">View Design</a>
+            </div>
+
+            <div class="variation-card">
+                <span class="variation-number">20</span>
+                <div class="variation-name">Swiss Design</div>
+                <div class="variation-desc">International Typographic Style with strict grid</div>
+                <a href="20-swiss-design.html" class="btn" target="_blank">View Design</a>
+            </div>
+
+            <div class="variation-card">
+                <span class="variation-number">21</span>
+                <div class="variation-name">Memphis Style</div>
+                <div class="variation-desc">1980s Memphis Group with wild geometric shapes</div>
+                <a href="21-memphis-style.html" class="btn" target="_blank">View Design</a>
+            </div>
+
+            <div class="variation-card">
+                <span class="variation-number">22</span>
+                <div class="variation-name">Vaporwave</div>
+                <div class="variation-desc">Purple/cyan aesthetic with VHS effects</div>
+                <a href="22-vaporwave.html" class="btn" target="_blank">View Design</a>
+            </div>
+
+            <div class="variation-card">
+                <span class="variation-number">23</span>
+                <div class="variation-name">Material Design</div>
+                <div class="variation-desc">Google Material Design with elevation shadows</div>
+                <a href="23-material-design.html" class="btn" target="_blank">View Design</a>
+            </div>
+
+            <div class="variation-card">
+                <span class="variation-number">24</span>
+                <div class="variation-name">Glass Enhanced</div>
+                <div class="variation-desc">Advanced glassmorphism with heavy blur effects</div>
+                <a href="24-glass-enhanced.html" class="btn" target="_blank">View Design</a>
+            </div>
+
+            <div class="variation-card">
+                <span class="variation-number">25</span>
+                <div class="variation-name">Book/Reading</div>
+                <div class="variation-desc">Classic book-inspired design with serif fonts</div>
+                <a href="25-book-reading.html" class="btn" target="_blank">View Design</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

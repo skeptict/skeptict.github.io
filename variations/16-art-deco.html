@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>skeptict - Art Deco</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Didot', 'Bodoni MT', 'Garamond', serif;
+            background: #1a1a1a;
+            color: #d4af37;
+            min-height: 100vh;
+            padding: 40px 20px;
+            background-image:
+                repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(212, 175, 55, 0.03) 2px, rgba(212, 175, 55, 0.03) 4px);
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            background: #0f0f0f;
+            border: 3px solid #d4af37;
+            box-shadow:
+                0 0 0 1px #000,
+                0 0 0 4px #d4af37,
+                0 0 0 5px #000,
+                0 0 50px rgba(212, 175, 55, 0.3);
+        }
+
+        header {
+            background: linear-gradient(180deg, #2a2a2a 0%, #1a1a1a 100%);
+            padding: 60px 40px;
+            text-align: center;
+            border-bottom: 3px solid #d4af37;
+            position: relative;
+        }
+
+        header:before,
+        header:after {
+            content: '';
+            position: absolute;
+            width: 150px;
+            height: 3px;
+            background: #d4af37;
+            top: 30px;
+        }
+
+        header:before {
+            left: 40px;
+        }
+
+        header:after {
+            right: 40px;
+        }
+
+        h1 {
+            font-size: 5em;
+            font-weight: 300;
+            letter-spacing: 15px;
+            text-transform: uppercase;
+            color: #d4af37;
+            text-shadow:
+                0 0 10px rgba(212, 175, 55, 0.5),
+                2px 2px 0 rgba(0, 0, 0, 0.5);
+            margin-bottom: 20px;
+        }
+
+        .ornament {
+            color: #d4af37;
+            font-size: 2em;
+            letter-spacing: 20px;
+        }
+
+        .content {
+            padding: 50px;
+        }
+
+        .section {
+            margin-bottom: 50px;
+            padding: 40px;
+            background: linear-gradient(135deg, #1a1a1a 0%, #0f0f0f 100%);
+            border: 2px solid #d4af37;
+            position: relative;
+        }
+
+        .section:before {
+            content: '';
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            right: -2px;
+            bottom: -2px;
+            background: linear-gradient(45deg, #d4af37, transparent, #d4af37);
+            z-index: -1;
+        }
+
+        h2 {
+            font-size: 2.5em;
+            margin-bottom: 30px;
+            text-align: center;
+            letter-spacing: 8px;
+            text-transform: uppercase;
+            color: #d4af37;
+            border-bottom: 2px solid #d4af37;
+            padding-bottom: 20px;
+            font-weight: 300;
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .links a {
+            color: #d4af37;
+            text-decoration: none;
+            padding: 20px 30px;
+            text-align: center;
+            font-size: 1.2em;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            background: linear-gradient(90deg, transparent, rgba(212, 175, 55, 0.1), transparent);
+            border: 2px solid #d4af37;
+            position: relative;
+            transition: all 0.4s ease;
+            clip-path: polygon(10px 0, 100% 0, calc(100% - 10px) 100%, 0 100%);
+        }
+
+        .links a:hover {
+            background: linear-gradient(90deg, rgba(212, 175, 55, 0.1), rgba(212, 175, 55, 0.2), rgba(212, 175, 55, 0.1));
+            box-shadow:
+                inset 0 0 20px rgba(212, 175, 55, 0.2),
+                0 0 20px rgba(212, 175, 55, 0.3);
+        }
+
+        .post {
+            margin-bottom: 40px;
+            padding: 35px;
+            background: #1a1a1a;
+            border-left: 5px solid #d4af37;
+            border-right: 5px solid #d4af37;
+        }
+
+        .post h3 {
+            font-size: 2em;
+            margin-bottom: 15px;
+            color: #d4af37;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            font-weight: 300;
+        }
+
+        .post-date {
+            color: #999;
+            font-size: 0.95em;
+            margin-bottom: 20px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+        }
+
+        .post-content {
+            color: #ccc;
+            line-height: 1.9;
+            font-size: 1.05em;
+            text-align: justify;
+        }
+
+        .grid-layout {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+
+        .divider {
+            text-align: center;
+            color: #d4af37;
+            font-size: 2em;
+            margin: 40px 0;
+            letter-spacing: 10px;
+        }
+
+        @media (max-width: 768px) {
+            .grid-layout {
+                grid-template-columns: 1fr;
+            }
+
+            h1 {
+                font-size: 3em;
+                letter-spacing: 8px;
+            }
+
+            .content {
+                padding: 30px;
+            }
+
+            header:before,
+            header:after {
+                width: 80px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>skeptict</h1>
+            <div class="ornament">◆ ◆ ◆</div>
+        </header>
+
+        <div class="content">
+            <div class="grid-layout">
+                <div class="section">
+                    <h2>Daily Reading</h2>
+                    <div class="links">
+                        <a href="https://www.economist.com">The Economist</a>
+                        <a href="https://www.theatlantic.com">The Atlantic</a>
+                        <a href="https://www.nytimes.com">The New York Times</a>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h2>Draw Things &etc</h2>
+                    <div class="links">
+                        <a href="https://drawthings.ai">Draw Things Official</a>
+                        <a href="https://github.com/drawthingsai">Draw Things GitHub</a>
+                        <a href="https://www.youtube.com/@cutsceneartist">CutScene Artist</a>
+                        <a href="https://www.youtube.com/@toolbuddy">Toolbuddy</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="divider">◆ ◆ ◆ ◆ ◆</div>
+
+            <div class="section">
+                <h2>Weblog</h2>
+
+                <div class="post">
+                    <h3>The Golden Age of Design</h3>
+                    <div class="post-date">December 28, 2025</div>
+                    <div class="post-content">
+                        Art Deco represents the pinnacle of decorative modernism—a marriage of luxury and geometry, opulence and symmetry. Born in the 1920s, this style celebrated progress and sophistication through bold geometric patterns, rich colors, and lavish ornamentation. In digital design, we can capture this elegance through careful use of gold accents, symmetrical layouts, and strong geometric forms.
+                    </div>
+                </div>
+
+                <div class="post">
+                    <h3>Geometry and Glamour</h3>
+                    <div class="post-date">December 25, 2025</div>
+                    <div class="post-content">
+                        The Art Deco movement taught us that functionality and beauty are not opposing forces. Stepped forms, chevron patterns, and sunburst motifs created visual impact while maintaining clarity and purpose. This philosophy translates perfectly to web design, where aesthetic appeal must coexist with usability. The result is timeless elegance that feels both classic and contemporary.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

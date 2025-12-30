@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>skeptict - Split Screen</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            min-height: 100vh;
+            display: flex;
+        }
+
+        .left-panel {
+            width: 40%;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 60px 50px;
+            position: fixed;
+            height: 100vh;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .right-panel {
+            width: 60%;
+            margin-left: 40%;
+            background: #f8f9fa;
+            padding: 60px 50px;
+            min-height: 100vh;
+        }
+
+        h1 {
+            font-size: 4em;
+            font-weight: 300;
+            margin-bottom: 60px;
+            letter-spacing: -2px;
+        }
+
+        h2 {
+            font-size: 1.8em;
+            margin-bottom: 30px;
+            font-weight: 400;
+            color: #2c3e50;
+        }
+
+        .left-panel h2 {
+            color: rgba(255, 255, 255, 0.9);
+            border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+            padding-bottom: 15px;
+            margin-bottom: 25px;
+        }
+
+        .section {
+            margin-bottom: 50px;
+        }
+
+        .left-panel .section {
+            margin-bottom: 60px;
+        }
+
+        .links a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 15px 0;
+            font-size: 1.1em;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+            transition: all 0.3s ease;
+        }
+
+        .links a:hover {
+            padding-left: 10px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+        }
+
+        .post {
+            background: white;
+            padding: 30px;
+            margin-bottom: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .post:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .post h3 {
+            color: #667eea;
+            margin-bottom: 10px;
+            font-size: 1.4em;
+        }
+
+        .post-date {
+            color: #999;
+            font-size: 0.9em;
+            margin-bottom: 15px;
+        }
+
+        .post-content {
+            color: #555;
+            line-height: 1.6;
+        }
+
+        @media (max-width: 1024px) {
+            body {
+                flex-direction: column;
+            }
+
+            .left-panel, .right-panel {
+                width: 100%;
+                position: relative;
+                margin-left: 0;
+            }
+
+            .left-panel {
+                height: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="left-panel">
+        <h1>skeptict</h1>
+
+        <div class="section">
+            <h2>Daily Reading</h2>
+            <div class="links">
+                <a href="https://www.economist.com">The Economist</a>
+                <a href="https://www.theatlantic.com">The Atlantic</a>
+                <a href="https://www.nytimes.com">The New York Times</a>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Draw Things &etc</h2>
+            <div class="links">
+                <a href="https://drawthings.ai">Draw Things Official</a>
+                <a href="https://github.com/drawthingsai">Draw Things GitHub</a>
+                <a href="https://www.youtube.com/@cutsceneartist">CutScene Artist YouTube</a>
+                <a href="https://www.youtube.com/@toolbuddy">Toolbuddy YouTube</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="right-panel">
+        <div class="section">
+            <h2>Weblog</h2>
+
+            <div class="post">
+                <h3>Exploring Split Screen Layouts</h3>
+                <div class="post-date">December 28, 2025</div>
+                <div class="post-content">
+                    Split screen designs offer a unique way to divide content hierarchy. The fixed left panel creates a consistent navigation experience while allowing the right panel to scroll freely through content. This pattern works particularly well for portfolio sites and modern web applications.
+                </div>
+            </div>
+
+            <div class="post">
+                <h3>The Power of Asymmetry in Design</h3>
+                <div class="post-date">December 25, 2025</div>
+                <div class="post-content">
+                    Moving away from traditional centered layouts, asymmetric designs create visual interest and guide the eye naturally through content. The 40/60 split provides enough room for navigation while giving primary focus to the main content area.
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variation 04 - Card Based Design</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 3rem 2rem;
+        }
+        .container { max-width: 1100px; margin: 0 auto; }
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 3rem;
+            color: #fff;
+            text-align: center;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        }
+        .main-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+        .card {
+            background: #fff;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+        }
+        h2 {
+            font-size: 1.4rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            color: #667eea;
+        }
+        .post {
+            margin-bottom: 1.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid #eee;
+        }
+        .post:last-child { border-bottom: none; }
+        .post h3 {
+            font-size: 1rem;
+            font-weight: 600;
+            margin-bottom: 0.3rem;
+        }
+        .post h3 a {
+            text-decoration: none;
+            color: #333;
+        }
+        .post h3 a:hover { color: #667eea; }
+        .post .date {
+            font-size: 0.75rem;
+            color: #888;
+            margin-bottom: 0.5rem;
+        }
+        .post p {
+            font-size: 0.85rem;
+            color: #666;
+            line-height: 1.5;
+        }
+        ul { list-style: none; }
+        li {
+            margin-bottom: 0.75rem;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+        li:before {
+            content: "→";
+            position: absolute;
+            left: 0;
+            color: #667eea;
+            font-weight: 700;
+        }
+        a {
+            color: #667eea;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        a:hover { color: #764ba2; }
+        @media (max-width: 768px) {
+            .main-content { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>skeptict</h1>
+        <div class="main-content">
+            <div class="card links">
+                <h2>Daily Reading</h2>
+                <ul>
+                    <li><a href="https://www.economist.com" target="_blank">The Economist</a></li>
+                    <li><a href="https://www.theatlantic.com" target="_blank">The Atlantic</a></li>
+                    <li><a href="https://www.nytimes.com" target="_blank">The New York Times</a></li>
+                </ul>
+            </div>
+            <div class="card weblog">
+                <h2>Weblog</h2>
+                <div class="post">
+                    <h3><a href="#">Recent Post Title</a></h3>
+                    <p class="date">December 28, 2025</p>
+                    <p>Sample excerpt of blog post content goes here...</p>
+                </div>
+                <div class="post">
+                    <h3><a href="#">Another Post</a></h3>
+                    <p class="date">December 25, 2025</p>
+                    <p>More sample content for demonstration purposes...</p>
+                </div>
+            </div>
+            <div class="card other-links">
+                <h2>Draw Things &etc</h2>
+                <ul>
+                    <li><a href="https://drawthings.ai/" target="_blank">Draw Things Official</a></li>
+                    <li><a href="https://github.com/drawthingsai/draw-things-community" target="_blank">Draw Things GitHub</a></li>
+                    <li><a href="https://www.youtube.com/@CutSceneArtist" target="_blank">CutScene Artist</a></li>
+                    <li><a href="https://www.youtube.com/@Toolbuddy" target="_blank">Toolbuddy</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

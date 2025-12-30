@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>skeptict - Swiss Design</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+            background: #fff;
+            color: #000;
+            line-height: 1.4;
+            padding: 0;
+        }
+
+        .grid-system {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            grid-gap: 0;
+            max-width: 100%;
+            margin: 0;
+        }
+
+        header {
+            grid-column: 1 / -1;
+            background: #000;
+            color: #fff;
+            padding: 60px 80px;
+        }
+
+        h1 {
+            font-size: 6em;
+            font-weight: 700;
+            letter-spacing: -3px;
+            margin: 0;
+            line-height: 0.9;
+        }
+
+        .header-info {
+            margin-top: 20px;
+            font-size: 1.1em;
+            font-weight: 300;
+            letter-spacing: 0.5px;
+        }
+
+        .sidebar {
+            grid-column: 1 / 4;
+            background: #f5f5f5;
+            padding: 80px 40px 80px 80px;
+        }
+
+        .main-content {
+            grid-column: 4 / -1;
+            padding: 80px 80px 80px 60px;
+        }
+
+        h2 {
+            font-size: 2.5em;
+            font-weight: 700;
+            margin-bottom: 30px;
+            letter-spacing: -1px;
+            line-height: 1;
+        }
+
+        .section {
+            margin-bottom: 60px;
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+
+        .links a {
+            color: #000;
+            text-decoration: none;
+            padding: 15px 0;
+            font-size: 1.1em;
+            font-weight: 500;
+            border-bottom: 1px solid #000;
+            transition: all 0.2s ease;
+            letter-spacing: 0.3px;
+        }
+
+        .links a:hover {
+            padding-left: 15px;
+            background: #000;
+            color: #fff;
+        }
+
+        .post {
+            margin-bottom: 70px;
+        }
+
+        .post-header {
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+            gap: 40px;
+            margin-bottom: 25px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #000;
+        }
+
+        .post-date {
+            font-size: 1.1em;
+            font-weight: 500;
+            letter-spacing: 0.5px;
+        }
+
+        .post h3 {
+            font-size: 2.5em;
+            font-weight: 700;
+            line-height: 1.1;
+            letter-spacing: -1px;
+            margin: 0;
+        }
+
+        .post-content {
+            font-size: 1.15em;
+            line-height: 1.6;
+            columns: 2;
+            column-gap: 50px;
+            text-align: justify;
+            hyphens: auto;
+        }
+
+        .number-large {
+            font-size: 8em;
+            font-weight: 700;
+            line-height: 0.8;
+            color: #e5e5e5;
+            margin: 0 0 20px 0;
+        }
+
+        @media (max-width: 1024px) {
+            .grid-system {
+                grid-template-columns: 1fr;
+            }
+
+            .sidebar {
+                grid-column: 1;
+                padding: 60px 40px;
+            }
+
+            .main-content {
+                grid-column: 1;
+                padding: 60px 40px;
+            }
+
+            header {
+                padding: 40px;
+            }
+
+            h1 {
+                font-size: 4em;
+            }
+
+            .post-header {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+
+            .post-content {
+                columns: 1;
+            }
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 3em;
+            }
+
+            .post h3 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-system">
+        <header>
+            <h1>skeptict</h1>
+            <div class="header-info">International Typographic Style / Grid-Based Layout</div>
+        </header>
+
+        <div class="sidebar">
+            <div class="section">
+                <div class="number-large">01</div>
+                <h2>Daily Reading</h2>
+                <div class="links">
+                    <a href="https://www.economist.com">The Economist</a>
+                    <a href="https://www.theatlantic.com">The Atlantic</a>
+                    <a href="https://www.nytimes.com">The New York Times</a>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="number-large">02</div>
+                <h2>Draw Things &etc</h2>
+                <div class="links">
+                    <a href="https://drawthings.ai">Draw Things Official</a>
+                    <a href="https://github.com/drawthingsai">Draw Things GitHub</a>
+                    <a href="https://www.youtube.com/@cutsceneartist">CutScene Artist</a>
+                    <a href="https://www.youtube.com/@toolbuddy">Toolbuddy</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <div class="section">
+                <div class="number-large">03</div>
+                <h2>Weblog</h2>
+
+                <div class="post">
+                    <div class="post-header">
+                        <div class="post-date">28.12.2025</div>
+                        <h3>The Grid as Foundation</h3>
+                    </div>
+                    <div class="post-content">
+                        Swiss design, also known as the International Typographic Style, emerged in the 1950s as a response to the chaos of post-war visual culture. Its principles are simple yet profound: mathematical grids, sans-serif typography, asymmetric layouts, and objective photography. The grid isn't a constraint—it's a framework for clarity. Every element aligns to a rational structure, creating harmony through systematic organization. This approach prioritized readability and functionality above all else, believing that design should communicate, not decorate.
+                    </div>
+                </div>
+
+                <div class="post">
+                    <div class="post-header">
+                        <div class="post-date">25.12.2025</div>
+                        <h3>Helvetica and Hierarchy</h3>
+                    </div>
+                    <div class="post-content">
+                        The typography of Swiss design favors neutrality and legibility. Helvetica, developed in 1957, became the movement's iconic typeface—clean, objective, universal. Visual hierarchy is achieved through size, weight, and spacing rather than decorative flourishes. The result is timeless. What worked in print posters seventy years ago still works on digital screens today. This is design stripped to its essence: clear communication through rational structure. No trends, no gimmicks, just pure information architecture.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,196 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Baskerville', 'Georgia', 'Garamond', serif;
+            background: #f4f1ea;
+            background-image:
+                linear-gradient(90deg, rgba(0,0,0,0.02) 1px, transparent 1px),
+                linear-gradient(180deg, rgba(0,0,0,0.02) 1px, transparent 1px);
+            background-size: 20px 20px;
+            color: #2c2416;
+            line-height: 1.8;
+            padding: 60px 40px;
+        }
+
+        .book-container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #fffef9;
+            box-shadow:
+                0 0 0 1px #d4cfc0,
+                0 5px 15px rgba(0, 0, 0, 0.1),
+                inset 0 0 50px rgba(0, 0, 0, 0.02);
+            border-radius: 3px;
+        }
+
+        header {
+            text-align: center;
+            padding: 70px 60px 50px;
+            border-bottom: 3px double #8b7355;
+            margin-bottom: 50px;
+            background: linear-gradient(to bottom, #fffef9, #fdfcf5);
+        }
+
+        h1 {
+            font-size: 4.5em;
+            font-weight: 400;
+            color: #3d3226;
+            margin-bottom: 20px;
+            letter-spacing: 3px;
+            font-family: 'Didot', 'Bodoni MT', serif;
+        }
+
+        .ornament {
+            color: #8b7355;
+            font-size: 2em;
+            margin: 25px 0;
+        }
+
+        .tagline {
+            font-size: 1.2em;
+            color: #5d4e37;
+            font-style: italic;
+            margin-top: 15px;
+        }
+
+        .content {
+            padding: 50px 70px 70px;
+        }
+
+        .chapter {
+            margin-bottom: 60px;
+        }
+
+        .chapter-number {
+            font-size: 0.9em;
+            color: #8b7355;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            margin-bottom: 15px;
+            font-family: 'Georgia', serif;
+        }
+
+        h2 {
+            font-size: 2.5em;
+            color: #3d3226;
+            margin-bottom: 35px;
+            font-weight: 400;
+            font-family: 'Didot', 'Bodoni MT', serif;
+            text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #d4cfc0;
+        }
+
+        .links {
+            margin: 30px 0;
+        }
+
+        .links a {
+            display: block;
+            color: #5d4e37;
+            text-decoration: none;
+            padding: 18px 30px;
+            margin-bottom: 15px;
+            background: #fdfcf5;
+            border-left: 4px solid #8b7355;
+            border-right: 1px solid #e8e3d8;
+            border-top: 1px solid #e8e3d8;
+            border-bottom: 1px solid #e8e3d8;
+            transition: all 0.3s ease;
+            font-size: 1.1em;
+        }
+
+        .links a:hover {
+            background: #f9f7f0;
+            border-left-width: 8px;
+            padding-left: 35px;
+            box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.05);
+        }
+
+        .post {
+            margin-bottom: 50px;
+            padding-bottom: 50px;
+            border-bottom: 1px solid #d4cfc0;
+        }
+
+        .post:last-child {
+            border-bottom: none;
+        }
+
+        .post h3 {
+            font-size: 2em;
+            color: #3d3226;
+            margin-bottom: 15px;
+            font-weight: 400;
+            font-family: 'Didot', 'Bodoni MT', serif;
+        }
+
+        .post-date {
+            color: #8b7355;
+            font-size: 0.95em;
+            margin-bottom: 25px;
+            font-style: italic;
+        }
+
+        .post-content {
+            color: #2c2416;
+            font-size: 1.15em;
+            line-height: 2;
+            text-align: justify;
+            text-indent: 2em;
+        }
+
+        .post-content:first-of-type::first-letter {
+            font-size: 4em;
+            float: left;
+            line-height: 0.85;
+            margin: 0.1em 0.1em 0 0;
+            font-family: 'Didot', 'Bodoni MT', serif;
+            color: #5d4e37;
+        }
+
+        .section-divider {
+            text-align: center;
+            color: #8b7355;
+            font-size: 1.5em;
+            margin: 40px 0;
+            letter-spacing: 10px;
+        }
+
+        .page-number {
+            text-align: center;
+            color: #8b7355;
+            font-size: 0.9em;
+            margin-top: 50px;
+            padding-top: 30px;
+            border-top: 1px solid #d4cfc0;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 30px 20px;
+            }
+
+            .content {
+                padding: 30px 35px 40px;
+            }
+
+            header {
+                padding: 50px 35px 35px;
+            }
+
+            h1 {
+                font-size: 3em;
+            }
+
+            .post-content {
+                text-indent: 1.5em;
+                font-size: 1.05em;
+            }
+        }
+    

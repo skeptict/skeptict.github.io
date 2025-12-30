@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variation 07 - Pastel Soft</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Quicksand', -apple-system, sans-serif;
+            line-height: 1.7;
+            color: #5a5a5a;
+            background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+            min-height: 100vh;
+            padding: 3rem 2rem;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: rgba(255,255,255,0.8);
+            backdrop-filter: blur(10px);
+            padding: 3rem;
+            border-radius: 30px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.1);
+        }
+        h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 2rem;
+            color: #ff9a9e;
+            text-align: center;
+        }
+        h2 {
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+            color: #fad0c4;
+            padding-bottom: 0.5rem;
+            border-bottom: 3px solid #ffecd2;
+        }
+        .main-content {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2.5rem;
+        }
+        .post {
+            margin-bottom: 1.5rem;
+            background: rgba(255,255,255,0.6);
+            padding: 1rem;
+            border-radius: 15px;
+        }
+        .post h3 {
+            font-size: 1rem;
+            font-weight: 600;
+            margin-bottom: 0.3rem;
+            color: #ff9a9e;
+        }
+        .post h3 a {
+            text-decoration: none;
+            color: #ff9a9e;
+        }
+        .post h3 a:hover { color: #fad0c4; }
+        .post .date {
+            font-size: 0.75rem;
+            color: #a8a8a8;
+            margin-bottom: 0.5rem;
+        }
+        .post p {
+            font-size: 0.85rem;
+            color: #6a6a6a;
+            line-height: 1.6;
+        }
+        ul { list-style: none; }
+        li {
+            margin-bottom: 0.75rem;
+            padding: 0.5rem;
+            background: rgba(255,255,255,0.5);
+            border-radius: 10px;
+        }
+        a {
+            color: #ff9a9e;
+            text-decoration: none;
+        }
+        a:hover { color: #fad0c4; }
+        @media (max-width: 768px) {
+            .main-content { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>skeptict</h1>
+        <div class="main-content">
+            <div class="links">
+                <h2>Daily Reading</h2>
+                <ul>
+                    <li><a href="https://www.economist.com" target="_blank">The Economist</a></li>
+                    <li><a href="https://www.theatlantic.com" target="_blank">The Atlantic</a></li>
+                    <li><a href="https://www.nytimes.com" target="_blank">The New York Times</a></li>
+                </ul>
+            </div>
+            <div class="weblog">
+                <h2>Weblog</h2>
+                <div class="post">
+                    <h3><a href="#">Recent Post Title</a></h3>
+                    <p class="date">December 28, 2025</p>
+                    <p>Sample excerpt of blog post content goes here...</p>
+                </div>
+                <div class="post">
+                    <h3><a href="#">Another Post</a></h3>
+                    <p class="date">December 25, 2025</p>
+                    <p>More sample content for demonstration purposes...</p>
+                </div>
+            </div>
+            <div class="other-links">
+                <h2>Draw Things &etc</h2>
+                <ul>
+                    <li><a href="https://drawthings.ai/" target="_blank">Draw Things Official</a></li>
+                    <li><a href="https://github.com/drawthingsai/draw-things-community" target="_blank">Draw Things GitHub</a></li>
+                    <li><a href="https://www.youtube.com/@CutSceneArtist" target="_blank">CutScene Artist</a></li>
+                    <li><a href="https://www.youtube.com/@Toolbuddy" target="_blank">Toolbuddy</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

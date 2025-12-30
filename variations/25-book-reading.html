@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>skeptict - Book Reading</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Baskerville', 'Georgia', 'Garamond', serif;
+            background: #f4f1ea;
+            background-image:
+                linear-gradient(90deg, rgba(0,0,0,0.02) 1px, transparent 1px),
+                linear-gradient(180deg, rgba(0,0,0,0.02) 1px, transparent 1px);
+            background-size: 20px 20px;
+            color: #2c2416;
+            line-height: 1.8;
+            padding: 60px 40px;
+        }
+
+        .book-container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #fffef9;
+            box-shadow:
+                0 0 0 1px #d4cfc0,
+                0 5px 15px rgba(0, 0, 0, 0.1),
+                inset 0 0 50px rgba(0, 0, 0, 0.02);
+            border-radius: 3px;
+        }
+
+        header {
+            text-align: center;
+            padding: 70px 60px 50px;
+            border-bottom: 3px double #8b7355;
+            margin-bottom: 50px;
+            background: linear-gradient(to bottom, #fffef9, #fdfcf5);
+        }
+
+        h1 {
+            font-size: 4.5em;
+            font-weight: 400;
+            color: #3d3226;
+            margin-bottom: 20px;
+            letter-spacing: 3px;
+            font-family: 'Didot', 'Bodoni MT', serif;
+        }
+
+        .ornament {
+            color: #8b7355;
+            font-size: 2em;
+            margin: 25px 0;
+        }
+
+        .tagline {
+            font-size: 1.2em;
+            color: #5d4e37;
+            font-style: italic;
+            margin-top: 15px;
+        }
+
+        .content {
+            padding: 50px 70px 70px;
+        }
+
+        .chapter {
+            margin-bottom: 60px;
+        }
+
+        .chapter-number {
+            font-size: 0.9em;
+            color: #8b7355;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            margin-bottom: 15px;
+            font-family: 'Georgia', serif;
+        }
+
+        h2 {
+            font-size: 2.5em;
+            color: #3d3226;
+            margin-bottom: 35px;
+            font-weight: 400;
+            font-family: 'Didot', 'Bodoni MT', serif;
+            text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #d4cfc0;
+        }
+
+        .links {
+            margin: 30px 0;
+        }
+
+        .links a {
+            display: block;
+            color: #5d4e37;
+            text-decoration: none;
+            padding: 18px 30px;
+            margin-bottom: 15px;
+            background: #fdfcf5;
+            border-left: 4px solid #8b7355;
+            border-right: 1px solid #e8e3d8;
+            border-top: 1px solid #e8e3d8;
+            border-bottom: 1px solid #e8e3d8;
+            transition: all 0.3s ease;
+            font-size: 1.1em;
+        }
+
+        .links a:hover {
+            background: #f9f7f0;
+            border-left-width: 8px;
+            padding-left: 35px;
+            box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.05);
+        }
+
+        .post {
+            margin-bottom: 50px;
+            padding-bottom: 50px;
+            border-bottom: 1px solid #d4cfc0;
+        }
+
+        .post:last-child {
+            border-bottom: none;
+        }
+
+        .post h3 {
+            font-size: 2em;
+            color: #3d3226;
+            margin-bottom: 15px;
+            font-weight: 400;
+            font-family: 'Didot', 'Bodoni MT', serif;
+        }
+
+        .post-date {
+            color: #8b7355;
+            font-size: 0.95em;
+            margin-bottom: 25px;
+            font-style: italic;
+        }
+
+        .post-content {
+            color: #2c2416;
+            font-size: 1.15em;
+            line-height: 2;
+            text-align: justify;
+            text-indent: 2em;
+        }
+
+        .post-content:first-of-type::first-letter {
+            font-size: 4em;
+            float: left;
+            line-height: 0.85;
+            margin: 0.1em 0.1em 0 0;
+            font-family: 'Didot', 'Bodoni MT', serif;
+            color: #5d4e37;
+        }
+
+        .section-divider {
+            text-align: center;
+            color: #8b7355;
+            font-size: 1.5em;
+            margin: 40px 0;
+            letter-spacing: 10px;
+        }
+
+        .page-number {
+            text-align: center;
+            color: #8b7355;
+            font-size: 0.9em;
+            margin-top: 50px;
+            padding-top: 30px;
+            border-top: 1px solid #d4cfc0;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 30px 20px;
+            }
+
+            .content {
+                padding: 30px 35px 40px;
+            }
+
+            header {
+                padding: 50px 35px 35px;
+            }
+
+            h1 {
+                font-size: 3em;
+            }
+
+            .post-content {
+                text-indent: 1.5em;
+                font-size: 1.05em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="book-container">
+        <header>
+            <h1>skeptict</h1>
+            <div class="ornament">❦</div>
+            <div class="tagline">A Collection of Thoughts and Links</div>
+        </header>
+
+        <div class="content">
+            <div class="chapter">
+                <div class="chapter-number">Chapter I</div>
+                <h2>Daily Reading</h2>
+                <div class="links">
+                    <a href="https://www.economist.com">The Economist</a>
+                    <a href="https://www.theatlantic.com">The Atlantic</a>
+                    <a href="https://www.nytimes.com">The New York Times</a>
+                </div>
+            </div>
+
+            <div class="section-divider">* * *</div>
+
+            <div class="chapter">
+                <div class="chapter-number">Chapter II</div>
+                <h2>Draw Things &etc</h2>
+                <div class="links">
+                    <a href="https://drawthings.ai">Draw Things Official</a>
+                    <a href="https://github.com/drawthingsai">Draw Things GitHub</a>
+                    <a href="https://www.youtube.com/@cutsceneartist">CutScene Artist YouTube</a>
+                    <a href="https://www.youtube.com/@toolbuddy">Toolbuddy YouTube</a>
+                </div>
+            </div>
+
+            <div class="section-divider">* * *</div>
+
+            <div class="chapter">
+                <div class="chapter-number">Chapter III</div>
+                <h2>Weblog</h2>
+
+                <div class="post">
+                    <h3>On the Typography of Books</h3>
+                    <div class="post-date">The Twenty-Eighth of December, 2025</div>
+                    <div class="post-content">
+                        There is something timeless about the printed page. The careful selection of typeface, the generous margins, the texture of paper beneath one's fingers—these elements combine to create an experience that digital media struggles to replicate. Book-inspired design brings these principles to the screen: serif fonts for extended reading, ample line spacing for comfort, and a color palette reminiscent of aged paper and ink. The goal is not merely to imitate books, but to capture their essence—the quiet dignity, the invitation to slow down and read deeply.
+                    </div>
+                </div>
+
+                <div class="post">
+                    <h3>In Praise of the Drop Cap</h3>
+                    <div class="post-date">The Twenty-Fifth of December, 2025</div>
+                    <div class="post-content">
+                        The drop cap is a humble flourish with ancient roots, dating back to illuminated manuscripts. This single enlarged letter serves as both decoration and signal—here begins something worth reading. In web design, such typographic details create rhythm and visual interest without resorting to images or complex layouts. They remind us that text itself can be beautiful, that letters are not merely vehicles for meaning but objects of aesthetic contemplation in their own right.
+                    </div>
+                </div>
+            </div>
+
+            <div class="page-number">~ 1 ~</div>
+        </div>
+    </div>
+</body>
+</html>

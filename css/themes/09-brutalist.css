@@ -1,0 +1,94 @@
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.4;
+            color: #000;
+            background: #fff;
+            padding: 0;
+        }
+        .container {
+            max-width: 100%;
+            border: 10px solid #000;
+            min-height: 100vh;
+        }
+        h1 {
+            font-size: 5rem;
+            font-weight: 900;
+            padding: 2rem;
+            background: #ff0;
+            border-bottom: 10px solid #000;
+            text-transform: uppercase;
+        }
+        .main-content {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
+        .section {
+            border-right: 10px solid #000;
+            padding: 2rem;
+            min-height: 60vh;
+        }
+        .section:last-child { border-right: none; }
+        .links { background: #f0f; }
+        .weblog { background: #0ff; }
+        .other-links { background: #0f0; }
+        h2 {
+            font-size: 2rem;
+            font-weight: 900;
+            margin-bottom: 1.5rem;
+            text-transform: uppercase;
+            border: 5px solid #000;
+            padding: 0.5rem;
+            background: #fff;
+        }
+        .post {
+            margin-bottom: 1.5rem;
+            border: 5px solid #000;
+            padding: 1rem;
+            background: #fff;
+        }
+        .post h3 {
+            font-size: 1.2rem;
+            font-weight: 900;
+            margin-bottom: 0.5rem;
+            text-transform: uppercase;
+        }
+        .post h3 a {
+            text-decoration: none;
+            color: #000;
+        }
+        .post h3 a:hover {
+            background: #ff0;
+        }
+        .post .date {
+            font-size: 0.8rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+        .post p {
+            font-size: 0.9rem;
+            font-weight: 700;
+        }
+        ul { list-style: none; }
+        li {
+            margin-bottom: 1rem;
+            border: 3px solid #000;
+            padding: 0.75rem;
+            background: #fff;
+            font-weight: 700;
+        }
+        a {
+            color: #000;
+            text-decoration: none;
+            font-weight: 900;
+        }
+        a:hover {
+            background: #ff0;
+        }
+        @media (max-width: 768px) {
+            .main-content { grid-template-columns: 1fr; }
+            .section { border-right: none; border-bottom: 10px solid #000; }
+            h1 { font-size: 3rem; }
+        }
+    
