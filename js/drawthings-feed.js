@@ -1,7 +1,6 @@
-// Fetch and display DrawThings app posts from nitter
+// Fetch and display DrawThings app posts from cached feed
 (function() {
-    const FEED_URL = 'https://nitter.net/drawthingsapp/rss';
-    const RSS2JSON_API = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(FEED_URL)}&count=3`;
+    const CACHED_FEED_URL = '/data/drawthings-feed.json';
 
     function stripHTML(html) {
         const tmp = document.createElement('div');
@@ -57,8 +56,13 @@
     }
 
     function loadFeed() {
-        fetch(RSS2JSON_API)
-            .then(response => response.json())
+        fetch(CACHED_FEED_URL)
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Feed not found');
+                }
+                return response.json();
+            })
             .then(data => {
                 if (data.status === 'ok') {
                     displayPosts(data);
