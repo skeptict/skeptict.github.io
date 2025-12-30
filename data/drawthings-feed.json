@@ -2,17 +2,9 @@
   "status": "ok",
   "feed": {
     "title": "DrawThings App",
-    "link": "https://nitter.net/drawthingsapp",
-    "description": "DrawThings App updates"
+    "link": "https://nitter.net/drawthingsapp/rss",
+    "description": ""
   },
-  "items": [
-    {
-      "title": "Loading...",
-      "link": "https://nitter.net/drawthingsapp",
-      "description": "Feed will update automatically via GitHub Actions every 6 hours.",
-      "pubDate": "2025-12-30T00:00:00Z",
-      "date": "2025-12-30T00:00:00Z"
-    }
-  ],
-  "lastUpdated": "2025-12-30T00:00:00Z"
+  "items": [],
+  "lastUpdated": "2025-12-30T18:50:29.934102"
 }
