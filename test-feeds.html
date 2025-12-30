@@ -221,7 +221,7 @@
         }
 
         function loadFeed(feedUrl, containerId, label) {
-            const RSS2JSON_API = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(feedUrl)}&count=3`;
+            const RSS2JSON_API = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(feedUrl)}`;
 
             fetch(RSS2JSON_API)
                 .then(response => response.json())
