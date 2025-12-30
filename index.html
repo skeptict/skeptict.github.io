@@ -4,13 +4,27 @@ title: Home
 ---
 
 <div class="main-content">
-    <div class="links">
-        <h2>Daily Reading</h2>
-        <ul>
-            <li><a href="https://www.economist.com" target="_blank">The Economist</a></li>
-            <li><a href="https://www.theatlantic.com" target="_blank">The Atlantic</a></li>
-            <li><a href="https://www.nytimes.com" target="_blank">The New York Times</a></li>
-        </ul>
+    <div class="sidebar-column">
+        <div class="links">
+            <h2>Daily Reading</h2>
+            <ul>
+                <li><a href="https://www.economist.com" target="_blank">The Economist</a></li>
+                <li><a href="https://www.theatlantic.com" target="_blank">The Atlantic</a></li>
+                <li><a href="https://www.nytimes.com" target="_blank">The New York Times</a></li>
+            </ul>
+        </div>
+        <div class="other-links">
+            <h2>Draw Things &etc</h2>
+            <ul>
+                <li><a href="https://drawthings.ai/" target="_blank">Draw Things Official</a></li>
+                <li><a href="https://github.com/drawthingsai/draw-things-community" target="_blank">Draw Things GitHub</a></li>
+                <li><a href="https://github.com/drawthingsai/draw-things-community/wiki" target="_blank">Draw Things Wiki</a></li>
+                <li><a href="https://discord.gg/qJsk9pr9Wj" target="_blank">Draw Things Discord</a></li>
+                <li><a href="https://www.youtube.com/@CutSceneArtist" target="_blank">CutScene Artist</a></li>
+                <li><a href="https://www.youtube.com/@Toolbuddy" target="_blank">Toolbuddy</a></li>
+                <li><a href="https://stability.ai/stable-image" target="_blank">Stable Diffusion</a></li>
+            </ul>
+        </div>
     </div>
     <div class="weblog">
         <h2>Weblog</h2>
@@ -21,17 +35,5 @@ title: Home
             <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
         </div>
         {% endfor %}
-    </div>
-    <div class="other-links">
-        <h2>Draw Things &etc</h2>
-        <ul>
-            <li><a href="https://drawthings.ai/" target="_blank">Draw Things Official</a></li>
-            <li><a href="https://github.com/drawthingsai/draw-things-community" target="_blank">Draw Things GitHub</a></li>
-            <li><a href="https://github.com/drawthingsai/draw-things-community/wiki" target="_blank">Draw Things Wiki</a></li>
-            <li><a href="https://discord.gg/qJsk9pr9Wj" target="_blank">Draw Things Discord</a></li>
-            <li><a href="https://www.youtube.com/@CutSceneArtist" target="_blank">CutScene Artist</a></li>
-            <li><a href="https://www.youtube.com/@Toolbuddy" target="_blank">Toolbuddy</a></li>
-            <li><a href="https://stability.ai/stable-image" target="_blank">Stable Diffusion</a></li>
-        </ul>
     </div>
 </div>

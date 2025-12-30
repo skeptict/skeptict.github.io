@@ -29,11 +29,11 @@ const themes = [
 ];
 
 // Current theme
-let currentTheme = 'default';
+let currentTheme = '01';
 
 // Get saved theme from localStorage
 function getSavedTheme() {
-    return localStorage.getItem('skeptict-theme') || 'default';
+    return localStorage.getItem('skeptict-theme') || '01';
 }
 
 // Save theme to localStorage
