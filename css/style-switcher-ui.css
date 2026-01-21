@@ -1,47 +1,48 @@
-/* Style Switcher UI */
+/* Style Switcher UI - Neumorphic Style */
 
 .style-switcher-btn {
     position: fixed;
     bottom: 2rem;
     right: 2rem;
-    width: 60px;
-    height: 60px;
+    width: 55px;
+    height: 55px;
     border-radius: 50%;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+    background: #e4e0dc;
+    box-shadow: 6px 6px 12px rgba(190,185,180,0.6), -6px -6px 12px rgba(255,255,255,0.8);
     cursor: pointer;
     z-index: 9999;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.5rem;
-    transition: all 0.3s ease;
+    font-size: 1.4rem;
+    transition: all 0.2s ease;
     border: none;
     user-select: none;
+    color: #8a8580;
 }
 
 .style-switcher-btn:hover {
-    transform: scale(1.1);
-    box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+    box-shadow: 8px 8px 16px rgba(190,185,180,0.7), -8px -8px 16px rgba(255,255,255,0.9);
 }
 
 .style-switcher-btn:active {
-    transform: scale(0.95);
+    box-shadow: inset 4px 4px 8px rgba(190,185,180,0.5), inset -4px -4px 8px rgba(255,255,255,0.7);
 }
 
 .style-switcher-menu {
     position: fixed;
     bottom: 5.5rem;
     right: 2rem;
-    background: #fff;
-    border-radius: 15px;
-    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+    background: #e4e0dc;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgba(190,185,180,0.6), -10px -10px 20px rgba(255,255,255,0.8);
     max-height: 70vh;
     width: 280px;
     overflow-y: auto;
     display: none;
     z-index: 9998;
     animation: slideUp 0.3s ease;
+    padding: 0.5rem;
 }
 
 @keyframes slideUp {
@@ -60,54 +61,46 @@
 }
 
 .style-switcher-menu::-webkit-scrollbar-track {
-    background: #f1f1f1;
+    background: #dbd7d3;
     border-radius: 10px;
 }
 
 .style-switcher-menu::-webkit-scrollbar-thumb {
-    background: #888;
+    background: #bab6b2;
     border-radius: 10px;
 }
 
 .style-switcher-menu::-webkit-scrollbar-thumb:hover {
-    background: #555;
+    background: #a5a09b;
 }
 
 .theme-option {
-    padding: 1rem 1.25rem;
+    padding: 0.85rem 1.1rem;
+    margin: 0.35rem;
     cursor: pointer;
-    border-bottom: 1px solid #eee;
+    border-radius: 12px;
     transition: all 0.2s ease;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-    font-size: 0.9rem;
-    color: #333;
+    font-size: 0.85rem;
+    color: #6b6560;
     user-select: none;
-}
-
-.theme-option:first-child {
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-}
-
-.theme-option:last-child {
-    border-bottom: none;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
+    background: #e4e0dc;
+    box-shadow: 3px 3px 6px rgba(190,185,180,0.4), -3px -3px 6px rgba(255,255,255,0.6);
 }
 
 .theme-option:hover {
-    background: #f5f5f5;
-    padding-left: 1.5rem;
+    box-shadow: 4px 4px 8px rgba(190,185,180,0.5), -4px -4px 8px rgba(255,255,255,0.7);
+    color: #8a7a70;
 }
 
 .theme-option.active {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: #fff;
+    box-shadow: inset 3px 3px 6px rgba(190,185,180,0.5), inset -3px -3px 6px rgba(255,255,255,0.7);
+    color: #8a7a70;
     font-weight: 600;
 }
 
 .theme-option.active:hover {
-    background: linear-gradient(135deg, #7688eb 0%, #8558b3 100%);
+    color: #7a6a60;
 }
 
 /* Mobile responsiveness */
@@ -128,12 +121,9 @@
     }
 
     .theme-option {
-        padding: 0.85rem 1rem;
-        font-size: 0.85rem;
-    }
-
-    .theme-option:hover {
-        padding-left: 1.25rem;
+        padding: 0.75rem 0.9rem;
+        font-size: 0.8rem;
+        margin: 0.3rem;
     }
 }
 
