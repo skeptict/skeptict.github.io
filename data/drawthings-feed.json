@@ -7,18 +7,18 @@
   },
   "items": [
     {
-      "title": "R to @drawthingsapp: 🧩 You can refer to the following tool projects to generate a Luminance Mask, then directly paste it into the Draw Things Mask Layer.\n\n✨ Hopefully this will inspire you—this is a classic use case of the Draw Things Mask Layer.\n\n🔍 This tool is not commonly used, so many people are not even aware that it exists.\n\n🔗 Relight Brush - Mask Generator>>https://mask.toolbuddy.art/\n🔗 https://huggingface.co/spaces/linoyts/FLUX.2-klein-relight-brush",
-      "link": "https://nitter.net/drawthingsapp/status/2023577388332789876#m",
-      "description": "🧩 You can refer to the following tool projects to generate a Luminance Mask, then directly paste it into the Draw Things Mask Layer.\n\n✨ Hopefully this will inspire you—this is a classic use case of the Draw Things Mask Layer.\n\n🔍 This tool is not commonly used, so many people are not even aware that it exists.\n\n🔗 Relight Brush - Mask Generator&gt;&gt;mask.toolbuddy.art/\n🔗 huggingface.co/spaces/linoyt…",
-      "pubDate": "Tue, 17 Feb 2026 01:57:00 GMT",
-      "date": "Tue, 17 Feb 2026 01:57:00 GMT"
-    },
-    {
       "title": "💡 Using the Draw Things Mask Layer to Manipulate lighting!\n\n🖱️ From left to right, you only need a few simple clicks.\n\n🎨 Inspired by @linoy_tsaban  and @lvminzhang 's LuminaBrush, our community creators built a Luminance Mask Generator. You can paint the lighting positions and colors, and the Luminance Mask will be generated automatically. The prompt will also be generated automatically, and you can set the light type and background as well.\n\n📋 Copy the Luminance Mask → Draw Things Mask Layer → Paste as mask, and copy-paste the prompt. Then generate directly with FLUX.2 [klein] 9B.",
       "link": "https://nitter.net/drawthingsapp/status/2023576727922876743#m",
       "description": "💡 Using the Draw Things Mask Layer to Manipulate lighting!\n\n🖱️ From left to right, you only need a few simple clicks.\n\n🎨 Inspired by @linoy_tsaban  and @lvminzhang 's LuminaBrush, our community creators built a Luminance Mask Generator. You can paint the lighting positions and colors, and the Luminance Mask will be generated automatically. The prompt will also be generated automatically, and you can set the light type and background as well.\n\n📋 Copy the Luminance Mask → Draw Things Mask Layer → Paste as mask, and copy-paste the prompt. Then generate directly with FLUX.2 [klein] 9B.",
       "pubDate": "Tue, 17 Feb 2026 01:54:22 GMT",
       "date": "Tue, 17 Feb 2026 01:54:22 GMT"
+    },
+    {
+      "title": "R to @drawthingsapp: 🧩 You can refer to the following tool projects to generate a Luminance Mask, then directly paste it into the Draw Things Mask Layer.\n\n✨ Hopefully this will inspire you—this is a classic use case of the Draw Things Mask Layer.\n\n🔍 This tool is not commonly used, so many people are not even aware that it exists.\n\n🔗 Relight Brush - Mask Generator>>https://mask.toolbuddy.art/\n🔗 https://huggingface.co/spaces/linoyts/FLUX.2-klein-relight-brush",
+      "link": "https://nitter.net/drawthingsapp/status/2023577388332789876#m",
+      "description": "🧩 You can refer to the following tool projects to generate a Luminance Mask, then directly paste it into the Draw Things Mask Layer.\n\n✨ Hopefully this will inspire you—this is a classic use case of the Draw Things Mask Layer.\n\n🔍 This tool is not commonly used, so many people are not even aware that it exists.\n\n🔗 Relight Brush - Mask Generator&gt;&gt;mask.toolbuddy.art/\n🔗 huggingface.co/spaces/linoyt…",
+      "pubDate": "Tue, 17 Feb 2026 01:57:00 GMT",
+      "date": "Tue, 17 Feb 2026 01:57:00 GMT"
     },
     {
       "title": "🖼️ Some comparison shots of the Z-Image model family.\n\n🧪 All results were tested within Draw Things.\n\n💡 It’s worth mentioning that paired with Z-Image-Fun-Lora-Distill-4-Steps-2602. iPad Pro M5 finished rendering Z Image 1.0 (768*1024) in just about 23s in DT.\n\n✨ The results are actually quite decent.",
@@ -28,5 +28,5 @@
       "date": "Fri, 13 Feb 2026 03:30:32 GMT"
     }
   ],
-  "lastUpdated": "2026-02-18T01:14:17.276079"
+  "lastUpdated": "2026-02-18T06:50:01.630202"
 }
