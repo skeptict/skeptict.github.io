@@ -7,6 +7,13 @@
   },
   "items": [
     {
+      "title": "🤝 QIE-2511 can be A GOOD FRIEND of Flux.2 Klein 9B.\n\n🧠 2511 is very strong at consistency and human anatomy generation, while Klein 9B excels at details and lighting.\n\n✨ Combining these two models can achieve an ideal result.\n\n🖼️ The four examples below show the generation process from face to portrait: first generate the base image with 2511, then use Klein 9B to enhance image quality, details, and lighting.",
+      "link": "https://nitter.net/drawthingsapp/status/2025400512091226605#m",
+      "description": "🤝 QIE-2511 can be A GOOD FRIEND of Flux.2 Klein 9B.\n\n🧠 2511 is very strong at consistency and human anatomy generation, while Klein 9B excels at details and lighting.\n\n✨ Combining these two models can achieve an ideal result.\n\n🖼️ The four examples below show the generation process from face to portrait: first generate the base image with 2511, then use Klein 9B to enhance image quality, details, and lighting.",
+      "pubDate": "Sun, 22 Feb 2026 02:41:26 GMT",
+      "date": "Sun, 22 Feb 2026 02:41:26 GMT"
+    },
+    {
       "title": "✨ Try Qwen Image Edit 2511 with Wuli-Art 2-Step Turbo LoRA!\n\n🧪 Though this Turbo LoRA was trained for Qwen Image 2512, tested in Draw Things——it’s compatible with QIE-2511.\n\n🎞️ Check out these quick editing demos—2-3 step rendering on 2511 is definitely worth a shot!",
       "link": "https://nitter.net/drawthingsapp/status/2025228370506830139#m",
       "description": "✨ Try Qwen Image Edit 2511 with Wuli-Art 2-Step Turbo LoRA!\n\n🧪 Though this Turbo LoRA was trained for Qwen Image 2512, tested in Draw Things——it’s compatible with QIE-2511.\n\n🎞️ Check out these quick editing demos—2-3 step rendering on 2511 is definitely worth a shot!",
@@ -19,14 +26,7 @@
       "description": "👇🏻Below is the generation config for Draw Things, hope it helps.\n——————\n{\"batchSize\":1,\"guidanceScale\":1,\"batchCount\":1,\"causalInferencePad\":0,\"shift\":2.6555895999999999,\"cfgZeroInitSteps\":0,\"seed\":3529647130,\"maskBlurOutset\":0,\"loras\":[{\"mode\":\"all\",\"file\":\"2steps_wuli_qwen_image_2512_turbo_lora_v1.0_bf16_lora_f16.ckpt\",\"weight\":1}],\"height\":1024,\"model\":\"qwen_image_edit_2511_q6p.ckpt\",\"sampler\":12,\"controls\":[],\"preserveOriginalAfterInpaint\":true,\"maskBlur\":1.5,\"tiledDecoding\":false,\"cfgZeroStar\":false,\"seedMode\":2,\"width\":768,\"resolutionDependentShift\":true,\"tiledDiffusion\":false,\"upscaler\":\"\",\"steps\":2,\"refinerModel\":\"\",\"hiresFix\":false,\"sharpness\":0,\"strength\":1,\"faceRestoration\":\"\"}\n——————",
       "pubDate": "Sat, 21 Feb 2026 15:37:19 GMT",
       "date": "Sat, 21 Feb 2026 15:37:19 GMT"
-    },
-    {
-      "title": "💡 Using the Draw Things Mask Layer to Manipulate lighting!\n\n🖱️ From left to right, you only need a few simple clicks.\n\n🎨 Inspired by @linoy_tsaban  and @lvminzhang 's LuminaBrush, our community creators built a Luminance Mask Generator. You can paint the lighting positions and colors, and the Luminance Mask will be generated automatically. The prompt will also be generated automatically, and you can set the light type and background as well.\n\n📋 Copy the Luminance Mask → Draw Things Mask Layer → Paste as mask, and copy-paste the prompt. Then generate directly with FLUX.2 [klein] 9B.",
-      "link": "https://nitter.net/drawthingsapp/status/2023576727922876743#m",
-      "description": "💡 Using the Draw Things Mask Layer to Manipulate lighting!\n\n🖱️ From left to right, you only need a few simple clicks.\n\n🎨 Inspired by @linoy_tsaban  and @lvminzhang 's LuminaBrush, our community creators built a Luminance Mask Generator. You can paint the lighting positions and colors, and the Luminance Mask will be generated automatically. The prompt will also be generated automatically, and you can set the light type and background as well.\n\n📋 Copy the Luminance Mask → Draw Things Mask Layer → Paste as mask, and copy-paste the prompt. Then generate directly with FLUX.2 [klein] 9B.",
-      "pubDate": "Tue, 17 Feb 2026 01:54:22 GMT",
-      "date": "Tue, 17 Feb 2026 01:54:22 GMT"
     }
   ],
-  "lastUpdated": "2026-02-22T01:12:33.206894"
+  "lastUpdated": "2026-02-22T06:34:56.374246"
 }
