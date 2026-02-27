@@ -21,12 +21,12 @@
       "date": "Sun, 22 Feb 2026 02:41:26 GMT"
     },
     {
-      "title": "R to @drawthingsapp: 👇🏻Below is the generation config for Draw Things, hope it helps.\n——————\n{\"batchSize\":1,\"guidanceScale\":1,\"batchCount\":1,\"causalInferencePad\":0,\"shift\":2.6555895999999999,\"cfgZeroInitSteps\":0,\"seed\":3529647130,\"maskBlurOutset\":0,\"loras\":[{\"mode\":\"all\",\"file\":\"2steps_wuli_qwen_image_2512_turbo_lora_v1.0_bf16_lora_f16.ckpt\",\"weight\":1}],\"height\":1024,\"model\":\"qwen_image_edit_2511_q6p.ckpt\",\"sampler\":12,\"controls\":[],\"preserveOriginalAfterInpaint\":true,\"maskBlur\":1.5,\"tiledDecoding\":false,\"cfgZeroStar\":false,\"seedMode\":2,\"width\":768,\"resolutionDependentShift\":true,\"tiledDiffusion\":false,\"upscaler\":\"\",\"steps\":2,\"refinerModel\":\"\",\"hiresFix\":false,\"sharpness\":0,\"strength\":1,\"faceRestoration\":\"\"}\n——————",
-      "link": "https://nitter.net/drawthingsapp/status/2025233380070039570#m",
-      "description": "👇🏻Below is the generation config for Draw Things, hope it helps.\n——————\n{\"batchSize\":1,\"guidanceScale\":1,\"batchCount\":1,\"causalInferencePad\":0,\"shift\":2.6555895999999999,\"cfgZeroInitSteps\":0,\"seed\":3529647130,\"maskBlurOutset\":0,\"loras\":[{\"mode\":\"all\",\"file\":\"2steps_wuli_qwen_image_2512_turbo_lora_v1.0_bf16_lora_f16.ckpt\",\"weight\":1}],\"height\":1024,\"model\":\"qwen_image_edit_2511_q6p.ckpt\",\"sampler\":12,\"controls\":[],\"preserveOriginalAfterInpaint\":true,\"maskBlur\":1.5,\"tiledDecoding\":false,\"cfgZeroStar\":false,\"seedMode\":2,\"width\":768,\"resolutionDependentShift\":true,\"tiledDiffusion\":false,\"upscaler\":\"\",\"steps\":2,\"refinerModel\":\"\",\"hiresFix\":false,\"sharpness\":0,\"strength\":1,\"faceRestoration\":\"\"}\n——————",
-      "pubDate": "Sat, 21 Feb 2026 15:37:19 GMT",
-      "date": "Sat, 21 Feb 2026 15:37:19 GMT"
+      "title": "✨ Try Qwen Image Edit 2511 with Wuli-Art 2-Step Turbo LoRA!\n\n🧪 Though this Turbo LoRA was trained for Qwen Image 2512, tested in Draw Things——it’s compatible with QIE-2511.\n\n🎞️ Check out these quick editing demos—2-3 step rendering on 2511 is definitely worth a shot!",
+      "link": "https://nitter.net/drawthingsapp/status/2025228370506830139#m",
+      "description": "✨ Try Qwen Image Edit 2511 with Wuli-Art 2-Step Turbo LoRA!\n\n🧪 Though this Turbo LoRA was trained for Qwen Image 2512, tested in Draw Things——it’s compatible with QIE-2511.\n\n🎞️ Check out these quick editing demos—2-3 step rendering on 2511 is definitely worth a shot!",
+      "pubDate": "Sat, 21 Feb 2026 15:17:25 GMT",
+      "date": "Sat, 21 Feb 2026 15:17:25 GMT"
     }
   ],
-  "lastUpdated": "2026-02-27T06:39:24.489385"
+  "lastUpdated": "2026-02-27T12:34:26.416467"
 }
