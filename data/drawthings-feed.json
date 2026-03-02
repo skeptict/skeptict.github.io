@@ -7,26 +7,26 @@
   },
   "items": [
     {
+      "title": "📈 Level Up Your Image Quality in Draw Things!\n\n🌟 Stop settling for average results. Use this power-prompt to enhance the overall quality.\n\n⚙️ Make this prompt work wonders using Flux.2 Klein 9B!\n\n💡 Pro Tip: For even more precision, check out the recommended LoRA in the comments.\n\n🖼️ See the side-by-side difference below!",
+      "link": "https://nitter.net/drawthingsapp/status/2028508270147842103#m",
+      "description": "📈 Level Up Your Image Quality in Draw Things!\n\n🌟 Stop settling for average results. Use this power-prompt to enhance the overall quality.\n\n⚙️ Make this prompt work wonders using Flux.2 Klein 9B!\n\n💡 Pro Tip: For even more precision, check out the recommended LoRA in the comments.\n\n🖼️ See the side-by-side difference below!",
+      "pubDate": "Mon, 02 Mar 2026 16:30:34 GMT",
+      "date": "Mon, 02 Mar 2026 16:30:34 GMT"
+    },
+    {
+      "title": "R to @drawthingsapp: ✨ While LoRAs aren't always a must, The Quality Slider LoRA (0.5 - BETA) gives you much finer control over your results.\n\n📸 Check out these comparisons: the same prompt with different LoRA weights. I believe these results will speak for themselves and spark some new ideas for your workflow!\n\n🔗 LoRA Link: https://civitai.com/models/2329296?modelVersionId=2620218",
+      "link": "https://nitter.net/drawthingsapp/status/2028512129989628233#m",
+      "description": "✨ While LoRAs aren't always a must, The Quality Slider LoRA (0.5 - BETA) gives you much finer control over your results.\n\n📸 Check out these comparisons: the same prompt with different LoRA weights. I believe these results will speak for themselves and spark some new ideas for your workflow!\n\n🔗 LoRA Link: civitai.com/models/2329296?m…",
+      "pubDate": "Mon, 02 Mar 2026 16:45:54 GMT",
+      "date": "Mon, 02 Mar 2026 16:45:54 GMT"
+    },
+    {
       "title": "Pinned: 📹Guess what’s coming next? Stay tuned!",
       "link": "https://nitter.net/drawthingsapp/status/2027918295454912912#m",
       "description": "📹Guess what’s coming next? Stay tuned!\n\nVideo",
       "pubDate": "Sun, 01 Mar 2026 01:26:13 GMT",
       "date": "Sun, 01 Mar 2026 01:26:13 GMT"
-    },
-    {
-      "title": "R to @drawthingsapp: 👨‍🎨 This LoRA is from @fal, Given a person image and clothing reference images, generates a realistic result of the person wearing the specified outfit.\n\n🔗 LoRA link: https://huggingface.co/fal/flux-klein-9b-virtual-tryon-lora",
-      "link": "https://nitter.net/drawthingsapp/status/2027735550959259995#m",
-      "description": "👨‍🎨 This LoRA is from @fal, Given a person image and clothing reference images, generates a realistic result of the person wearing the specified outfit.\n\n🔗 LoRA link: huggingface.co/fal/flux-klei…",
-      "pubDate": "Sat, 28 Feb 2026 13:20:03 GMT",
-      "date": "Sat, 28 Feb 2026 13:20:03 GMT"
-    },
-    {
-      "title": "👕 Using Flux.2 Klein 9B for Virtual Try-On in Draw Things.\n\n📊 Below is a comparison test in DT showing results with and without LoRA.\n\n✨ The results with LoRA are slightly better, though it adds a subtle yellowish tone to the image.\n\n🖱️ The process involves placing the original image on the canvas, then dragging the top and pants onto the Moodboard in sequence.\n\n💬 You can find information about this LoRA in the comments section.",
-      "link": "https://nitter.net/drawthingsapp/status/2027735406671008055#m",
-      "description": "👕 Using Flux.2 Klein 9B for Virtual Try-On in Draw Things.\n\n📊 Below is a comparison test in DT showing results with and without LoRA.\n\n✨ The results with LoRA are slightly better, though it adds a subtle yellowish tone to the image.\n\n🖱️ The process involves placing the original image on the canvas, then dragging the top and pants onto the Moodboard in sequence.\n\n💬 You can find information about this LoRA in the comments section.",
-      "pubDate": "Sat, 28 Feb 2026 13:19:29 GMT",
-      "date": "Sat, 28 Feb 2026 13:19:29 GMT"
     }
   ],
-  "lastUpdated": "2026-03-02T12:34:22.675470"
+  "lastUpdated": "2026-03-02T18:32:43.540109"
 }
