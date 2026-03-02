@@ -14,19 +14,19 @@
       "date": "Sun, 01 Mar 2026 01:26:13 GMT"
     },
     {
-      "title": "👕 Using Flux.2 Klein 9B for Virtual Try-On in Draw Things.\n\n📊 Below is a comparison test in DT showing results with and without LoRA.\n\n✨ The results with LoRA are slightly better, though it adds a subtle yellowish tone to the image.\n\n🖱️ The process involves placing the original image on the canvas, then dragging the top and pants onto the Moodboard in sequence.\n\n💬 You can find information about this LoRA in the comments section.",
-      "link": "https://nitter.net/drawthingsapp/status/2027735406671008055#m",
-      "description": "👕 Using Flux.2 Klein 9B for Virtual Try-On in Draw Things.\n\n📊 Below is a comparison test in DT showing results with and without LoRA.\n\n✨ The results with LoRA are slightly better, though it adds a subtle yellowish tone to the image.\n\n🖱️ The process involves placing the original image on the canvas, then dragging the top and pants onto the Moodboard in sequence.\n\n💬 You can find information about this LoRA in the comments section.",
-      "pubDate": "Sat, 28 Feb 2026 13:19:29 GMT",
-      "date": "Sat, 28 Feb 2026 13:19:29 GMT"
-    },
-    {
       "title": "R to @drawthingsapp: 👨‍🎨 This LoRA is from @fal, Given a person image and clothing reference images, generates a realistic result of the person wearing the specified outfit.\n\n🔗 LoRA link: https://huggingface.co/fal/flux-klein-9b-virtual-tryon-lora",
       "link": "https://nitter.net/drawthingsapp/status/2027735550959259995#m",
       "description": "👨‍🎨 This LoRA is from @fal, Given a person image and clothing reference images, generates a realistic result of the person wearing the specified outfit.\n\n🔗 LoRA link: huggingface.co/fal/flux-klei…",
       "pubDate": "Sat, 28 Feb 2026 13:20:03 GMT",
       "date": "Sat, 28 Feb 2026 13:20:03 GMT"
+    },
+    {
+      "title": "👕 Using Flux.2 Klein 9B for Virtual Try-On in Draw Things.\n\n📊 Below is a comparison test in DT showing results with and without LoRA.\n\n✨ The results with LoRA are slightly better, though it adds a subtle yellowish tone to the image.\n\n🖱️ The process involves placing the original image on the canvas, then dragging the top and pants onto the Moodboard in sequence.\n\n💬 You can find information about this LoRA in the comments section.",
+      "link": "https://nitter.net/drawthingsapp/status/2027735406671008055#m",
+      "description": "👕 Using Flux.2 Klein 9B for Virtual Try-On in Draw Things.\n\n📊 Below is a comparison test in DT showing results with and without LoRA.\n\n✨ The results with LoRA are slightly better, though it adds a subtle yellowish tone to the image.\n\n🖱️ The process involves placing the original image on the canvas, then dragging the top and pants onto the Moodboard in sequence.\n\n💬 You can find information about this LoRA in the comments section.",
+      "pubDate": "Sat, 28 Feb 2026 13:19:29 GMT",
+      "date": "Sat, 28 Feb 2026 13:19:29 GMT"
     }
   ],
-  "lastUpdated": "2026-03-02T06:43:23.054554"
+  "lastUpdated": "2026-03-02T12:34:22.675470"
 }
