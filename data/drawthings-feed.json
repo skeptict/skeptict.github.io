@@ -7,6 +7,13 @@
   },
   "items": [
     {
+      "title": "Pinned: 📹 It's FINALLY HERE！\n\n🔄 Draw Things v1.20260228.0 was released in iOS / macOS AppStore Just Now. This version brings:\n\n🔹LTX-2 model that supports video generation with audio;\n🔹Fix FLUX.2 issue related to loading LoRAs without merging.\n🔹Fix FLUX.2 crash with Tiled Diffusion.\n🔹Support High-Quality Preview for Wan 2.x models, SD v1.5, SDXL and SD3 models.\n🔹Disable High-Quality Preview for Intel Macs.\n\ngRPCServerCLI was updated to 1.20260303.0 with the same features.\n\n👊 Looking forward to seeing your exploration and discoveries with LTX-2 in DT.",
+      "link": "https://nitter.net/drawthingsapp/status/2028999832636145724#m",
+      "description": "📹 It's FINALLY HERE！\n\n🔄 Draw Things v1.20260228.0 was released in iOS / macOS AppStore Just Now. This version brings:\n\n🔹LTX-2 model that supports video generation with audio;\n🔹Fix FLUX.2 issue related to loading LoRAs without merging.\n🔹Fix FLUX.2 crash with Tiled Diffusion.\n🔹Support High-Quality Preview for Wan 2.x models, SD v1.5, SDXL and SD3 models.\n🔹Disable High-Quality Preview for Intel Macs.\n\ngRPCServerCLI was updated to 1.20260303.0 with the same features.\n\n👊 Looking forward to seeing your exploration and discoveries with LTX-2 in DT.",
+      "pubDate": "Wed, 04 Mar 2026 01:03:51 GMT",
+      "date": "Wed, 04 Mar 2026 01:03:51 GMT"
+    },
+    {
       "title": "Go preorder your M5 Max now. We have something special for you beyond what Apple announced here. ⚡️",
       "link": "https://nitter.net/drawthingsapp/status/2028889245574938689#m",
       "description": "Go preorder your M5 Max now. We have something special for you beyond what Apple announced here. ⚡️",
@@ -19,14 +26,7 @@
       "description": "✨ While LoRAs aren't always a must, The Quality Slider LoRA (0.5 - BETA) gives you much finer control over your results.\n\n📸 Check out these comparisons: the same prompt with different LoRA weights. I believe these results will speak for themselves and spark some new ideas for your workflow!\n\n🔗 LoRA Link: civitai.com/models/2329296?m…",
       "pubDate": "Mon, 02 Mar 2026 16:45:54 GMT",
       "date": "Mon, 02 Mar 2026 16:45:54 GMT"
-    },
-    {
-      "title": "📈 Level Up Your Image Quality in Draw Things!\n\n🌟 Stop settling for average results. Use this power-prompt to enhance the overall quality.\n\n⚙️ Make this prompt work wonders using Flux.2 Klein 9B!\n\n💡 Pro Tip: For even more precision, check out the recommended LoRA in the comments.\n\n🖼️ See the side-by-side difference below!",
-      "link": "https://nitter.net/drawthingsapp/status/2028508270147842103#m",
-      "description": "📈 Level Up Your Image Quality in Draw Things!\n\n🌟 Stop settling for average results. Use this power-prompt to enhance the overall quality.\n\n⚙️ Make this prompt work wonders using Flux.2 Klein 9B!\n\n💡 Pro Tip: For even more precision, check out the recommended LoRA in the comments.\n\n🖼️ See the side-by-side difference below!",
-      "pubDate": "Mon, 02 Mar 2026 16:30:34 GMT",
-      "date": "Mon, 02 Mar 2026 16:30:34 GMT"
     }
   ],
-  "lastUpdated": "2026-03-03T18:34:29.984276"
+  "lastUpdated": "2026-03-04T01:08:34.536559"
 }
