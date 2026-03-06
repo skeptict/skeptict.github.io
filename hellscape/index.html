@@ -1,0 +1,144 @@
+---
+layout: default
+title: Hellscape Tracker
+---
+
+<style>
+  .hellscape-intro {
+    margin-bottom: 3rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #000;
+    max-width: 640px;
+  }
+  .hellscape-intro p {
+    font-size: 0.95rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+  .last-updated {
+    font-size: 0.75rem;
+    color: #999;
+    margin-top: 0.75rem;
+  }
+
+  .pillar {
+    padding: 2.5rem 0;
+    border-bottom: 1px solid #eee;
+  }
+  .pillar:last-of-type {
+    border-bottom: none;
+  }
+  .pillar-header {
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  .pillar-header h2 {
+    margin-bottom: 0;
+  }
+  .trend {
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+  .trend-up    { color: #c0392b; }
+  .trend-down  { color: #27ae60; }
+  .trend-stable { color: #aaa; }
+
+  .metrics {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 2rem;
+  }
+  .metric-value {
+    display: block;
+    font-size: 1.75rem;
+    font-weight: 300;
+    letter-spacing: -0.02em;
+    color: #000;
+    margin-bottom: 0.2rem;
+  }
+  .metric-label {
+    display: block;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #000;
+    margin-bottom: 0.2rem;
+  }
+  .metric-note {
+    display: block;
+    font-size: 0.72rem;
+    color: #aaa;
+  }
+
+  .counter-hell {
+    margin-top: 3rem;
+    padding-top: 2.5rem;
+    border-top: 1px solid #000;
+  }
+  .counter-hell h2 {
+    margin-bottom: 1.25rem;
+  }
+  .counter-hell li {
+    font-size: 0.9rem;
+    color: #555;
+    padding-left: 1rem;
+    border-left: 2px solid #eee;
+    margin-bottom: 0.75rem;
+  }
+  .methodology {
+    margin-top: 2.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #eee;
+    font-size: 0.75rem;
+    color: #aaa;
+    max-width: 640px;
+  }
+</style>
+
+<div class="hellscape-intro">
+  <p>A manually curated tracker of global systemic risk across five pillars. Not optimized for engagement — optimized for honesty.</p>
+  <p>Numbers are approximate. Trends reflect multi-year direction, not week-to-week noise.</p>
+  <p class="last-updated">Last updated: {{ site.data.hellscape.last_updated }}</p>
+</div>
+
+{% for pillar in site.data.hellscape.pillars %}
+<div class="pillar">
+  <div class="pillar-header">
+    <h2>{{ pillar.name }}</h2>
+    {% if pillar.trend == "up" %}
+      <span class="trend trend-up">▲ Worsening</span>
+    {% elsif pillar.trend == "down" %}
+      <span class="trend trend-down">▼ Improving</span>
+    {% else %}
+      <span class="trend trend-stable">→ Holding</span>
+    {% endif %}
+  </div>
+  <div class="metrics">
+    {% for metric in pillar.metrics %}
+    <div class="metric">
+      <span class="metric-value">{{ metric.value }}</span>
+      <span class="metric-label">{{ metric.label }}</span>
+      <span class="metric-note">{{ metric.note }}</span>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+{% endfor %}
+
+<div class="counter-hell">
+  <h2>{{ site.data.hellscape.counter_hell.label }}</h2>
+  <ul>
+    {% for item in site.data.hellscape.counter_hell.items %}
+    <li>{{ item }}</li>
+    {% endfor %}
+  </ul>
+</div>
+
+<div class="methodology">
+  Data drawn from UCDP, UNHCR, FSIN, IRC, EM-DAT, Munich Re, Access Now, ACAPS, Powell &amp; Thyne, CyberPeace Institute, and the Bulletin of Atomic Scientists. All figures are approximate. This page is updated manually — see <a href="https://github.com/skeptict/skeptict.github.io">the repository</a> for history.
+</div>
