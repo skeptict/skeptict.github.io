@@ -5,98 +5,130 @@ title: Hellscape Tracker
 
 <style>
   .hellscape-intro {
-    margin-bottom: 3rem;
-    padding-bottom: 1.5rem;
+    margin-bottom: 2.5rem;
+    padding-bottom: 1.25rem;
     border-bottom: 1px solid #000;
-    max-width: 640px;
+    max-width: 600px;
   }
   .hellscape-intro p {
-    font-size: 0.95rem;
-    color: #333;
-    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+    color: #444;
+    margin-bottom: 0.4rem;
   }
   .last-updated {
-    font-size: 0.75rem;
-    color: #999;
-    margin-top: 0.75rem;
+    font-size: 0.72rem;
+    color: #bbb;
+    margin-top: 0.6rem;
   }
 
   .pillar {
-    padding: 2.5rem 0;
+    padding: 2rem 0;
     border-bottom: 1px solid #eee;
   }
-  .pillar:last-of-type {
-    border-bottom: none;
-  }
+  .pillar:last-of-type { border-bottom: none; }
+
   .pillar-header {
     display: flex;
     align-items: baseline;
-    gap: 1rem;
-    margin-bottom: 1.5rem;
+    gap: 0.75rem;
+    margin-bottom: 1.25rem;
   }
-  .pillar-header h2 {
-    margin-bottom: 0;
-  }
+  .pillar-header h2 { margin-bottom: 0; }
+
   .trend {
-    font-size: 0.7rem;
+    font-size: 0.68rem;
     font-weight: 700;
     letter-spacing: 0.1em;
     text-transform: uppercase;
   }
-  .trend-up    { color: #c0392b; }
-  .trend-down  { color: #27ae60; }
-  .trend-stable { color: #aaa; }
+  .trend-up     { color: #c0392b; }
+  .trend-down   { color: #27ae60; }
+  .trend-stable { color: #bbb; }
 
-  .metrics {
+  .metric {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    gap: 2rem;
+    grid-template-columns: 130px 1fr;
+    gap: 0 2rem;
+    padding: 1rem 0;
+    border-bottom: 1px solid #f5f5f5;
   }
+  .metric:last-child { border-bottom: none; }
+
   .metric-value {
-    display: block;
     font-size: 1.75rem;
     font-weight: 300;
     letter-spacing: -0.02em;
+    line-height: 1.1;
     color: #000;
-    margin-bottom: 0.2rem;
+    padding-top: 0.1rem;
   }
+
   .metric-label {
     display: block;
-    font-size: 0.75rem;
+    font-size: 0.72rem;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.08em;
-    color: #000;
     margin-bottom: 0.2rem;
   }
-  .metric-note {
+  .metric-source {
     display: block;
-    font-size: 0.72rem;
-    color: #aaa;
+    font-size: 0.7rem;
+    color: #bbb;
+    margin-bottom: 0.6rem;
+  }
+  .metric-source a {
+    color: #bbb;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  .metric-source a:hover { color: #666; }
+
+  .metric-articles {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .metric-articles li {
+    font-size: 0.78rem;
+    margin-bottom: 0.3rem;
+    line-height: 1.4;
+  }
+  .metric-articles li a {
+    color: #333;
+    border-bottom: 1px solid #ddd;
+  }
+  .metric-articles li a:hover { color: #000; }
+  .article-pub {
+    color: #bbb;
+    font-size: 0.7rem;
   }
 
   .counter-hell {
-    margin-top: 3rem;
-    padding-top: 2.5rem;
+    margin-top: 2.5rem;
+    padding-top: 2rem;
     border-top: 1px solid #000;
   }
-  .counter-hell h2 {
-    margin-bottom: 1.25rem;
-  }
+  .counter-hell h2 { margin-bottom: 1rem; }
   .counter-hell li {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     color: #555;
-    padding-left: 1rem;
+    padding-left: 0.75rem;
     border-left: 2px solid #eee;
-    margin-bottom: 0.75rem;
+    margin-bottom: 0.6rem;
   }
+
   .methodology {
-    margin-top: 2.5rem;
-    padding-top: 1.5rem;
+    margin-top: 2rem;
+    padding-top: 1.25rem;
     border-top: 1px solid #eee;
-    font-size: 0.75rem;
-    color: #aaa;
-    max-width: 640px;
+    font-size: 0.7rem;
+    color: #bbb;
+    max-width: 600px;
+  }
+
+  @media (max-width: 600px) {
+    .metric { grid-template-columns: 1fr; }
+    .metric-value { font-size: 1.5rem; margin-bottom: 0.5rem; }
   }
 </style>
 
@@ -118,15 +150,32 @@ title: Hellscape Tracker
       <span class="trend trend-stable">→ Holding</span>
     {% endif %}
   </div>
-  <div class="metrics">
-    {% for metric in pillar.metrics %}
-    <div class="metric">
-      <span class="metric-value">{{ metric.value }}</span>
+
+  {% for metric in pillar.metrics %}
+  <div class="metric">
+    <div class="metric-value">{{ metric.value }}</div>
+    <div>
       <span class="metric-label">{{ metric.label }}</span>
-      <span class="metric-note">{{ metric.note }}</span>
+      <span class="metric-source">
+        {% if metric.source_url %}
+          <a href="{{ metric.source_url }}" target="_blank">{{ metric.note }} ↗</a>
+        {% else %}
+          {{ metric.note }}
+        {% endif %}
+      </span>
+      {% if metric.articles %}
+      <ul class="metric-articles">
+        {% for article in metric.articles %}
+        <li>
+          <a href="{{ article.url }}" target="_blank">{{ article.title }}</a>
+          <span class="article-pub">— {{ article.publication }}</span>
+        </li>
+        {% endfor %}
+      </ul>
+      {% endif %}
     </div>
-    {% endfor %}
   </div>
+  {% endfor %}
 </div>
 {% endfor %}
 
@@ -140,5 +189,5 @@ title: Hellscape Tracker
 </div>
 
 <div class="methodology">
-  Data drawn from UCDP, UNHCR, FSIN, IRC, EM-DAT, Munich Re, Access Now, ACAPS, Powell &amp; Thyne, CyberPeace Institute, and the Bulletin of Atomic Scientists. All figures are approximate. This page is updated manually — see <a href="https://github.com/skeptict/skeptict.github.io">the repository</a> for history.
+  Data drawn from UCDP, UNHCR, FSIN, IRC, EM-DAT, Munich Re, Access Now, ACAPS, Powell &amp; Thyne, CyberPeace Institute, and the Bulletin of Atomic Scientists. All figures approximate. Updated manually — see <a href="https://github.com/skeptict/skeptict.github.io">the repository</a> for change history.
 </div>
