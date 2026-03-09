@@ -1,271 +1,254 @@
-last_updated: "2026-03-06"
-
+last_updated: '2026-03-09'
 pillars:
-  - name: Conflict & Violence
-    id: conflict
-    trend: up
-    metrics:
-      - label: Active armed conflicts
-        value: "59"
-        note: "UCDP, 2024"
-        source_url: "https://ucdp.uu.se/"
-        search_query: "armed conflict wars active 2024 2025"
-        articles:
-          - title: "UCDP reports record number of active conflicts in 2023"
-            url: "https://ucdp.uu.se/encyclopedia"
-            publication: "UCDP"
-          - title: "The world is experiencing more armed conflicts than at any point since World War II"
-            url: "https://foreignpolicy.com/2024/02/15/armed-conflicts-record-wars-world/"
-            publication: "Foreign Policy"
-          - title: "Global Peace Index 2024"
-            url: "https://www.visionofhumanity.org/maps/#/"
-            publication: "Institute for Economics and Peace"
-
-      - label: Conflict deaths (2024)
-        value: "~220,000"
-        note: "UCDP estimate"
-        source_url: "https://ucdp.uu.se/"
-        search_query: "conflict deaths battle casualties war 2024"
-        articles:
-          - title: "War deaths in 2024 mark a grim milestone"
-            url: "https://www.economist.com/international/2024/12/21/war-is-becoming-deadlier"
-            publication: "The Economist"
-          - title: "Tracking conflict deaths worldwide"
-            url: "https://acleddata.com/knowledge-base/armed-conflict-location-event-data/"
-            publication: "ACLED"
-          - title: "The wars killing the most people right now"
-            url: "https://foreignpolicy.com"
-            publication: "Foreign Policy"
-
-      - label: People newly displaced by conflict
-        value: "68.3M"
-        note: "UNHCR, 2024"
-        source_url: "https://www.unhcr.org/global-trends"
-        search_query: "refugees displaced people conflict 2024 UNHCR"
-        articles:
-          - title: "Global Trends: Forced Displacement in 2023"
-            url: "https://www.unhcr.org/global-trends"
-            publication: "UNHCR"
-          - title: "Record 120 million people displaced worldwide"
-            url: "https://www.bbc.com/news/world-68966038"
-            publication: "BBC News"
-          - title: "Displacement by the numbers"
-            url: "https://www.internal-displacement.org/global-report/grid2024/"
-            publication: "IDMC"
-
-  - name: Humanitarian Crisis
-    id: humanitarian
-    trend: up
-    metrics:
-      - label: Forcibly displaced people
-        value: "120M+"
-        note: "UNHCR, mid-2024"
-        source_url: "https://www.unhcr.org/global-trends"
-        search_query: "forcibly displaced refugees asylum seekers record 2024"
-        articles:
-          - title: "Global Trends: Forced Displacement report"
-            url: "https://www.unhcr.org/global-trends"
-            publication: "UNHCR"
-          - title: "More people displaced than ever before"
-            url: "https://www.theguardian.com/global-development/2024/jun/13/record-120-million-displaced-worldwide-unhcr"
-            publication: "The Guardian"
-          - title: "IDMC Global Report on Internal Displacement 2024"
-            url: "https://www.internal-displacement.org/global-report/grid2024/"
-            publication: "IDMC"
-
-      - label: People in acute food crisis
-        value: "282M"
-        note: "FSIN, 2024"
-        source_url: "https://www.fsinplatform.org/grfc2024"
-        search_query: "food crisis hunger acute famine 2024 2025"
-        articles:
-          - title: "Global Report on Food Crises 2024"
-            url: "https://www.fsinplatform.org/grfc2024"
-            publication: "FSIN"
-          - title: "Hunger is rising in some of the world's most fragile states"
-            url: "https://www.economist.com"
-            publication: "The Economist"
-          - title: "WFP: State of food security 2024"
-            url: "https://www.wfp.org/publications/sofi-2024"
-            publication: "WFP / FAO"
-
-      - label: Countries at high risk of deterioration
-        value: "23"
-        note: "IRC Emergency Watchlist 2026"
-        source_url: "https://www.rescue.org/article/5-urgent-problems-world-faces-2026"
-        search_query: "humanitarian crisis deterioration emergency watchlist 2025 2026"
-        articles:
-          - title: "IRC Emergency Watchlist 2026"
-            url: "https://www.rescue.org/article/5-urgent-problems-world-faces-2026"
-            publication: "International Rescue Committee"
-          - title: "ACAPS: countries at risk of humanitarian deterioration"
-            url: "https://www.acaps.org/en/countries"
-            publication: "ACAPS"
-          - title: "The crises the world is ignoring in 2025"
-            url: "https://www.theatlantic.com"
-            publication: "The Atlantic"
-
-  - name: Climate & Environment
-    id: climate
-    trend: up
-    metrics:
-      - label: Temperature anomaly
-        value: "+1.54°C"
-        note: "above pre-industrial baseline, 2024"
-        source_url: "https://climate.nasa.gov/vital-signs/global-temperature/"
-        search_query: "global temperature record 1.5 degrees climate 2024 2025"
-        articles:
-          - title: "2024 was the hottest year on record — and the first above 1.5°C"
-            url: "https://climate.nasa.gov/news/3301/2024-was-the-warmest-year-on-record/"
-            publication: "NASA"
-          - title: "Copernicus: 2024 global temperature summary"
-            url: "https://climate.copernicus.eu/copernicus-2024-was-first-year-exceed-15degc-above-pre-industrial-level"
-            publication: "Copernicus Climate Change Service"
-          - title: "The year the 1.5°C limit was crossed"
-            url: "https://www.theguardian.com/environment/2025/jan/08/2024-confirmed-as-first-year-above-1-5-celsius"
-            publication: "The Guardian"
-
-      - label: Major disaster events (2024)
-        value: "~400"
-        note: "EM-DAT"
-        source_url: "https://www.emdat.be/"
-        search_query: "natural disasters floods fires earthquakes 2024 deaths"
-        articles:
-          - title: "EM-DAT: The International Disaster Database"
-            url: "https://www.emdat.be/"
-            publication: "CRED / EM-DAT"
-          - title: "Natural disasters in 2024: floods, fires, and heat"
-            url: "https://www.reuters.com"
-            publication: "Reuters"
-          - title: "Munich Re: Billions in losses from natural disasters 2024"
-            url: "https://www.munichre.com/en/risks/natural-disasters.html"
-            publication: "Munich Re"
-
-      - label: Economic losses from disasters (2024)
-        value: "$320B+"
-        note: "Munich Re estimate"
-        source_url: "https://www.munichre.com/en/risks/natural-disasters.html"
-        search_query: "economic losses natural disasters billion 2024 insurance"
-        articles:
-          - title: "Munich Re: Record disaster losses in 2024"
-            url: "https://www.munichre.com/en/risks/natural-disasters.html"
-            publication: "Munich Re"
-          - title: "Swiss Re: sigma natural catastrophe report 2024"
-            url: "https://www.swissre.com/institute/research/sigma-research.html"
-            publication: "Swiss Re"
-          - title: "Climate change is making disasters more expensive"
-            url: "https://www.economist.com"
-            publication: "The Economist"
-
-  - name: Governance & Instability
-    id: governance
-    trend: up
-    metrics:
-      - label: Coups or coup attempts (2024)
-        value: "4"
-        note: "Powell & Thyne dataset"
-        source_url: "https://www.jonathanmpowell.com/coup-detat-dataset.html"
-        search_query: "coup military takeover government overthrow 2024 2025"
-        articles:
-          - title: "Coup d'état dataset — Powell & Thyne"
-            url: "https://www.jonathanmpowell.com/coup-detat-dataset.html"
-            publication: "Powell & Thyne"
-          - title: "The coup belt: Africa's wave of military takeovers"
-            url: "https://foreignpolicy.com"
-            publication: "Foreign Policy"
-          - title: "Why coup attempts keep happening"
-            url: "https://www.economist.com"
-            publication: "The Economist"
-
-      - label: Internet shutdowns (2024)
-        value: "283"
-        note: "Access Now"
-        source_url: "https://www.accessnow.org/keepiton/"
-        search_query: "internet shutdown blackout government censorship 2024 2025"
-        articles:
-          - title: "#KeepItOn: Internet shutdowns report 2024"
-            url: "https://www.accessnow.org/keepiton/"
-            publication: "Access Now"
-          - title: "How governments use internet shutdowns during crises"
-            url: "https://www.theguardian.com"
-            publication: "The Guardian"
-          - title: "Netblocks: Observatory of internet disruptions"
-            url: "https://netblocks.org/"
-            publication: "NetBlocks"
-
-      - label: Countries under emergency law
-        value: "~60"
-        note: "ACAPS"
-        source_url: "https://www.acaps.org/"
-        search_query: "state of emergency martial law democratic backsliding 2024 2025"
-        articles:
-          - title: "ACAPS: Countries in crisis"
-            url: "https://www.acaps.org/en/countries"
-            publication: "ACAPS"
-          - title: "Emergency powers and democratic backsliding"
-            url: "https://www.theatlantic.com"
-            publication: "The Atlantic"
-          - title: "V-Dem: Democracy report 2025"
-            url: "https://v-dem.net/publications/democracy-reports/"
-            publication: "V-Dem Institute"
-
-  - name: Catastrophic Risk
-    id: catastrophic
-    trend: stable
-    metrics:
-      - label: Doomsday Clock
-        value: "89 sec"
-        note: "to midnight — Bulletin of Atomic Scientists, 2025"
-        source_url: "https://thebulletin.org/doomsday-clock/"
-        search_query: "doomsday clock nuclear risk midnight 2025"
-        articles:
-          - title: "It is 89 seconds to midnight: 2025 Doomsday Clock statement"
-            url: "https://thebulletin.org/doomsday-clock/current-time/"
-            publication: "Bulletin of Atomic Scientists"
-          - title: "Why the Doomsday Clock moved closer to midnight"
-            url: "https://www.theguardian.com/science/2025/jan/28/doomsday-clock-89-seconds-midnight-nuclear-risk"
-            publication: "The Guardian"
-          - title: "The world's nuclear arsenals are growing again"
-            url: "https://www.sipri.org/yearbook/2024/13"
-            publication: "SIPRI"
-
-      - label: Nuclear states on heightened alert
-        value: "3"
-        note: "US, Russia, China"
-        source_url: "https://www.sipri.org/"
-        search_query: "nuclear weapons alert posture Russia China United States 2025"
-        articles:
-          - title: "SIPRI Yearbook 2024: World nuclear forces"
-            url: "https://www.sipri.org/yearbook/2024/13"
-            publication: "SIPRI"
-          - title: "China is expanding its nuclear arsenal faster than any other country"
-            url: "https://www.economist.com"
-            publication: "The Economist"
-          - title: "Russia's nuclear posture since the Ukraine invasion"
-            url: "https://foreignpolicy.com"
-            publication: "Foreign Policy"
-
-      - label: Confirmed critical infrastructure attacks (2024)
-        value: "~420"
-        note: "CyberPeace Institute"
-        source_url: "https://cyberpeaceinstitute.org/"
-        search_query: "cyberattack critical infrastructure power grid hospital 2024 2025"
-        articles:
-          - title: "CyberPeace Institute: Cyber attack tracker"
-            url: "https://cyberpeaceinstitute.org/cyberattacks-on-critical-infrastructure/"
-            publication: "CyberPeace Institute"
-          - title: "Microsoft Digital Defense Report 2024"
-            url: "https://www.microsoft.com/en-us/security/security-insider/microsoft-digital-defense-report-2024"
-            publication: "Microsoft"
-          - title: "Critical infrastructure attacks are becoming more common and more damaging"
-            url: "https://www.wired.com"
-            publication: "Wired"
-
+- name: Conflict & Violence
+  id: conflict
+  trend: up
+  metrics:
+  - label: Active armed conflicts
+    value: '59'
+    note: UCDP, 2024
+    source_url: https://ucdp.uu.se/
+    search_query: armed conflict wars active 2024 2025
+    articles:
+    - title: Who Controls Diego Garcia ?
+      url: https://www.mauritiustimes.com/mt/who-controls-diego-garcia/
+      publication: mauritiustimes.com
+    - title: How to Invest Steadily During Geopolitical Market Volatility
+      url: https://www.forbes.com/sites/petercohan/2026/03/06/feeling-anxious-about-the-markets-how-to-invest-responsibly-during-global-uncertainty/
+      publication: forbes.com
+    - title: How close are we to a world war ?
+      url: https://www.bursa.ro/how-close-are-we-to-a-world-war-40775852
+      publication: bursa.ro
+  - label: Conflict deaths (2024)
+    value: ~220,000
+    note: UCDP estimate
+    source_url: https://ucdp.uu.se/
+    search_query: conflict deaths battle casualties war 2024
+    articles:
+    - title: War deaths in 2024 mark a grim milestone
+      url: https://www.economist.com/international/2024/12/21/war-is-becoming-deadlier
+      publication: The Economist
+    - title: Tracking conflict deaths worldwide
+      url: https://acleddata.com/knowledge-base/armed-conflict-location-event-data/
+      publication: ACLED
+    - title: The wars killing the most people right now
+      url: https://foreignpolicy.com
+      publication: Foreign Policy
+  - label: People newly displaced by conflict
+    value: 68.3M
+    note: UNHCR, 2024
+    source_url: https://www.unhcr.org/global-trends
+    search_query: refugees displaced people conflict 2024 UNHCR
+    articles:
+    - title: 'Global Trends: Forced Displacement in 2023'
+      url: https://www.unhcr.org/global-trends
+      publication: UNHCR
+    - title: Record 120 million people displaced worldwide
+      url: https://www.bbc.com/news/world-68966038
+      publication: BBC News
+    - title: Displacement by the numbers
+      url: https://www.internal-displacement.org/global-report/grid2024/
+      publication: IDMC
+- name: Humanitarian Crisis
+  id: humanitarian
+  trend: up
+  metrics:
+  - label: Forcibly displaced people
+    value: 120M+
+    note: UNHCR, mid-2024
+    source_url: https://www.unhcr.org/global-trends
+    search_query: forcibly displaced refugees asylum seekers record 2024
+    articles:
+    - title: 'Global Trends: Forced Displacement report'
+      url: https://www.unhcr.org/global-trends
+      publication: UNHCR
+    - title: More people displaced than ever before
+      url: https://www.theguardian.com/global-development/2024/jun/13/record-120-million-displaced-worldwide-unhcr
+      publication: The Guardian
+    - title: IDMC Global Report on Internal Displacement 2024
+      url: https://www.internal-displacement.org/global-report/grid2024/
+      publication: IDMC
+  - label: People in acute food crisis
+    value: 282M
+    note: FSIN, 2024
+    source_url: https://www.fsinplatform.org/grfc2024
+    search_query: food crisis hunger acute famine 2024 2025
+    articles:
+    - title: Global Report on Food Crises 2024
+      url: https://www.fsinplatform.org/grfc2024
+      publication: FSIN
+    - title: Hunger is rising in some of the world's most fragile states
+      url: https://www.economist.com
+      publication: The Economist
+    - title: 'WFP: State of food security 2024'
+      url: https://www.wfp.org/publications/sofi-2024
+      publication: WFP / FAO
+  - label: Countries at high risk of deterioration
+    value: '23'
+    note: IRC Emergency Watchlist 2026
+    source_url: https://www.rescue.org/article/5-urgent-problems-world-faces-2026
+    search_query: humanitarian crisis deterioration emergency watchlist 2025 2026
+    articles:
+    - title: IRC Emergency Watchlist 2026
+      url: https://www.rescue.org/article/5-urgent-problems-world-faces-2026
+      publication: International Rescue Committee
+    - title: 'ACAPS: countries at risk of humanitarian deterioration'
+      url: https://www.acaps.org/en/countries
+      publication: ACAPS
+    - title: The crises the world is ignoring in 2025
+      url: https://www.theatlantic.com
+      publication: The Atlantic
+- name: Climate & Environment
+  id: climate
+  trend: up
+  metrics:
+  - label: Temperature anomaly
+    value: +1.54°C
+    note: above pre-industrial baseline, 2024
+    source_url: https://climate.nasa.gov/vital-signs/global-temperature/
+    search_query: global temperature record 1.5 degrees climate 2024 2025
+    articles:
+    - title: 2024 was the hottest year on record — and the first above 1.5°C
+      url: https://climate.nasa.gov/news/3301/2024-was-the-warmest-year-on-record/
+      publication: NASA
+    - title: 'Copernicus: 2024 global temperature summary'
+      url: https://climate.copernicus.eu/copernicus-2024-was-first-year-exceed-15degc-above-pre-industrial-level
+      publication: Copernicus Climate Change Service
+    - title: The year the 1.5°C limit was crossed
+      url: https://www.theguardian.com/environment/2025/jan/08/2024-confirmed-as-first-year-above-1-5-celsius
+      publication: The Guardian
+  - label: Major disaster events (2024)
+    value: ~400
+    note: EM-DAT
+    source_url: https://www.emdat.be/
+    search_query: natural disasters floods fires earthquakes 2024 deaths
+    articles:
+    - title: When disasters strike , preparation saves lives is India ready when crisis
+        hits ? |
+      url: https://timesofindia.indiatimes.com/india/when-disasters-strike-preparation-saves-lives-is-india-ready-when-crisis-hits/articleshow/126462666.cms
+      publication: timesofindia.indiatimes.com
+    - title: 200 fulfilled prophecies of Primate Ayodele in 2025
+      url: https://theeagleonline.com.ng/200-fulfilled-prophecies-of-primate-ayodele-in-2025/
+      publication: theeagleonline.com.ng
+  - label: Economic losses from disasters (2024)
+    value: $320B+
+    note: Munich Re estimate
+    source_url: https://www.munichre.com/en/risks/natural-disasters.html
+    search_query: economic losses natural disasters billion 2024 insurance
+    articles:
+    - title: 'Munich Re: Record disaster losses in 2024'
+      url: https://www.munichre.com/en/risks/natural-disasters.html
+      publication: Munich Re
+    - title: 'Swiss Re: sigma natural catastrophe report 2024'
+      url: https://www.swissre.com/institute/research/sigma-research.html
+      publication: Swiss Re
+    - title: Climate change is making disasters more expensive
+      url: https://www.economist.com
+      publication: The Economist
+- name: Governance & Instability
+  id: governance
+  trend: up
+  metrics:
+  - label: Coups or coup attempts (2024)
+    value: '4'
+    note: Powell & Thyne dataset
+    source_url: https://www.jonathanmpowell.com/coup-detat-dataset.html
+    search_query: coup military takeover government overthrow 2024 2025
+    articles:
+    - title: 'Iran relationship with the United States : An estranged friend to an  arrogant  power'
+      url: https://www.thehindu.com/news/international/irans-relationship-with-the-united-states-an-estranged-friend-to-an-arrogant-power/article70702570.ece
+      publication: thehindu.com
+    - title: Politicking at the chemical weapons watchdog
+      url: https://peoplesdailyng.com/politicking-at-the-chemical-weapons-watchdog/
+      publication: peoplesdailyng.com
+    - title: 'SMOKER CORNER : THE PROBLEM WITH  TACTICAL ENTRYISM  - Newspaper'
+      url: https://www.dawn.com/news/1974759
+      publication: dawn.com
+  - label: Internet shutdowns (2024)
+    value: '283'
+    note: Access Now
+    source_url: https://www.accessnow.org/keepiton/
+    search_query: internet shutdown blackout government censorship 2024 2025
+    articles:
+    - title: '#KeepItOn: Internet shutdowns report 2024'
+      url: https://www.accessnow.org/keepiton/
+      publication: Access Now
+    - title: How governments use internet shutdowns during crises
+      url: https://www.theguardian.com
+      publication: The Guardian
+    - title: 'Netblocks: Observatory of internet disruptions'
+      url: https://netblocks.org/
+      publication: NetBlocks
+  - label: Countries under emergency law
+    value: ~60
+    note: ACAPS
+    source_url: https://www.acaps.org/
+    search_query: state of emergency martial law democratic backsliding 2024 2025
+    articles:
+    - title: 'ACAPS: Countries in crisis'
+      url: https://www.acaps.org/en/countries
+      publication: ACAPS
+    - title: Emergency powers and democratic backsliding
+      url: https://www.theatlantic.com
+      publication: The Atlantic
+    - title: 'V-Dem: Democracy report 2025'
+      url: https://v-dem.net/publications/democracy-reports/
+      publication: V-Dem Institute
+- name: Catastrophic Risk
+  id: catastrophic
+  trend: stable
+  metrics:
+  - label: Doomsday Clock
+    value: 89 sec
+    note: to midnight — Bulletin of Atomic Scientists, 2025
+    source_url: https://thebulletin.org/doomsday-clock/
+    search_query: doomsday clock nuclear risk midnight 2025
+    articles:
+    - title: 'It is 89 seconds to midnight: 2025 Doomsday Clock statement'
+      url: https://thebulletin.org/doomsday-clock/current-time/
+      publication: Bulletin of Atomic Scientists
+    - title: Why the Doomsday Clock moved closer to midnight
+      url: https://www.theguardian.com/science/2025/jan/28/doomsday-clock-89-seconds-midnight-nuclear-risk
+      publication: The Guardian
+    - title: The world's nuclear arsenals are growing again
+      url: https://www.sipri.org/yearbook/2024/13
+      publication: SIPRI
+  - label: Nuclear states on heightened alert
+    value: '3'
+    note: US, Russia, China
+    source_url: https://www.sipri.org/
+    search_query: nuclear weapons alert posture Russia China United States 2025
+    articles:
+    - title: 'Iran news : U . S . senator warns U . S . doesnt know what follows Khamenei
+        death'
+      url: https://www.cp24.com/news/world/2026/03/01/us-senator-warns-us-doesnt-know-what-follows-khameneis-death-live-updates-here/
+      publication: cp24.com
+    - title: Putin next move ? Five Russian attack scenarios Europe must prepare for
+      url: https://www.atlanticcouncil.org/in-depth-research-reports/report/putins-next-move-five-russian-attack-scenarios-europe-must-prepare-for/
+      publication: atlanticcouncil.org
+    - title: Why China has been restrained in its response
+      url: https://www.manilatimes.net/2026/01/14/opinion/columns/why-china-has-been-restrained-in-its-response/2258141
+      publication: manilatimes.net
+  - label: Confirmed critical infrastructure attacks (2024)
+    value: ~420
+    note: CyberPeace Institute
+    source_url: https://cyberpeaceinstitute.org/
+    search_query: cyberattack critical infrastructure power grid hospital 2024 2025
+    articles:
+    - title: 'CyberPeace Institute: Cyber attack tracker'
+      url: https://cyberpeaceinstitute.org/cyberattacks-on-critical-infrastructure/
+      publication: CyberPeace Institute
+    - title: Microsoft Digital Defense Report 2024
+      url: https://www.microsoft.com/en-us/security/security-insider/microsoft-digital-defense-report-2024
+      publication: Microsoft
+    - title: Critical infrastructure attacks are becoming more common and more damaging
+      url: https://www.wired.com
+      publication: Wired
 counter_hell:
-  label: "Meanwhile, not everything is getting worse"
+  label: Meanwhile, not everything is getting worse
   items:
-    - "Extreme poverty: ~8.5% of world population (down from 36% in 1990)"
-    - "Child mortality: 38 per 1,000 live births (down from 93 in 1990)"
-    - "Global literacy rate: ~87% (up from 66% in 1979)"
-    - "Deaths from infectious disease: declined ~50% since 2000"
-    - "Ozone layer recovery: on track to full recovery by 2066"
+  - 'Extreme poverty: ~8.5% of world population (down from 36% in 1990)'
+  - 'Child mortality: 38 per 1,000 live births (down from 93 in 1990)'
+  - 'Global literacy rate: ~87% (up from 66% in 1979)'
+  - 'Deaths from infectious disease: declined ~50% since 2000'
+  - 'Ozone layer recovery: on track to full recovery by 2066'
