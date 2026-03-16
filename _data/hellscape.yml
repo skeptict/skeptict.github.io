@@ -1,4 +1,4 @@
-last_updated: '2026-03-09'
+last_updated: '2026-03-16'
 pillars:
 - name: Conflict & Violence
   id: conflict
@@ -40,15 +40,16 @@ pillars:
     source_url: https://www.unhcr.org/global-trends
     search_query: refugees displaced people conflict 2024 UNHCR
     articles:
-    - title: 'Global Trends: Forced Displacement in 2023'
-      url: https://www.unhcr.org/global-trends
-      publication: UNHCR
-    - title: Record 120 million people displaced worldwide
-      url: https://www.bbc.com/news/world-68966038
-      publication: BBC News
-    - title: Displacement by the numbers
-      url: https://www.internal-displacement.org/global-report/grid2024/
-      publication: IDMC
+    - title: '15 Years Later : Syria Uprising , War and Aftermath | FRONTLINE | PBS
+        | Official Site'
+      url: https://www.pbs.org/wgbh/frontline/article/syrian-uprising-war-assad-fall-aftermath-15-years/
+      publication: pbs.org
+    - title: Afghan refugees and Iran poorest bear the brunt of war
+      url: https://www.dw.com/en/afghan-refugees-and-irans-poorest-bear-the-brunt-of-war/a-76333109
+      publication: dw.com
+    - title: EXCLUSIVE -- Afghan Christians Fleeing Taliban Face Deadly Threats
+      url: https://www.breitbart.com/politics/2026/03/09/exclusive-afghan-christians-fleeing-taliban-face-deadly-threats-in-neighboring-muslim-countries/
+      publication: breitbart.com
 - name: Humanitarian Crisis
   id: humanitarian
   trend: up
@@ -74,15 +75,17 @@ pillars:
     source_url: https://www.fsinplatform.org/grfc2024
     search_query: food crisis hunger acute famine 2024 2025
     articles:
-    - title: Global Report on Food Crises 2024
-      url: https://www.fsinplatform.org/grfc2024
-      publication: FSIN
-    - title: Hunger is rising in some of the world's most fragile states
-      url: https://www.economist.com
-      publication: The Economist
-    - title: 'WFP: State of food security 2024'
-      url: https://www.wfp.org/publications/sofi-2024
-      publication: WFP / FAO
+    - title: Why the hunger crisis in West and Central Africa is rising
+      url: https://theprint.in/world/why-the-hunger-crisis-in-west-and-central-africa-is-rising/2879487/
+      publication: theprint.in
+    - title: Conflict , Climate , Cost Of Living Heighten Food Security Concerns Ahead
+        Of Lean Season
+      url: https://www.thereporterethiopia.com/49693/
+      publication: thereporterethiopia.com
+    - title: 'Africa : Hunger Crisis Is Set to Get Worse in West and Central Africa
+        - Why and What to Do About It'
+      url: https://allafrica.com/stories/202603090014.html
+      publication: allafrica.com
   - label: Countries at high risk of deterioration
     value: '23'
     note: IRC Emergency Watchlist 2026
@@ -136,15 +139,16 @@ pillars:
     source_url: https://www.munichre.com/en/risks/natural-disasters.html
     search_query: economic losses natural disasters billion 2024 insurance
     articles:
-    - title: 'Munich Re: Record disaster losses in 2024'
-      url: https://www.munichre.com/en/risks/natural-disasters.html
-      publication: Munich Re
-    - title: 'Swiss Re: sigma natural catastrophe report 2024'
-      url: https://www.swissre.com/institute/research/sigma-research.html
-      publication: Swiss Re
-    - title: Climate change is making disasters more expensive
-      url: https://www.economist.com
-      publication: The Economist
+    - title: We need a growth strategy that drives tax revenue
+      url: https://www.jamaicaobserver.com/2026/03/11/need-growth-strategy-drives-tax-revenue/
+      publication: jamaicaobserver.com
+    - title: Stakeholders rally behind Nigeria agric transformation as FG reports
+        gains in food security drive
+      url: https://www.zawya.com/en/economy/africa/stakeholders-rally-behind-nigerias-agric-transformation-as-fg-reports-gains-in-food-security-drive-rqrj54aj
+      publication: zawya.com
+    - title: NL REPORTS FOURTH QUARTER 2025 RESULTS | The Manila Times
+      url: https://www.manilatimes.net/2026/03/10/tmt-newswire/globenewswire/nl-reports-fourth-quarter-2025-results/2296403
+      publication: manilatimes.net
 - name: Governance & Instability
   id: governance
   trend: up
@@ -219,31 +223,25 @@ pillars:
     source_url: https://www.sipri.org/
     search_query: nuclear weapons alert posture Russia China United States 2025
     articles:
-    - title: 'Iran news : U . S . senator warns U . S . doesnt know what follows Khamenei
-        death'
-      url: https://www.cp24.com/news/world/2026/03/01/us-senator-warns-us-doesnt-know-what-follows-khameneis-death-live-updates-here/
+    - title: 'Iran war news : U . S . refuells plane has gone down in Iraq'
+      url: https://www.cp24.com/news/world/2026/03/12/us-air-force-refuelling-plane-has-gone-down-in-iraq-live-updates-here/
       publication: cp24.com
-    - title: Putin next move ? Five Russian attack scenarios Europe must prepare for
-      url: https://www.atlanticcouncil.org/in-depth-research-reports/report/putins-next-move-five-russian-attack-scenarios-europe-must-prepare-for/
-      publication: atlanticcouncil.org
-    - title: Why China has been restrained in its response
-      url: https://www.manilatimes.net/2026/01/14/opinion/columns/why-china-has-been-restrained-in-its-response/2258141
-      publication: manilatimes.net
+    - title: 'Iran war news : Mojtaba Khamenei calls for retaliation'
+      url: https://www.bnnbloomberg.ca/business/2026/03/12/israel-bombs-central-beirut-us-airstrikes-top-6000-iran-escalates-attacks-live-updates-here/
+      publication: bnnbloomberg.ca
+    - title: 'The Latest : Israel bombs central Beirut , US airstrikes top 6 , 000
+        , Iran escalates attacks'
+      url: https://www.2news.com/news/national/the-latest-israel-bombs-central-beirut-us-airstrikes-top-6-000-iran-escalates-attacks/article_0efc2f7d-c89f-52c8-af05-82d59a0656f3.html
+      publication: 2news.com
   - label: Confirmed critical infrastructure attacks (2024)
     value: ~420
     note: CyberPeace Institute
     source_url: https://cyberpeaceinstitute.org/
     search_query: cyberattack critical infrastructure power grid hospital 2024 2025
     articles:
-    - title: 'CyberPeace Institute: Cyber attack tracker'
-      url: https://cyberpeaceinstitute.org/cyberattacks-on-critical-infrastructure/
-      publication: CyberPeace Institute
-    - title: Microsoft Digital Defense Report 2024
-      url: https://www.microsoft.com/en-us/security/security-insider/microsoft-digital-defense-report-2024
-      publication: Microsoft
-    - title: Critical infrastructure attacks are becoming more common and more damaging
-      url: https://www.wired.com
-      publication: Wired
+    - title: I On Politics - Queens Gazette
+      url: https://www.qgazette.com/articles/i-on-politics-473/
+      publication: qgazette.com
 counter_hell:
   label: Meanwhile, not everything is getting worse
   items:
