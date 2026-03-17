@@ -8,7 +8,7 @@ Here's the hard problem with AI image generation and narrative: consistency.
 
 You can generate a beautiful character. You can generate a beautiful setting. Getting the same character to appear in a dozen different scenes, with the same face and the same visual style, without starting from scratch every time — that's where things get difficult. There's a lot of prompt archaeology involved. A lot of re-entering the same LoRA weights and reference images and negative prompts for each new scene.
 
-Story Studio is DrawThingsStudio's answer to that problem. It's a workspace for building visual narratives where the consistency work is done once, up front, and every scene benefits from it automatically.
+Story Studio is DrawThingsStudio's attempt at that problem. It's a workspace for building visual narratives where the consistency work is done once, up front, and every scene benefits from it automatically.
 
 ## The structure
 

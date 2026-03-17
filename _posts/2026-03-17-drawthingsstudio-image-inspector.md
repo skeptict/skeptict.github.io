@@ -8,7 +8,7 @@ Here's a situation every Draw Things user has been in at least once.
 
 You're looking at an image you made a few weeks ago. It's *exactly* the kind of result you want to reproduce. But what were the settings? What model? What sampler? You dig through your history, you check your notes (if you kept any), you squint at filenames hoping for a clue. Sometimes you find it. Often you don't.
 
-DrawThingsStudio's Image Inspector is the answer to that problem.
+DrawThingsStudio's Image Inspector takes a pretty good swing at that problem.
 
 ## What it does
 
@@ -38,7 +38,7 @@ And if you have the LLM integration set up, there's a "Describe with AI" option 
 
 ## The bottom line
 
-The Image Inspector doesn't require a connection to Draw Things, doesn't require any setup, and starts being useful the moment you drop the first image onto it. If you're only going to use one feature of DrawThingsStudio, make it this one.
+The Image Inspector doesn't require a connection to Draw Things, doesn't require any setup, and starts being useful the moment you drop the first image onto it. It's a good place to start.
 
 ---
 

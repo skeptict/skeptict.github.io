@@ -40,7 +40,7 @@ Every image you generate is saved automatically to a folder inside the app's con
 
 ## The bottom line
 
-Generate Image is the fastest path from "I have an idea" to "I have an image" without leaving DrawThingsStudio. The gallery alone makes it worth the trip — no more hunting through Finder for that generation from last Tuesday.
+Generate Image is a pretty direct path from "I have an idea" to "I have an image" without leaving DrawThingsStudio. And the gallery means no more hunting through Finder for that generation from last Tuesday — which, for me at least, was worth it right there.
 
 ---
 
