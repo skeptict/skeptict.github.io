@@ -8,7 +8,7 @@ Earlier this year I tried building a Draw Things client with Claude Code. It did
 
 That was then. A lot has happened since.
 
-What started as a wobbly gRPC experiment has grown into a full macOS app called **DrawThingsStudio**. It's free, it's open source, and if you use Draw Things regularly, there's a good chance it'll become a permanent fixture in your workflow.
+What started as a wobbly gRPC experiment has grown into a full macOS app called **DrawThingsStudio**. It's free, it's open source, and if you use Draw Things regularly, maybe you'll find it useful.
 
 ## So what does it actually do?
 
