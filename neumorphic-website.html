@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neumorphic Design Website</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            line-height: 1.6;
+            color: #6b6560;
+            background: #e4e0dc;
+            min-height: 100vh;
+            padding: 3rem 2rem;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: #e4e0dc;
+            padding: 2.5rem;
+            border-radius: 30px;
+            box-shadow: 12px 12px 24px rgba(190,185,180,0.7), -12px -12px 24px rgba(255,255,255,0.8);
+        }
+
+        h1 {
+            font-size: 2rem;
+            font-weight: 600;
+            margin-bottom: 2.5rem;
+            color: #8a8580;
+            text-align: center;
+            text-shadow: 1px 1px 2px rgba(255,255,255,0.8);
+        }
+
+        h1 a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        h1 a:hover {
+            color: #7a7570;
+        }
+
+        .main-content {
+            display: grid;
+            grid-template-columns: 1fr 1.5fr;
+            gap: 2rem;
+        }
+
+        .sidebar-column {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .links, .other-links, .weblog {
+            background: #e4e0dc;
+            padding: 1.5rem;
+            border-radius: 20px;
+            box-shadow: 8px 8px 16px rgba(190,185,180,0.6), -8px -8px 16px rgba(255,255,255,0.7);
+        }
+
+        h2 {
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-bottom: 1.25rem;
+            color: #9a9590;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+        }
+
+        .post {
+            margin-bottom: 1.25rem;
+            padding: 1rem;
+            background: #e4e0dc;
+            border-radius: 15px;
+            box-shadow: inset 4px 4px 8px rgba(190,185,180,0.5), inset -4px -4px 8px rgba(255,255,255,0.7);
+        }
+
+        .post:last-child {
+            margin-bottom: 0;
+        }
+
+        .post h3 {
+            font-size: 0.95rem;
+            font-weight: 600;
+            margin-bottom: 0.3rem;
+        }
+
+        .post h3 a {
+            text-decoration: none;
+            color: #6b6560;
+            transition: color 0.2s ease;
+        }
+
+        .post h3 a:hover {
+            color: #8a7a70;
+        }
+
+        .post .date {
+            font-size: 0.7rem;
+            color: #a5a09b;
+            margin-bottom: 0.5rem;
+        }
+
+        .post p {
+            font-size: 0.85rem;
+            color: #7a756f;
+            line-height: 1.5;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        li {
+            margin-bottom: 0.6rem;
+        }
+
+        li a {
+            display: block;
+            padding: 0.7rem 1rem;
+            background: #e4e0dc;
+            border-radius: 12px;
+            box-shadow: 4px 4px 8px rgba(190,185,180,0.5), -4px -4px 8px rgba(255,255,255,0.7);
+            color: #6b6560;
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: all 0.2s ease;
+        }
+
+        li a:hover {
+            box-shadow: inset 3px 3px 6px rgba(190,185,180,0.5), inset -3px -3px 6px rgba(255,255,255,0.7);
+            color: #8a7a70;
+        }
+
+        .footer {
+            margin-top: 2rem;
+            text-align: center;
+            padding: 1rem;
+            color: #a5a09b;
+            font-size: 0.8rem;
+        }
+
+        @media (max-width: 768px) {
+            .main-content {
+                grid-template-columns: 1fr;
+            }
+
+            .container {
+                padding: 1.5rem;
+                border-radius: 20px;
+            }
+        }
+
+        /* Additional neumorphic elements for demonstration */
+        .neumorphic-button {
+            display: inline-block;
+            padding: 0.8rem 1.5rem;
+            background: #e4e0dc;
+            border-radius: 12px;
+            box-shadow: 4px 4px 8px rgba(190,185,180,0.5), -4px -4px 8px rgba(255,255,255,0.7);
+            color: #6b6560;
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: all 0.2s ease;
+            border: none;
+            cursor: pointer;
+            margin: 0.5rem;
+        }
+
+        .neumorphic-button:hover {
+            box-shadow: inset 3px 3px 6px rgba(190,185,180,0.5), inset -3px -3px 6px rgba(255,255,255,0.7);
+            color: #8a7a70;
+        }
+
+        .neumorphic-card {
+            background: #e4e0dc;
+            padding: 1.5rem;
+            border-radius: 20px;
+            box-shadow: 8px 8px 16px rgba(190,185,180,0.6), -8px -8px 16px rgba(255,255,255,0.7);
+            margin: 1rem 0;
+        }
+
+        .neumorphic-input {
+            width: 100%;
+            padding: 0.8rem;
+            background: #e4e0dc;
+            border-radius: 12px;
+            box-shadow: inset 4px 4px 8px rgba(190,185,180,0.5), inset -4px -4px 8px rgba(255,255,255,0.7);
+            border: none;
+            color: #6b6560;
+            font-family: inherit;
+            font-size: 1rem;
+        }
+
+        .neumorphic-input:focus {
+            outline: none;
+            box-shadow: inset 6px 6px 12px rgba(190,185,180,0.6), inset -6px -6px 12px rgba(255,255,255,0.8);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1><a href="#">Neumorphic Design Website</a></h1>
+
+        <div class="main-content">
+            <div class="sidebar-column">
+                <div class="links">
+                    <h2>Daily Reading</h2>
+                    <ul>
+                        <li><a href="#">The Economist</a></li>
+                        <li><a href="#">The Atlantic</a></li>
+                        <li><a href="#">The New York Times</a></li>
+                    </ul>
+                </div>
+
+                <div class="other-links">
+                    <h2>Useful Links</h2>
+                    <ul>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">Tutorials</a></li>
+                        <li><a href="#">Community</a></li>
+                        <li><a href="#">Support</a></li>
+                    </ul>
+                </div>
+
+                <div class="neumorphic-card">
+                    <h2>Featured Card</h2>
+                    <p>This is an example of a neumorphic card element that follows the design principles.</p>
+                    <button class="neumorphic-button">Click Me</button>
+                </div>
+            </div>
+
+            <div class="weblog">
+                <h2>Latest Articles</h2>
+
+                <div class="post">
+                    <h3><a href="#">Understanding Neumorphic Design</a></h3>
+                    <p class="date">January 21, 2026</p>
+                    <p>Neumorphic design combines elements of flat design and skeuomorphism to create interfaces that appear to extrude from the background.</p>
+                </div>
+
+                <div class="post">
+                    <h3><a href="#">CSS Techniques for Depth</a></h3>
+                    <p class="date">January 18, 2026</p>
+                    <p>Learn how to create the subtle shadows and highlights that make neumorphic design so visually appealing.</p>
+                </div>
+
+                <div class="post">
+                    <h3><a href="#">Design Systems</a></h3>
+                    <p class="date">January 15, 2026</p>
+                    <p>Creating consistent design systems with neumorphic principles across your entire application.</p>
+                </div>
+
+                <div class="neumorphic-card">
+                    <h2>Contact Form</h2>
+                    <form>
+                        <input type="text" class="neumorphic-input" placeholder="Your Name" style="margin-bottom: 1rem;">
+                        <input type="email" class="neumorphic-input" placeholder="Email Address" style="margin-bottom: 1rem;">
+                        <textarea class="neumorphic-input" placeholder="Your Message" rows="4" style="margin-bottom: 1rem;"></textarea>
+                        <button class="neumorphic-button" type="submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>Built with ❤️ using Neumorphic Design Principles</p>
+        </div>
+    </div>
+</body>
+</html>
