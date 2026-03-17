@@ -4,9 +4,9 @@ title: "DrawThingsStudio, Part 1: From Frustration to Feature-Complete"
 date: 2026-03-17
 ---
 
-Back in January I wrote a post about my adventures trying to build a Draw Things client with Claude Code. The short version: I burned through a week of LLM tokens and had almost nothing to show for it. I compared myself to the guy on the airplane complaining about spotty wifi — the fact that any of this works at all is remarkable, but still.
+Earlier this year I tried building a Draw Things client with Claude Code. It did not go smoothly. I burned through a week of LLM tokens and had almost nothing to show for it. I compared myself to the guy on the airplane complaining about spotty wifi — the fact that any of this works at all is remarkable, but still.
 
-That was January. A lot has happened since then.
+That was then. A lot has happened since.
 
 What started as a wobbly gRPC experiment has grown into a full macOS app called **DrawThingsStudio**. It's free, it's open source, and if you use Draw Things regularly, there's a good chance it'll become a permanent fixture in your workflow.
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "DrawThingsStudio, Part 6: Digging Through Your DT History"
-date: 2026-03-17
+date: 2026-03-22
 ---
 
 Draw Things keeps everything. Every image you've ever generated is stored in a project database — a `.sqlite3` file sitting quietly on your drive. It's a complete archive of your creative history, and until now, the only way to get into it was through Draw Things' own history view.

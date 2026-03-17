@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "DrawThingsStudio, Part 2: Your New Favorite Metadata Tool"
-date: 2026-03-17
+date: 2026-03-18
 ---
 
 Here's a situation every Draw Things user has been in at least once.

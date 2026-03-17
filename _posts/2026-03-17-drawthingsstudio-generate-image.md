@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "DrawThingsStudio, Part 3: Generate Without Switching Apps"
-date: 2026-03-17
+date: 2026-03-19
 ---
 
 Draw Things is great. But here's something slightly awkward about it: the moment you want to do anything *around* your generations — compare results, track settings, try the same prompt with three different models — you're back to juggling Finder windows, copy-pasting filenames, and hoping your memory is better than it is.

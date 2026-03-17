@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "DrawThingsStudio, Part 5: Tell a Story"
-date: 2026-03-17
+date: 2026-03-21
 ---
 
 Here's the hard problem with AI image generation and narrative: consistency.

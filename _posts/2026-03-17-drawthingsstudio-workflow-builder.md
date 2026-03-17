@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "DrawThingsStudio, Part 4: Build It Once, Run It Forever"
-date: 2026-03-17
+date: 2026-03-20
 ---
 
 Draw Things has a powerful scripting system called StoryFlow. If you've ever seen a `.js` file that someone dropped into Draw Things to run a multi-step generation sequence — maybe an img2img chain, or a loop that generates variations and picks the best one — that's StoryFlow.
