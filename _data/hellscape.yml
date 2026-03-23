@@ -1,4 +1,4 @@
-last_updated: '2026-03-16'
+last_updated: '2026-03-23'
 pillars:
 - name: Conflict & Violence
   id: conflict
@@ -10,15 +10,16 @@ pillars:
     source_url: https://ucdp.uu.se/
     search_query: armed conflict wars active 2024 2025
     articles:
-    - title: Who Controls Diego Garcia ?
-      url: https://www.mauritiustimes.com/mt/who-controls-diego-garcia/
-      publication: mauritiustimes.com
-    - title: How to Invest Steadily During Geopolitical Market Volatility
-      url: https://www.forbes.com/sites/petercohan/2026/03/06/feeling-anxious-about-the-markets-how-to-invest-responsibly-during-global-uncertainty/
-      publication: forbes.com
-    - title: How close are we to a world war ?
-      url: https://www.bursa.ro/how-close-are-we-to-a-world-war-40775852
-      publication: bursa.ro
+    - title: Why the Sahel is now the worlds deadliest region for terrorism
+      url: http://www.afghanistannews.net/news/278934294/why-the-sahel-is-now-the-worlds-deadliest-region-for-terrorism
+      publication: afghanistannews.net
+    - title: Full transcript of  Face the Nation with Margaret Brennan , March 22
+        , 2026
+      url: https://www.wsgw.com/full-transcript-of-face-the-nation-with-margaret-brennan-march-22-2026/
+      publication: wsgw.com
+    - title: 'West Africa : Why the Sahel Is Now the World Deadliest Region for Terrorism'
+      url: https://allafrica.com/stories/202603220020.html
+      publication: allafrica.com
   - label: Conflict deaths (2024)
     value: ~220,000
     note: UCDP estimate
@@ -40,16 +41,17 @@ pillars:
     source_url: https://www.unhcr.org/global-trends
     search_query: refugees displaced people conflict 2024 UNHCR
     articles:
-    - title: '15 Years Later : Syria Uprising , War and Aftermath | FRONTLINE | PBS
-        | Official Site'
-      url: https://www.pbs.org/wgbh/frontline/article/syrian-uprising-war-assad-fall-aftermath-15-years/
-      publication: pbs.org
-    - title: Afghan refugees and Iran poorest bear the brunt of war
-      url: https://www.dw.com/en/afghan-refugees-and-irans-poorest-bear-the-brunt-of-war/a-76333109
-      publication: dw.com
-    - title: EXCLUSIVE -- Afghan Christians Fleeing Taliban Face Deadly Threats
-      url: https://www.breitbart.com/politics/2026/03/09/exclusive-afghan-christians-fleeing-taliban-face-deadly-threats-in-neighboring-muslim-countries/
-      publication: breitbart.com
+    - title: Innovative African network takes accredited HE to refugees
+      url: https://www.universityworldnews.com/post.php?story=20260302210824328
+      publication: universityworldnews.com
+    - title: At the Security Council , Deputy Relief Chief underlines Middle East
+        escalation risks to Syrians
+      url: https://www.globalsecurity.org/wmd/library/news/syria/2026/syria-260318-unocha01.htm
+      publication: globalsecurity.org
+    - title: At the Security Council , Deputy Relief Chief underlines Middle East
+        escalation risks to Syrians
+      url: https://www.unocha.org:443/news/security-council-deputy-relief-chief-underlines-middle-east-escalation-risks-syrians
+      publication: unocha.org
 - name: Humanitarian Crisis
   id: humanitarian
   trend: up
@@ -130,9 +132,6 @@ pillars:
         hits ? |
       url: https://timesofindia.indiatimes.com/india/when-disasters-strike-preparation-saves-lives-is-india-ready-when-crisis-hits/articleshow/126462666.cms
       publication: timesofindia.indiatimes.com
-    - title: 200 fulfilled prophecies of Primate Ayodele in 2025
-      url: https://theeagleonline.com.ng/200-fulfilled-prophecies-of-primate-ayodele-in-2025/
-      publication: theeagleonline.com.ng
   - label: Economic losses from disasters (2024)
     value: $320B+
     note: Munich Re estimate
@@ -239,9 +238,9 @@ pillars:
     source_url: https://cyberpeaceinstitute.org/
     search_query: cyberattack critical infrastructure power grid hospital 2024 2025
     articles:
-    - title: I On Politics - Queens Gazette
-      url: https://www.qgazette.com/articles/i-on-politics-473/
-      publication: qgazette.com
+    - title: Health care cyberattacks expose a critical national security failure
+      url: https://kevinmd.com/2026/03/health-care-cyberattacks-expose-a-critical-national-security-failure.html
+      publication: kevinmd.com
 counter_hell:
   label: Meanwhile, not everything is getting worse
   items:
