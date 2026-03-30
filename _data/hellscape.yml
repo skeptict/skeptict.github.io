@@ -1,4 +1,4 @@
-last_updated: '2026-03-23'
+last_updated: '2026-03-30'
 pillars:
 - name: Conflict & Violence
   id: conflict
@@ -41,13 +41,13 @@ pillars:
     source_url: https://www.unhcr.org/global-trends
     search_query: refugees displaced people conflict 2024 UNHCR
     articles:
+    - title: UNHCR calls for urgent support in Lebanon as humanitarian catastrophe
+        looms
+      url: https://www.globalsecurity.org/military/library/news/2026/03/mil-260327-unhcr01.htm
+      publication: globalsecurity.org
     - title: Innovative African network takes accredited HE to refugees
       url: https://www.universityworldnews.com/post.php?story=20260302210824328
       publication: universityworldnews.com
-    - title: At the Security Council , Deputy Relief Chief underlines Middle East
-        escalation risks to Syrians
-      url: https://www.globalsecurity.org/wmd/library/news/syria/2026/syria-260318-unocha01.htm
-      publication: globalsecurity.org
     - title: At the Security Council , Deputy Relief Chief underlines Middle East
         escalation risks to Syrians
       url: https://www.unocha.org:443/news/security-council-deputy-relief-chief-underlines-middle-east-escalation-risks-syrians
@@ -77,6 +77,9 @@ pillars:
     source_url: https://www.fsinplatform.org/grfc2024
     search_query: food crisis hunger acute famine 2024 2025
     articles:
+    - title: The 10 - Year Famine Is About to Be Unleashed – NaturalNews . com
+      url: https://www.naturalnews.com/2026-03-19-10-year-famine-about-to-be-unleashed.html
+      publication: naturalnews.com
     - title: Why the hunger crisis in West and Central Africa is rising
       url: https://theprint.in/world/why-the-hunger-crisis-in-west-and-central-africa-is-rising/2879487/
       publication: theprint.in
@@ -84,10 +87,6 @@ pillars:
         Of Lean Season
       url: https://www.thereporterethiopia.com/49693/
       publication: thereporterethiopia.com
-    - title: 'Africa : Hunger Crisis Is Set to Get Worse in West and Central Africa
-        - Why and What to Do About It'
-      url: https://allafrica.com/stories/202603090014.html
-      publication: allafrica.com
   - label: Countries at high risk of deterioration
     value: '23'
     note: IRC Emergency Watchlist 2026
@@ -173,15 +172,17 @@ pillars:
     source_url: https://www.accessnow.org/keepiton/
     search_query: internet shutdown blackout government censorship 2024 2025
     articles:
-    - title: '#KeepItOn: Internet shutdowns report 2024'
-      url: https://www.accessnow.org/keepiton/
-      publication: Access Now
-    - title: How governments use internet shutdowns during crises
-      url: https://www.theguardian.com
-      publication: The Guardian
-    - title: 'Netblocks: Observatory of internet disruptions'
-      url: https://netblocks.org/
-      publication: NetBlocks
+    - title: Does a  Great Firewall  loom ? Why Russians are buying up walkie - talkies
+        and road maps
+      url: https://www.sbs.com.au/news/article/moscow-internet-shutdown-russia-test-censorship/69rjp4wai
+      publication: sbs.com.au
+    - title: Governments pull the plug on dissent from Iran to Uganda . Citizens fight
+        to stay online .
+      url: https://www.csmonitor.com/World/2026/0219/iran-starlink-protests-speech
+      publication: csmonitor.com
+    - title: 'Internet shutdowns in Africa : A human rights and democratic crisis'
+      url: https://netzpolitik.org/2026/internet-shutdowns-in-africa-a-human-rights-and-democratic-crisis/
+      publication: netzpolitik.org
   - label: Countries under emergency law
     value: ~60
     note: ACAPS
@@ -207,31 +208,30 @@ pillars:
     source_url: https://thebulletin.org/doomsday-clock/
     search_query: doomsday clock nuclear risk midnight 2025
     articles:
-    - title: 'It is 89 seconds to midnight: 2025 Doomsday Clock statement'
-      url: https://thebulletin.org/doomsday-clock/current-time/
-      publication: Bulletin of Atomic Scientists
-    - title: Why the Doomsday Clock moved closer to midnight
-      url: https://www.theguardian.com/science/2025/jan/28/doomsday-clock-89-seconds-midnight-nuclear-risk
-      publication: The Guardian
-    - title: The world's nuclear arsenals are growing again
-      url: https://www.sipri.org/yearbook/2024/13
-      publication: SIPRI
+    - title: The war with Iran may be ushering in a new nuclear age
+      url: https://www.straitstimes.com/world/united-states/the-war-with-iran-may-be-ushering-in-a-new-nuclear-age
+      publication: straitstimes.com
+    - title: The war with Iran may be ushering in a new nuclear age
+      url: https://economictimes.indiatimes.com/news/international/world-news/the-war-with-iran-may-be-ushering-in-a-new-nuclear-age/articleshow/129876930.cms
+      publication: economictimes.indiatimes.com
+    - title: Are Fallout Shelters Still Relevant In Texas Today ?
+      url: https://ksfa860.com/ixp/63/p/nuclear-preparedness-el-paso/
+      publication: ksfa860.com
   - label: Nuclear states on heightened alert
     value: '3'
     note: US, Russia, China
     source_url: https://www.sipri.org/
     search_query: nuclear weapons alert posture Russia China United States 2025
     articles:
+    - title: Iranian Leadership
+      url: https://www.globalsecurity.org/military/world/iran/leadership-continuity.htm
+      publication: globalsecurity.org
     - title: 'Iran war news : U . S . refuells plane has gone down in Iraq'
       url: https://www.cp24.com/news/world/2026/03/12/us-air-force-refuelling-plane-has-gone-down-in-iraq-live-updates-here/
       publication: cp24.com
     - title: 'Iran war news : Mojtaba Khamenei calls for retaliation'
       url: https://www.bnnbloomberg.ca/business/2026/03/12/israel-bombs-central-beirut-us-airstrikes-top-6000-iran-escalates-attacks-live-updates-here/
       publication: bnnbloomberg.ca
-    - title: 'The Latest : Israel bombs central Beirut , US airstrikes top 6 , 000
-        , Iran escalates attacks'
-      url: https://www.2news.com/news/national/the-latest-israel-bombs-central-beirut-us-airstrikes-top-6-000-iran-escalates-attacks/article_0efc2f7d-c89f-52c8-af05-82d59a0656f3.html
-      publication: 2news.com
   - label: Confirmed critical infrastructure attacks (2024)
     value: ~420
     note: CyberPeace Institute
