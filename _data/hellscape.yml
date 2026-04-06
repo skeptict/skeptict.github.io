@@ -1,4 +1,4 @@
-last_updated: '2026-03-30'
+last_updated: '2026-04-06'
 pillars:
 - name: Conflict & Violence
   id: conflict
@@ -10,31 +10,33 @@ pillars:
     source_url: https://ucdp.uu.se/
     search_query: armed conflict wars active 2024 2025
     articles:
-    - title: Why the Sahel is now the worlds deadliest region for terrorism
-      url: http://www.afghanistannews.net/news/278934294/why-the-sahel-is-now-the-worlds-deadliest-region-for-terrorism
-      publication: afghanistannews.net
-    - title: Full transcript of  Face the Nation with Margaret Brennan , March 22
-        , 2026
-      url: https://www.wsgw.com/full-transcript-of-face-the-nation-with-margaret-brennan-march-22-2026/
-      publication: wsgw.com
-    - title: 'West Africa : Why the Sahel Is Now the World Deadliest Region for Terrorism'
-      url: https://allafrica.com/stories/202603220020.html
-      publication: allafrica.com
+    - title: The End of Strategic Monopoly
+      url: https://slguardian.org/the-end-of-strategic-monopoly/
+      publication: slguardian.org
+    - title: 'The End of Strategic Monopoly : War , Energy , and the Fragmentation
+        of Global Power in 2026'
+      url: https://countercurrents.org/2026/04/the-end-of-strategic-monopoly-war-energy-and-the-fragmentation-of-global-power-in-2026/
+      publication: countercurrents.org
+    - title: Phil Morris | File 770
+      url: https://file770.com/tag/phil-morris/
+      publication: file770.com
   - label: Conflict deaths (2024)
     value: ~220,000
     note: UCDP estimate
     source_url: https://ucdp.uu.se/
     search_query: conflict deaths battle casualties war 2024
     articles:
-    - title: War deaths in 2024 mark a grim milestone
-      url: https://www.economist.com/international/2024/12/21/war-is-becoming-deadlier
-      publication: The Economist
-    - title: Tracking conflict deaths worldwide
-      url: https://acleddata.com/knowledge-base/armed-conflict-location-event-data/
-      publication: ACLED
-    - title: The wars killing the most people right now
-      url: https://foreignpolicy.com
-      publication: Foreign Policy
+    - title: 'None Can Run Away : War Crimes and Crimes Against Humanity in Burkina
+        Faso by All Sides'
+      url: https://www.hrw.org/report/2026/04/02/none-can-run-away/war-crimes-and-crimes-against-humanity-in-burkina-faso-by-all
+      publication: hrw.org
+    - title: Donald Trump signals major shift in Iran conflict as he drops key demand
+        for the Strait of Hormuz
+      url: https://indianexpress.com/article/live-news/top-news-today-daily-briefing-trump-hints-at-iran-exit-netanyahu-sets-no-timeline-10610676/
+      publication: indianexpress.com
+    - title: 8 Most Perfect Vietnam War Movies , Ranked
+      url: https://collider.com/most-perfect-vietnam-war-movies-ranked/
+      publication: collider.com
   - label: People newly displaced by conflict
     value: 68.3M
     note: UNHCR, 2024
