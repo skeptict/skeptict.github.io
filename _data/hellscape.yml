@@ -1,4 +1,4 @@
-last_updated: '2026-04-06'
+last_updated: '2026-04-13'
 pillars:
 - name: Conflict & Violence
   id: conflict
@@ -79,16 +79,15 @@ pillars:
     source_url: https://www.fsinplatform.org/grfc2024
     search_query: food crisis hunger acute famine 2024 2025
     articles:
+    - title: 'Tirana Hassan : Hunger In War Is More Than A Lack Of Food'
+      url: https://www.forbes.com/sites/daphneewingchow/2026/04/09/tirana-hassan-hunger-in-war-is-more-than-a-lack-of-food/
+      publication: forbes.com
     - title: The 10 - Year Famine Is About to Be Unleashed – NaturalNews . com
       url: https://www.naturalnews.com/2026-03-19-10-year-famine-about-to-be-unleashed.html
       publication: naturalnews.com
     - title: Why the hunger crisis in West and Central Africa is rising
       url: https://theprint.in/world/why-the-hunger-crisis-in-west-and-central-africa-is-rising/2879487/
       publication: theprint.in
-    - title: Conflict , Climate , Cost Of Living Heighten Food Security Concerns Ahead
-        Of Lean Season
-      url: https://www.thereporterethiopia.com/49693/
-      publication: thereporterethiopia.com
   - label: Countries at high risk of deterioration
     value: '23'
     note: IRC Emergency Watchlist 2026
@@ -139,16 +138,16 @@ pillars:
     source_url: https://www.munichre.com/en/risks/natural-disasters.html
     search_query: economic losses natural disasters billion 2024 insurance
     articles:
-    - title: We need a growth strategy that drives tax revenue
-      url: https://www.jamaicaobserver.com/2026/03/11/need-growth-strategy-drives-tax-revenue/
-      publication: jamaicaobserver.com
-    - title: Stakeholders rally behind Nigeria agric transformation as FG reports
-        gains in food security drive
-      url: https://www.zawya.com/en/economy/africa/stakeholders-rally-behind-nigerias-agric-transformation-as-fg-reports-gains-in-food-security-drive-rqrj54aj
-      publication: zawya.com
-    - title: NL REPORTS FOURTH QUARTER 2025 RESULTS | The Manila Times
-      url: https://www.manilatimes.net/2026/03/10/tmt-newswire/globenewswire/nl-reports-fourth-quarter-2025-results/2296403
+    - title: Minnesota has among the highest home insurance rates
+      url: http://www.minnpost.com/environment/2026/04/home-insurance-rates-minnesota-stack-up/
+      publication: minnpost.com
+    - title: 'Oxford : Owner of Tommy Bahama , Lilly Pulitzer and Johnny Was Reports
+        Fourth Quarter and Full - Year Fiscal 2025 Results'
+      url: https://www.manilatimes.net/2026/03/27/tmt-newswire/globenewswire/oxford-owner-of-tommy-bahama-lilly-pulitzer-and-johnny-was-reports-fourth-quarter-and-full-year-fiscal-2025-results/2308834
       publication: manilatimes.net
+    - title: NZ insured losses hit NZ$120 million after calm year
+      url: https://itbrief.co.nz/story/nz-insured-losses-hit-nz-120-million-after-calm-year
+      publication: itbrief.co.nz
 - name: Governance & Instability
   id: governance
   trend: up
