@@ -1,4 +1,4 @@
-last_updated: '2026-04-13'
+last_updated: '2026-04-20'
 pillars:
 - name: Conflict & Violence
   id: conflict
@@ -43,17 +43,16 @@ pillars:
     source_url: https://www.unhcr.org/global-trends
     search_query: refugees displaced people conflict 2024 UNHCR
     articles:
-    - title: UNHCR calls for urgent support in Lebanon as humanitarian catastrophe
-        looms
-      url: https://www.globalsecurity.org/military/library/news/2026/03/mil-260327-unhcr01.htm
-      publication: globalsecurity.org
-    - title: Innovative African network takes accredited HE to refugees
-      url: https://www.universityworldnews.com/post.php?story=20260302210824328
-      publication: universityworldnews.com
-    - title: At the Security Council , Deputy Relief Chief underlines Middle East
-        escalation risks to Syrians
-      url: https://www.unocha.org:443/news/security-council-deputy-relief-chief-underlines-middle-east-escalation-risks-syrians
-      publication: unocha.org
+    - title: Tracking Chinese and Russian Statements on the Iran War
+      url: https://www.washingtoninstitute.org/policy-analysis/tracking-chinese-and-russian-statements-iran-war
+      publication: washingtoninstitute.org
+    - title: 'Explainer : What is a failed state ?'
+      url: https://www.smh.com.au/national/going-going-gone-what-it-means-to-be-a-failed-state-20260407-p5zly7.html
+      publication: smh.com.au
+    - title: Syrian man buries wife and four children killed in Israeli strikes on
+        Beirut
+      url: https://www.ckom.com/2026/04/11/syrian-man-buries-wife-and-four-children-killed-in-israeli-strikes-on-beirut/
+      publication: ckom.com
 - name: Humanitarian Crisis
   id: humanitarian
   trend: up
@@ -209,15 +208,15 @@ pillars:
     source_url: https://thebulletin.org/doomsday-clock/
     search_query: doomsday clock nuclear risk midnight 2025
     articles:
+    - title: 'Per Capita : Now time for some bad news'
+      url: https://www.davisenterprise.com/features/per-capita-now-time-for-some-bad-news/article_b6f90d08-d569-4517-baa1-e07f1c897353.html
+      publication: davisenterprise.com
     - title: The war with Iran may be ushering in a new nuclear age
       url: https://www.straitstimes.com/world/united-states/the-war-with-iran-may-be-ushering-in-a-new-nuclear-age
       publication: straitstimes.com
     - title: The war with Iran may be ushering in a new nuclear age
       url: https://economictimes.indiatimes.com/news/international/world-news/the-war-with-iran-may-be-ushering-in-a-new-nuclear-age/articleshow/129876930.cms
       publication: economictimes.indiatimes.com
-    - title: Are Fallout Shelters Still Relevant In Texas Today ?
-      url: https://ksfa860.com/ixp/63/p/nuclear-preparedness-el-paso/
-      publication: ksfa860.com
   - label: Nuclear states on heightened alert
     value: '3'
     note: US, Russia, China
