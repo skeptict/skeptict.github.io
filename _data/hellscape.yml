@@ -1,4 +1,4 @@
-last_updated: '2026-04-20'
+last_updated: '2026-04-27'
 pillars:
 - name: Conflict & Violence
   id: conflict
@@ -10,49 +10,49 @@ pillars:
     source_url: https://ucdp.uu.se/
     search_query: armed conflict wars active 2024 2025
     articles:
-    - title: The End of Strategic Monopoly
-      url: https://slguardian.org/the-end-of-strategic-monopoly/
-      publication: slguardian.org
-    - title: 'The End of Strategic Monopoly : War , Energy , and the Fragmentation
-        of Global Power in 2026'
-      url: https://countercurrents.org/2026/04/the-end-of-strategic-monopoly-war-energy-and-the-fragmentation-of-global-power-in-2026/
-      publication: countercurrents.org
-    - title: Phil Morris | File 770
-      url: https://file770.com/tag/phil-morris/
-      publication: file770.com
+    - title: Mexico Hunts the Mountain While the Drug War Hunts Back
+      url: https://latinamericanpost.com/americas/mexico-hunts-the-mountain-while-the-drug-war-hunts-back/
+      publication: latinamericanpost.com
+    - title: 'Transcript : How the Media Failed the Palestinians'
+      url: https://newrepublic.com/article/209239/transcript-media-failed-palestinians
+      publication: newrepublic.com
+    - title: War crimes are being normalised by nations and not just groups
+      url: https://www.thenational.scot/news/world/26037971.war-crimes-normalised-nations-not-just-groups/
+      publication: thenational.scot
   - label: Conflict deaths (2024)
     value: ~220,000
     note: UCDP estimate
     source_url: https://ucdp.uu.se/
     search_query: conflict deaths battle casualties war 2024
     articles:
-    - title: 'None Can Run Away : War Crimes and Crimes Against Humanity in Burkina
-        Faso by All Sides'
-      url: https://www.hrw.org/report/2026/04/02/none-can-run-away/war-crimes-and-crimes-against-humanity-in-burkina-faso-by-all
-      publication: hrw.org
-    - title: Donald Trump signals major shift in Iran conflict as he drops key demand
-        for the Strait of Hormuz
-      url: https://indianexpress.com/article/live-news/top-news-today-daily-briefing-trump-hints-at-iran-exit-netanyahu-sets-no-timeline-10610676/
-      publication: indianexpress.com
-    - title: 8 Most Perfect Vietnam War Movies , Ranked
-      url: https://collider.com/most-perfect-vietnam-war-movies-ranked/
-      publication: collider.com
+    - title: navigating a reality defined by recurring conflict and persistent insecurity
+        .....
+      url: https://yourdemocracy.net/drupal/node/59527
+      publication: yourdemocracy.net
+    - title: 'Pentagon Erases Wounded U . S . Troops From Iran War Casualty List :  Definition
+        of a Cover - up'
+      url: https://theintercept.com/2026/04/22/iran-war-military-casualties-wounded/
+      publication: theintercept.com
+    - title: War without end ? How Israel became trapped in its own security doctrine
+      url: http://www.heraldglobe.com/news/279007676/war-without-end-how-israel-became-trapped-in-its-own-security-doctrine
+      publication: heraldglobe.com
   - label: People newly displaced by conflict
     value: 68.3M
     note: UNHCR, 2024
     source_url: https://www.unhcr.org/global-trends
     search_query: refugees displaced people conflict 2024 UNHCR
     articles:
-    - title: Tracking Chinese and Russian Statements on the Iran War
-      url: https://www.washingtoninstitute.org/policy-analysis/tracking-chinese-and-russian-statements-iran-war
-      publication: washingtoninstitute.org
-    - title: 'Explainer : What is a failed state ?'
-      url: https://www.smh.com.au/national/going-going-gone-what-it-means-to-be-a-failed-state-20260407-p5zly7.html
-      publication: smh.com.au
-    - title: Syrian man buries wife and four children killed in Israeli strikes on
-        Beirut
-      url: https://www.ckom.com/2026/04/11/syrian-man-buries-wife-and-four-children-killed-in-israeli-strikes-on-beirut/
-      publication: ckom.com
+    - title: Chernobyl refugee town welcomes Ukraine conflict displaced
+      url: https://www.ewn.co.za/2026/04/26/chernobyl-refugee-town-welcomes-ukraines-conflict-displaced
+      publication: ewn.co.za
+    - title: Chernobyl refugee town welcomes Ukraine conflict displaced
+      url: https://www.spacewar.com/afp/260426101410.3alzzhsu.html
+      publication: spacewar.com
+    - title: APO Group - Africa Newsroom / Press release | Acute food insecurity and
+        malnutrition remain alarmingly high as crises deepen , United Nations ( UN
+        ), European Union ( EU ) and partners warn in new report
+      url: https://www.africa-newsroom.com/press/acute-food-insecurity-and-malnutrition-remain-alarmingly-high-as-crises-deepen-united-nations-un-european-union-eu-and-partners-warn-in-new-report
+      publication: africa-newsroom.com
 - name: Humanitarian Crisis
   id: humanitarian
   trend: up
@@ -63,15 +63,19 @@ pillars:
     source_url: https://www.unhcr.org/global-trends
     search_query: forcibly displaced refugees asylum seekers record 2024
     articles:
-    - title: 'Global Trends: Forced Displacement report'
-      url: https://www.unhcr.org/global-trends
-      publication: UNHCR
-    - title: More people displaced than ever before
-      url: https://www.theguardian.com/global-development/2024/jun/13/record-120-million-displaced-worldwide-unhcr
-      publication: The Guardian
-    - title: IDMC Global Report on Internal Displacement 2024
-      url: https://www.internal-displacement.org/global-report/grid2024/
-      publication: IDMC
+    - title: APO Group - Africa Newsroom / Press release | Acute food insecurity and
+        malnutrition remain alarmingly high as crises deepen , United Nations ( UN
+        ), European Union ( EU ) and partners warn in new report
+      url: https://www.africa-newsroom.com/press/acute-food-insecurity-and-malnutrition-remain-alarmingly-high-as-crises-deepen-united-nations-un-european-union-eu-and-partners-warn-in-new-report
+      publication: africa-newsroom.com
+    - title: UN , EU warn of rising malnutrition and famine risks – Shafaqna English
+        | International Shia News & Fatwas
+      url: https://en.shafaqna.com/447790/un-eu-warn-of-rising-malnutrition-and-famine-risks/
+      publication: en.shafaqna.com
+    - title: Acute food insecurity and malnutrition remain alarmingly high as crises
+        deepen , UN , EU and partners warn in new report
+      url: https://yubanet.com/world/acute-food-insecurity-and-malnutrition-remain-alarmingly-high-as-crises-deepen-un-eu-and-partners-warn-in-new-report/
+      publication: yubanet.com
   - label: People in acute food crisis
     value: 282M
     note: FSIN, 2024
@@ -137,16 +141,15 @@ pillars:
     source_url: https://www.munichre.com/en/risks/natural-disasters.html
     search_query: economic losses natural disasters billion 2024 insurance
     articles:
-    - title: Minnesota has among the highest home insurance rates
-      url: http://www.minnpost.com/environment/2026/04/home-insurance-rates-minnesota-stack-up/
-      publication: minnpost.com
-    - title: 'Oxford : Owner of Tommy Bahama , Lilly Pulitzer and Johnny Was Reports
-        Fourth Quarter and Full - Year Fiscal 2025 Results'
-      url: https://www.manilatimes.net/2026/03/27/tmt-newswire/globenewswire/oxford-owner-of-tommy-bahama-lilly-pulitzer-and-johnny-was-reports-fourth-quarter-and-full-year-fiscal-2025-results/2308834
-      publication: manilatimes.net
-    - title: NZ insured losses hit NZ$120 million after calm year
-      url: https://itbrief.co.nz/story/nz-insured-losses-hit-nz-120-million-after-calm-year
-      publication: itbrief.co.nz
+    - title: USDA Issues Second Supplemental Disaster Payment to Farmers
+      url: https://www.rfdtv.com/usda-issues-second-supplemental-disaster-payment-to-farmers
+      publication: rfdtv.com
+    - title: Digital Realty Reports First Quarter 2026 Results
+      url: https://www.itnewsonline.com/GlobeNewswire/Digital-Realty-Reports-First-Quarter-2026-Results/120604
+      publication: itnewsonline.com
+    - title: Blue Ridge Bankshares , Inc . Announces 2026 First Quarter Results
+      url: https://www.prnewswire.com/news-releases/blue-ridge-bankshares-inc-announces-2026-first-quarter-results-302752303.html
+      publication: prnewswire.com
 - name: Governance & Instability
   id: governance
   trend: up
@@ -223,15 +226,17 @@ pillars:
     source_url: https://www.sipri.org/
     search_query: nuclear weapons alert posture Russia China United States 2025
     articles:
-    - title: Iranian Leadership
-      url: https://www.globalsecurity.org/military/world/iran/leadership-continuity.htm
-      publication: globalsecurity.org
-    - title: 'Iran war news : U . S . refuells plane has gone down in Iraq'
-      url: https://www.cp24.com/news/world/2026/03/12/us-air-force-refuelling-plane-has-gone-down-in-iraq-live-updates-here/
-      publication: cp24.com
-    - title: 'Iran war news : Mojtaba Khamenei calls for retaliation'
-      url: https://www.bnnbloomberg.ca/business/2026/03/12/israel-bombs-central-beirut-us-airstrikes-top-6000-iran-escalates-attacks-live-updates-here/
-      publication: bnnbloomberg.ca
+    - title: An Action Plan to Prevent Nuclear War ( The New  Thirteen Steps )
+      url: https://www.pressenza.com/2026/04/an-action-plan-to-prevent-nuclear-war-the-new-thirteen-steps/
+      publication: pressenza.com
+    - title: Japan builds up its  southern shield  as faith in US security cover falters
+        | Military News
+      url: https://www.aljazeera.com/news/2026/4/24/japan-builds-up-its-southern-shield-as-faith-in-us-security-cover-falters
+      publication: Al Jazeera
+    - title: Japan builds up its  southern shield  as faith in US security cover falters
+        - Grenada Chronicle – Daily Grenada And Caribbean News
+      url: https://grenadachronicle.com/japan-builds-up-its-southern-shield-as-faith-in-us-security-cover-falters/
+      publication: grenadachronicle.com
   - label: Confirmed critical infrastructure attacks (2024)
     value: ~420
     note: CyberPeace Institute
