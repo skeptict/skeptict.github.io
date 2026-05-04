@@ -1,4 +1,4 @@
-last_updated: '2026-04-27'
+last_updated: '2026-05-04'
 pillars:
 - name: Conflict & Violence
   id: conflict
@@ -10,15 +10,15 @@ pillars:
     source_url: https://ucdp.uu.se/
     search_query: armed conflict wars active 2024 2025
     articles:
+    - title: Privatization of War in Eastern Democratic Republic of Congo
+      url: http://jamestown.org/privatization-of-war-in-eastern-democratic-republic-of-congo/
+      publication: jamestown.org
+    - title: The Hidden Subsidy of the Citizen Soldier
+      url: https://smallwarsjournal.com/2026/05/01/hidden-subsidy-citizen-soldier/
+      publication: smallwarsjournal.com
     - title: Mexico Hunts the Mountain While the Drug War Hunts Back
       url: https://latinamericanpost.com/americas/mexico-hunts-the-mountain-while-the-drug-war-hunts-back/
       publication: latinamericanpost.com
-    - title: 'Transcript : How the Media Failed the Palestinians'
-      url: https://newrepublic.com/article/209239/transcript-media-failed-palestinians
-      publication: newrepublic.com
-    - title: War crimes are being normalised by nations and not just groups
-      url: https://www.thenational.scot/news/world/26037971.war-crimes-normalised-nations-not-just-groups/
-      publication: thenational.scot
   - label: Conflict deaths (2024)
     value: ~220,000
     note: UCDP estimate
@@ -211,15 +211,15 @@ pillars:
     source_url: https://thebulletin.org/doomsday-clock/
     search_query: doomsday clock nuclear risk midnight 2025
     articles:
+    - title: 'Doomsday Clock 2026 : Scientists set new time'
+      url: https://www.rnz.co.nz/news/world/585192/doomsday-clock-2026-scientists-set-new-time
+      publication: rnz.co.nz
     - title: 'Per Capita : Now time for some bad news'
       url: https://www.davisenterprise.com/features/per-capita-now-time-for-some-bad-news/article_b6f90d08-d569-4517-baa1-e07f1c897353.html
       publication: davisenterprise.com
     - title: The war with Iran may be ushering in a new nuclear age
       url: https://www.straitstimes.com/world/united-states/the-war-with-iran-may-be-ushering-in-a-new-nuclear-age
       publication: straitstimes.com
-    - title: The war with Iran may be ushering in a new nuclear age
-      url: https://economictimes.indiatimes.com/news/international/world-news/the-war-with-iran-may-be-ushering-in-a-new-nuclear-age/articleshow/129876930.cms
-      publication: economictimes.indiatimes.com
   - label: Nuclear states on heightened alert
     value: '3'
     note: US, Russia, China
