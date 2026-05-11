@@ -1,4 +1,4 @@
-last_updated: '2026-05-04'
+last_updated: '2026-05-11'
 pillars:
 - name: Conflict & Violence
   id: conflict
@@ -25,34 +25,34 @@ pillars:
     source_url: https://ucdp.uu.se/
     search_query: conflict deaths battle casualties war 2024
     articles:
+    - title: 俄烏戰爭現況 ： 開欄文 - 時事論壇 - udn城市
+      url: https://city.udn.com/2976/7210328?raid=7295396
+      publication: city.udn.com
+    - title: 'Ian Linden : Israel / Palestine : Ethnicity , Land , Nationalism and
+        Religion'
+      url: https://www.indcatholicnews.com/news/54927
+      publication: indcatholicnews.com
     - title: navigating a reality defined by recurring conflict and persistent insecurity
         .....
       url: https://yourdemocracy.net/drupal/node/59527
       publication: yourdemocracy.net
-    - title: 'Pentagon Erases Wounded U . S . Troops From Iran War Casualty List :  Definition
-        of a Cover - up'
-      url: https://theintercept.com/2026/04/22/iran-war-military-casualties-wounded/
-      publication: theintercept.com
-    - title: War without end ? How Israel became trapped in its own security doctrine
-      url: http://www.heraldglobe.com/news/279007676/war-without-end-how-israel-became-trapped-in-its-own-security-doctrine
-      publication: heraldglobe.com
   - label: People newly displaced by conflict
     value: 68.3M
     note: UNHCR, 2024
     source_url: https://www.unhcr.org/global-trends
     search_query: refugees displaced people conflict 2024 UNHCR
     articles:
-    - title: Chernobyl refugee town welcomes Ukraine conflict displaced
-      url: https://www.ewn.co.za/2026/04/26/chernobyl-refugee-town-welcomes-ukraines-conflict-displaced
-      publication: ewn.co.za
-    - title: Chernobyl refugee town welcomes Ukraine conflict displaced
-      url: https://www.spacewar.com/afp/260426101410.3alzzhsu.html
-      publication: spacewar.com
-    - title: APO Group - Africa Newsroom / Press release | Acute food insecurity and
-        malnutrition remain alarmingly high as crises deepen , United Nations ( UN
-        ), European Union ( EU ) and partners warn in new report
-      url: https://www.africa-newsroom.com/press/acute-food-insecurity-and-malnutrition-remain-alarmingly-high-as-crises-deepen-united-nations-un-european-union-eu-and-partners-warn-in-new-report
-      publication: africa-newsroom.com
+    - title: 'Syrian Refugee Returns After Assad : Political Imperatives And Humanitarian
+        Realities – Analysis'
+      url: https://www.eurasiareview.com/11052026-syrian-refugee-returns-after-assad-political-imperatives-and-humanitarian-realities-analysis/
+      publication: eurasiareview.com
+    - title: Living The  Double Challenge  Of Displacement And Disability
+      url: https://www.thereporterethiopia.com/50602/
+      publication: thereporterethiopia.com
+    - title: Dont Sleep ! 13 Things Black Folks Must Know About What Happening in
+        Our Communities and Around the World – The Root
+      url: https://www.theroot.com/dont-sleep-13-things-black-folks-must-know-about-what-2000104224
+      publication: theroot.com
 - name: Humanitarian Crisis
   id: humanitarian
   trend: up
@@ -141,14 +141,14 @@ pillars:
     source_url: https://www.munichre.com/en/risks/natural-disasters.html
     search_query: economic losses natural disasters billion 2024 insurance
     articles:
-    - title: USDA Issues Second Supplemental Disaster Payment to Farmers
-      url: https://www.rfdtv.com/usda-issues-second-supplemental-disaster-payment-to-farmers
-      publication: rfdtv.com
-    - title: Digital Realty Reports First Quarter 2026 Results
-      url: https://www.itnewsonline.com/GlobeNewswire/Digital-Realty-Reports-First-Quarter-2026-Results/120604
-      publication: itnewsonline.com
-    - title: Blue Ridge Bankshares , Inc . Announces 2026 First Quarter Results
-      url: https://www.prnewswire.com/news-releases/blue-ridge-bankshares-inc-announces-2026-first-quarter-results-302752303.html
+    - title: Extreme weather financial effect on homeownership
+      url: https://www.ukiahdailyjournal.com/2024/10/18/extreme-weather-home-owners/
+      publication: ukiahdailyjournal.com
+    - title: Final Results | Company Announcement
+      url: https://www.investegate.co.uk/announcement/rns/airtel-africa--aaf/final-results/9558210
+      publication: investegate.co.uk
+    - title: F & G Annuities & Life Reports First Quarter 2026 Results
+      url: http://www.prnewswire.com/news-releases/fg-annuities--life-reports-first-quarter-2026-results-302764542.html
       publication: prnewswire.com
 - name: Governance & Instability
   id: governance
