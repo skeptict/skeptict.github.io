@@ -1,4 +1,4 @@
-last_updated: '2026-05-11'
+last_updated: '2026-05-18'
 pillars:
 - name: Conflict & Violence
   id: conflict
@@ -42,6 +42,10 @@ pillars:
     source_url: https://www.unhcr.org/global-trends
     search_query: refugees displaced people conflict 2024 UNHCR
     articles:
+    - title: Chad lay faithful join bishops in condemning rising violence , insecurity
+        – Catholic World Report
+      url: https://www.catholicworldreport.com/2026/05/17/chads-lay-faithful-join-bishops-in-condemning-rising-insecurity/
+      publication: catholicworldreport.com
     - title: 'Syrian Refugee Returns After Assad : Political Imperatives And Humanitarian
         Realities – Analysis'
       url: https://www.eurasiareview.com/11052026-syrian-refugee-returns-after-assad-political-imperatives-and-humanitarian-realities-analysis/
@@ -49,10 +53,6 @@ pillars:
     - title: Living The  Double Challenge  Of Displacement And Disability
       url: https://www.thereporterethiopia.com/50602/
       publication: thereporterethiopia.com
-    - title: Dont Sleep ! 13 Things Black Folks Must Know About What Happening in
-        Our Communities and Around the World – The Root
-      url: https://www.theroot.com/dont-sleep-13-things-black-folks-must-know-about-what-2000104224
-      publication: theroot.com
 - name: Humanitarian Crisis
   id: humanitarian
   trend: up
@@ -141,15 +141,15 @@ pillars:
     source_url: https://www.munichre.com/en/risks/natural-disasters.html
     search_query: economic losses natural disasters billion 2024 insurance
     articles:
+    - title: The growing cost of insuring against extreme weather events
+      url: https://geographical.co.uk/news/the-growing-cost-of-insuring-against-extreme-weather-events
+      publication: geographical.co.uk
+    - title: 'Select Select Weekly Climate and Energy News Roundup # 690'
+      url: https://wattsupwiththat.com/2026/05/11/select-select-weekly-climate-and-energy-news-roundup-690/
+      publication: wattsupwiththat.com
     - title: Extreme weather financial effect on homeownership
       url: https://www.ukiahdailyjournal.com/2024/10/18/extreme-weather-home-owners/
       publication: ukiahdailyjournal.com
-    - title: Final Results | Company Announcement
-      url: https://www.investegate.co.uk/announcement/rns/airtel-africa--aaf/final-results/9558210
-      publication: investegate.co.uk
-    - title: F & G Annuities & Life Reports First Quarter 2026 Results
-      url: http://www.prnewswire.com/news-releases/fg-annuities--life-reports-first-quarter-2026-results-302764542.html
-      publication: prnewswire.com
 - name: Governance & Instability
   id: governance
   trend: up
@@ -160,15 +160,15 @@ pillars:
     source_url: https://www.jonathanmpowell.com/coup-detat-dataset.html
     search_query: coup military takeover government overthrow 2024 2025
     articles:
+    - title: 'Coup plot trial : Cleric says ₦10m received was for prayers'
+      url: https://thesun.ng/coup-plot-trial-cleric-says-%E2%82%A610m-received-was-for-prayers/
+      publication: thesun.ng
     - title: 'Iran relationship with the United States : An estranged friend to an  arrogant  power'
       url: https://www.thehindu.com/news/international/irans-relationship-with-the-united-states-an-estranged-friend-to-an-arrogant-power/article70702570.ece
       publication: thehindu.com
     - title: Politicking at the chemical weapons watchdog
       url: https://peoplesdailyng.com/politicking-at-the-chemical-weapons-watchdog/
       publication: peoplesdailyng.com
-    - title: 'SMOKER CORNER : THE PROBLEM WITH  TACTICAL ENTRYISM  - Newspaper'
-      url: https://www.dawn.com/news/1974759
-      publication: dawn.com
   - label: Internet shutdowns (2024)
     value: '283'
     note: Access Now
@@ -211,15 +211,15 @@ pillars:
     source_url: https://thebulletin.org/doomsday-clock/
     search_query: doomsday clock nuclear risk midnight 2025
     articles:
+    - title: Experts warn of rising global nuclear danger - Pakistan Today
+      url: https://www.pakistantoday.com.pk/2026/05/10/experts-warn-world-is-edging-closer-to-nuclear-catastrophe
+      publication: pakistantoday.com.pk
     - title: 'Doomsday Clock 2026 : Scientists set new time'
       url: https://www.rnz.co.nz/news/world/585192/doomsday-clock-2026-scientists-set-new-time
       publication: rnz.co.nz
     - title: 'Per Capita : Now time for some bad news'
       url: https://www.davisenterprise.com/features/per-capita-now-time-for-some-bad-news/article_b6f90d08-d569-4517-baa1-e07f1c897353.html
       publication: davisenterprise.com
-    - title: The war with Iran may be ushering in a new nuclear age
-      url: https://www.straitstimes.com/world/united-states/the-war-with-iran-may-be-ushering-in-a-new-nuclear-age
-      publication: straitstimes.com
   - label: Nuclear states on heightened alert
     value: '3'
     note: US, Russia, China
