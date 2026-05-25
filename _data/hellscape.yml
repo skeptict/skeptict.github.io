@@ -1,4 +1,4 @@
-last_updated: '2026-05-18'
+last_updated: '2026-05-25'
 pillars:
 - name: Conflict & Violence
   id: conflict
@@ -82,15 +82,18 @@ pillars:
     source_url: https://www.fsinplatform.org/grfc2024
     search_query: food crisis hunger acute famine 2024 2025
     articles:
-    - title: 'Tirana Hassan : Hunger In War Is More Than A Lack Of Food'
-      url: https://www.forbes.com/sites/daphneewingchow/2026/04/09/tirana-hassan-hunger-in-war-is-more-than-a-lack-of-food/
-      publication: forbes.com
-    - title: The 10 - Year Famine Is About to Be Unleashed – NaturalNews . com
-      url: https://www.naturalnews.com/2026-03-19-10-year-famine-about-to-be-unleashed.html
-      publication: naturalnews.com
-    - title: Why the hunger crisis in West and Central Africa is rising
-      url: https://theprint.in/world/why-the-hunger-crisis-in-west-and-central-africa-is-rising/2879487/
-      publication: theprint.in
+    - title: 'The paradox of plenty : How Ghana farmers are being sacrificed on the
+        altar of a cheap import agenda'
+      url: https://www.ghanamma.com/2026/05/18/the-paradox-of-plenty-how-ghanas-farmers-are-being-sacrificed-on-the-altar-of-a-cheap-import-agenda/
+      publication: ghanamma.com
+    - title: 15 May 2026 - Daily Press Briefing by the Office of the Spokesperson
+        for the Secretary - General
+      url: https://www.globalsecurity.org/military/library/news/2026/05/mil-260515-unbrief01.htm
+      publication: globalsecurity.org
+    - title: 'Yemen : Unresolved Conflict , Escalating Regional Tensions , And Growing
+        Global Risks – Analysis'
+      url: https://www.eurasiareview.com/13052026-yemen-unresolved-conflict-escalating-regional-tensions-and-growing-global-risks-analysis/
+      publication: eurasiareview.com
   - label: Countries at high risk of deterioration
     value: '23'
     note: IRC Emergency Watchlist 2026
@@ -211,15 +214,16 @@ pillars:
     source_url: https://thebulletin.org/doomsday-clock/
     search_query: doomsday clock nuclear risk midnight 2025
     articles:
+    - title: Solving the Climate Crisis Requires Peace , and Peace a Stable Climate
+        – Socialist Project
+      url: https://socialistproject.ca/2026/05/solving-climate-crisis-requires-peace/
+      publication: socialistproject.ca
+    - title: The Nuclear Lie at the Center of U . S . Foreign Policy
+      url: https://nuclear-news.net/2026/05/22/2-a1-the-nuclear-lie-at-the-center-of-u-s-foreign-policy/
+      publication: nuclear-news.net
     - title: Experts warn of rising global nuclear danger - Pakistan Today
       url: https://www.pakistantoday.com.pk/2026/05/10/experts-warn-world-is-edging-closer-to-nuclear-catastrophe
       publication: pakistantoday.com.pk
-    - title: 'Doomsday Clock 2026 : Scientists set new time'
-      url: https://www.rnz.co.nz/news/world/585192/doomsday-clock-2026-scientists-set-new-time
-      publication: rnz.co.nz
-    - title: 'Per Capita : Now time for some bad news'
-      url: https://www.davisenterprise.com/features/per-capita-now-time-for-some-bad-news/article_b6f90d08-d569-4517-baa1-e07f1c897353.html
-      publication: davisenterprise.com
   - label: Nuclear states on heightened alert
     value: '3'
     note: US, Russia, China
