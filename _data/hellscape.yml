@@ -1,4 +1,4 @@
-last_updated: '2026-05-25'
+last_updated: '2026-06-01'
 pillars:
 - name: Conflict & Violence
   id: conflict
@@ -25,34 +25,33 @@ pillars:
     source_url: https://ucdp.uu.se/
     search_query: conflict deaths battle casualties war 2024
     articles:
+    - title: 'Skeletons and Skulls Scattered Everywhere : Arakan Army Massacre of
+        Rohingya Muslims in Hoyyar Siri , Myanmar'
+      url: https://www.hrw.org/report/2026/05/18/skeletons-and-skulls-scattered-everywhere/arakan-army-massacre-of-rohingya
+      publication: hrw.org
+    - title: 'The Geopolitical Autopsy : Six Theatres , One Diagnosis Part II'
+      url: https://slguardian.org/the-geopolitical-autopsy-six-theatres-one-diagnosis-part-ii/
+      publication: slguardian.org
     - title: 俄烏戰爭現況 ： 開欄文 - 時事論壇 - udn城市
       url: https://city.udn.com/2976/7210328?raid=7295396
       publication: city.udn.com
-    - title: 'Ian Linden : Israel / Palestine : Ethnicity , Land , Nationalism and
-        Religion'
-      url: https://www.indcatholicnews.com/news/54927
-      publication: indcatholicnews.com
-    - title: navigating a reality defined by recurring conflict and persistent insecurity
-        .....
-      url: https://yourdemocracy.net/drupal/node/59527
-      publication: yourdemocracy.net
   - label: People newly displaced by conflict
     value: 68.3M
     note: UNHCR, 2024
     source_url: https://www.unhcr.org/global-trends
     search_query: refugees displaced people conflict 2024 UNHCR
     articles:
+    - title: 22 May 2026 - Daily Press Briefing by the Office of the Spokesperson
+        for the Secretary - General
+      url: https://www.globalsecurity.org/military/library/news/2026/05/mil-260522-unbrief01.htm
+      publication: globalsecurity.org
+    - title: Cash - strapped UN refugee agency to cut more jobs , even as crises mount
+      url: https://www.cnbcafrica.com/2026/cash-strapped-un-refugee-agency-to-cut-more-jobs-even-as-crises-mount
+      publication: cnbcafrica.com
     - title: Chad lay faithful join bishops in condemning rising violence , insecurity
         – Catholic World Report
       url: https://www.catholicworldreport.com/2026/05/17/chads-lay-faithful-join-bishops-in-condemning-rising-insecurity/
       publication: catholicworldreport.com
-    - title: 'Syrian Refugee Returns After Assad : Political Imperatives And Humanitarian
-        Realities – Analysis'
-      url: https://www.eurasiareview.com/11052026-syrian-refugee-returns-after-assad-political-imperatives-and-humanitarian-realities-analysis/
-      publication: eurasiareview.com
-    - title: Living The  Double Challenge  Of Displacement And Disability
-      url: https://www.thereporterethiopia.com/50602/
-      publication: thereporterethiopia.com
 - name: Humanitarian Crisis
   id: humanitarian
   trend: up
