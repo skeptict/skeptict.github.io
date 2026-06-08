@@ -1,4 +1,4 @@
-last_updated: '2026-06-01'
+last_updated: '2026-06-08'
 pillars:
 - name: Conflict & Violence
   id: conflict
@@ -25,16 +25,17 @@ pillars:
     source_url: https://ucdp.uu.se/
     search_query: conflict deaths battle casualties war 2024
     articles:
-    - title: 'Skeletons and Skulls Scattered Everywhere : Arakan Army Massacre of
-        Rohingya Muslims in Hoyyar Siri , Myanmar'
-      url: https://www.hrw.org/report/2026/05/18/skeletons-and-skulls-scattered-everywhere/arakan-army-massacre-of-rohingya
-      publication: hrw.org
-    - title: 'The Geopolitical Autopsy : Six Theatres , One Diagnosis Part II'
-      url: https://slguardian.org/the-geopolitical-autopsy-six-theatres-one-diagnosis-part-ii/
-      publication: slguardian.org
-    - title: 俄烏戰爭現況 ： 開欄文 - 時事論壇 - udn城市
-      url: https://city.udn.com/2976/7210328?raid=7295396
-      publication: city.udn.com
+    - title: The dangerous delusion of modern warfare
+      url: https://www.hindustantimes.com/world-news/the-dangerous-delusion-of-modern-warfare-101780745708025.html
+      publication: hindustantimes.com
+    - title: Spotlight on Terrorism – May 2026 - The Amit Terrorism and Intelligence
+        Research Institute
+      url: https://www.terrorism-info.org.il/en/spotlight-on-terrorism-may-2026/
+      publication: terrorism-info.org.il
+    - title: 'Extending the New Silk Road to West Asia and Africa : A Vision of an
+        Economic Renaissance'
+      url: https://larouchepub.com/other/2026/5322-extending_the_new_silk_road_to.html
+      publication: larouchepub.com
   - label: People newly displaced by conflict
     value: 68.3M
     note: UNHCR, 2024
@@ -81,18 +82,15 @@ pillars:
     source_url: https://www.fsinplatform.org/grfc2024
     search_query: food crisis hunger acute famine 2024 2025
     articles:
-    - title: 'The paradox of plenty : How Ghana farmers are being sacrificed on the
-        altar of a cheap import agenda'
-      url: https://www.ghanamma.com/2026/05/18/the-paradox-of-plenty-how-ghanas-farmers-are-being-sacrificed-on-the-altar-of-a-cheap-import-agenda/
-      publication: ghanamma.com
-    - title: 15 May 2026 - Daily Press Briefing by the Office of the Spokesperson
-        for the Secretary - General
-      url: https://www.globalsecurity.org/military/library/news/2026/05/mil-260515-unbrief01.htm
-      publication: globalsecurity.org
-    - title: 'Yemen : Unresolved Conflict , Escalating Regional Tensions , And Growing
-        Global Risks – Analysis'
-      url: https://www.eurasiareview.com/13052026-yemen-unresolved-conflict-escalating-regional-tensions-and-growing-global-risks-analysis/
-      publication: eurasiareview.com
+    - title: The Nazis Hid Their Crimes , Israel Boasts About Them
+      url: https://slguardian.org/the-nazis-hid-their-crimes-israel-boasts-about-them/
+      publication: slguardian.org
+    - title: 'The Nazis Hid Their Crimes : Israel Boasts About Them'
+      url: https://countercurrents.org/2026/05/the-nazis-hid-their-crimes-israel-boasts-about-them/
+      publication: countercurrents.org
+    - title: 'First Thing : Trump - backed Ken Paxton ousts John Cornyn in Texas primary'
+      url: https://www.theguardian.com/us-news/2026/may/27/first-thing-trump-backed-ken-paxton-ousts-john-cornyn-in-texas-primary
+      publication: The Guardian
   - label: Countries at high risk of deterioration
     value: '23'
     note: IRC Emergency Watchlist 2026
@@ -143,15 +141,17 @@ pillars:
     source_url: https://www.munichre.com/en/risks/natural-disasters.html
     search_query: economic losses natural disasters billion 2024 insurance
     articles:
-    - title: The growing cost of insuring against extreme weather events
-      url: https://geographical.co.uk/news/the-growing-cost-of-insuring-against-extreme-weather-events
-      publication: geographical.co.uk
-    - title: 'Select Select Weekly Climate and Energy News Roundup # 690'
-      url: https://wattsupwiththat.com/2026/05/11/select-select-weekly-climate-and-energy-news-roundup-690/
-      publication: wattsupwiththat.com
-    - title: Extreme weather financial effect on homeownership
-      url: https://www.ukiahdailyjournal.com/2024/10/18/extreme-weather-home-owners/
-      publication: ukiahdailyjournal.com
+    - title: 'PM Edition : Top 10 Business Articles on LiveNews . co . nz for June
+        6 , 2026 – Full Text – LiveNews . co . nz'
+      url: https://livenews.co.nz/2026/06/06/pm-edition-top-10-business-articles-on-livenews-co-nz-for-june-6-2026-full-text/
+      publication: livenews.co.nz
+    - title: Placing and Offer for Subscription | Company Announcement
+      url: https://www.investegate.co.uk/announcement/rns/investment-company--inv/placing-and-offer-for-subscription/9600728
+      publication: investegate.co.uk
+    - title: 'Federal Register :: Designation - Restrict the Operation of Unmanned
+        Aircraft in Close Proximity to a Fixed Site Facility'
+      url: https://www.federalregister.gov/documents/2026/05/06/2026-08943/designation-restrict-the-operation-of-unmanned-aircraft-in-close-proximity-to-a-fixed-site-facility
+      publication: federalregister.gov
 - name: Governance & Instability
   id: governance
   trend: up
@@ -229,17 +229,15 @@ pillars:
     source_url: https://www.sipri.org/
     search_query: nuclear weapons alert posture Russia China United States 2025
     articles:
-    - title: An Action Plan to Prevent Nuclear War ( The New  Thirteen Steps )
-      url: https://www.pressenza.com/2026/04/an-action-plan-to-prevent-nuclear-war-the-new-thirteen-steps/
-      publication: pressenza.com
-    - title: Japan builds up its  southern shield  as faith in US security cover falters
-        | Military News
-      url: https://www.aljazeera.com/news/2026/4/24/japan-builds-up-its-southern-shield-as-faith-in-us-security-cover-falters
-      publication: Al Jazeera
-    - title: Japan builds up its  southern shield  as faith in US security cover falters
-        - Grenada Chronicle – Daily Grenada And Caribbean News
-      url: https://grenadachronicle.com/japan-builds-up-its-southern-shield-as-faith-in-us-security-cover-falters/
-      publication: grenadachronicle.com
+    - title: Arms control , risk reduction , and the art of the possible
+      url: https://thebulletin.org/premium/2026-05/arms-control-risk-reduction-and-the-art-of-the-possible/
+      publication: Bulletin of Atomic Scientists
+    - title: China opaque nuclear - weapon ambitions raise red flags
+      url: http://www.chinanationalnews.com/news/279099187/china-opaque-nuclear-weapon-ambitions-raise-red-flags
+      publication: chinanationalnews.com
+    - title: China opaque nuclear - weapon ambitions raise red flags
+      url: http://www.japanherald.com/news/279099187/china-opaque-nuclear-weapon-ambitions-raise-red-flags
+      publication: japanherald.com
   - label: Confirmed critical infrastructure attacks (2024)
     value: ~420
     note: CyberPeace Institute
