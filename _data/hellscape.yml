@@ -1,4 +1,4 @@
-last_updated: '2026-06-08'
+last_updated: '2026-06-15'
 pillars:
 - name: Conflict & Violence
   id: conflict
@@ -10,15 +10,17 @@ pillars:
     source_url: https://ucdp.uu.se/
     search_query: armed conflict wars active 2024 2025
     articles:
-    - title: Privatization of War in Eastern Democratic Republic of Congo
-      url: http://jamestown.org/privatization-of-war-in-eastern-democratic-republic-of-congo/
-      publication: jamestown.org
-    - title: The Hidden Subsidy of the Citizen Soldier
-      url: https://smallwarsjournal.com/2026/05/01/hidden-subsidy-citizen-soldier/
-      publication: smallwarsjournal.com
-    - title: Mexico Hunts the Mountain While the Drug War Hunts Back
-      url: https://latinamericanpost.com/americas/mexico-hunts-the-mountain-while-the-drug-war-hunts-back/
-      publication: latinamericanpost.com
+    - title: 'Air Weapons : American Drone Swarm'
+      url: http://www.strategypage.com/htmw/htairw/articles/2026061364455.aspx
+      publication: strategypage.com
+    - title: 'Someone will turn on you : The short life and violent death of an alleged
+        Surrey gang hitman'
+      url: https://www.edmontonexaminer.com:443/news/short-life-violent-death-of-alleged-surrey-gang-hitman/wcm/8bd446d4-7982-4150-b4e6-fc0ac2e08565
+      publication: edmontonexaminer.com
+    - title: 'Someone will turn on you : The short life and violent death of an alleged
+        Surrey gang hitman'
+      url: https://theprovince.com/news/short-life-violent-death-of-alleged-surrey-gang-hitman/wcm/69545061-7623-4d10-a76f-371d3abfb6dc
+      publication: theprovince.com
   - label: Conflict deaths (2024)
     value: ~220,000
     note: UCDP estimate
@@ -82,15 +84,16 @@ pillars:
     source_url: https://www.fsinplatform.org/grfc2024
     search_query: food crisis hunger acute famine 2024 2025
     articles:
+    - title: 'REALITY CHECK : N70 , 000 Minimum Wage Can Only Buy Food for 15 Days
+        – Daily Trust'
+      url: https://dailytrust.com/reality-check-n70000-minimum-wage-can-only-buy-food-for-15-days/
+      publication: dailytrust.com
+    - title: Iran War and Aid Cuts Push 45 Million Toward Hunger
+      url: https://www.newsghana.com.gh/iran-war-and-aid-cuts-push-45-million-toward-hunger/
+      publication: newsghana.com.gh
     - title: The Nazis Hid Their Crimes , Israel Boasts About Them
       url: https://slguardian.org/the-nazis-hid-their-crimes-israel-boasts-about-them/
       publication: slguardian.org
-    - title: 'The Nazis Hid Their Crimes : Israel Boasts About Them'
-      url: https://countercurrents.org/2026/05/the-nazis-hid-their-crimes-israel-boasts-about-them/
-      publication: countercurrents.org
-    - title: 'First Thing : Trump - backed Ken Paxton ousts John Cornyn in Texas primary'
-      url: https://www.theguardian.com/us-news/2026/may/27/first-thing-trump-backed-ken-paxton-ousts-john-cornyn-in-texas-primary
-      publication: The Guardian
   - label: Countries at high risk of deterioration
     value: '23'
     note: IRC Emergency Watchlist 2026
