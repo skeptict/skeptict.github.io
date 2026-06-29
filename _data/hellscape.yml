@@ -1,4 +1,4 @@
-last_updated: '2026-06-22'
+last_updated: '2026-06-29'
 pillars:
 - name: Conflict & Violence
   id: conflict
@@ -133,10 +133,9 @@ pillars:
     source_url: https://www.emdat.be/
     search_query: natural disasters floods fires earthquakes 2024 deaths
     articles:
-    - title: When disasters strike , preparation saves lives is India ready when crisis
-        hits ? |
-      url: https://timesofindia.indiatimes.com/india/when-disasters-strike-preparation-saves-lives-is-india-ready-when-crisis-hits/articleshow/126462666.cms
-      publication: timesofindia.indiatimes.com
+    - title: 2025 costliest year on record for wildfires , study finds
+      url: https://www.aol.co.uk/articles/study-finds-2025-costliest-record-230000333.html
+      publication: aol.co.uk
   - label: Economic losses from disasters (2024)
     value: $320B+
     note: Munich Re estimate
@@ -213,6 +212,10 @@ pillars:
     source_url: https://thebulletin.org/doomsday-clock/
     search_query: doomsday clock nuclear risk midnight 2025
     articles:
+    - title: 'Beyond managed rivalry : The non - nuclear - weapon state perspective
+        on the future of arms control'
+      url: https://thebulletin.org/premium/2026-05/beyond-managed-rivalry-the-non-nuclear-weapon-state-perspective-on-the-future-of-arms-control/
+      publication: Bulletin of Atomic Scientists
     - title: Solving the Climate Crisis Requires Peace , and Peace a Stable Climate
         – Socialist Project
       url: https://socialistproject.ca/2026/05/solving-climate-crisis-requires-peace/
@@ -220,9 +223,6 @@ pillars:
     - title: The Nuclear Lie at the Center of U . S . Foreign Policy
       url: https://nuclear-news.net/2026/05/22/2-a1-the-nuclear-lie-at-the-center-of-u-s-foreign-policy/
       publication: nuclear-news.net
-    - title: Experts warn of rising global nuclear danger - Pakistan Today
-      url: https://www.pakistantoday.com.pk/2026/05/10/experts-warn-world-is-edging-closer-to-nuclear-catastrophe
-      publication: pakistantoday.com.pk
   - label: Nuclear states on heightened alert
     value: '3'
     note: US, Russia, China
