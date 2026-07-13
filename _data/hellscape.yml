@@ -1,4 +1,4 @@
-last_updated: '2026-07-06'
+last_updated: '2026-07-13'
 pillars:
 - name: Conflict & Violence
   id: conflict
@@ -163,15 +163,13 @@ pillars:
     source_url: https://www.jonathanmpowell.com/coup-detat-dataset.html
     search_query: coup military takeover government overthrow 2024 2025
     articles:
+    - title: 'Releasing the UFO files is not enough , the UFO Trojan Horse Part 1
+        : Whistleblowers'
+      url: https://www.sott.net/article/507336-Releasing-the-UFO-files-is-not-enough-the-UFO-Trojan-Horse-Part-1-Whistleblowers
+      publication: sott.net
     - title: 'Coup plot trial : Cleric says ₦10m received was for prayers'
       url: https://thesun.ng/coup-plot-trial-cleric-says-%E2%82%A610m-received-was-for-prayers/
       publication: thesun.ng
-    - title: 'Iran relationship with the United States : An estranged friend to an  arrogant  power'
-      url: https://www.thehindu.com/news/international/irans-relationship-with-the-united-states-an-estranged-friend-to-an-arrogant-power/article70702570.ece
-      publication: thehindu.com
-    - title: Politicking at the chemical weapons watchdog
-      url: https://peoplesdailyng.com/politicking-at-the-chemical-weapons-watchdog/
-      publication: peoplesdailyng.com
   - label: Internet shutdowns (2024)
     value: '283'
     note: Access Now
