@@ -1,4 +1,4 @@
-last_updated: '2026-07-13'
+last_updated: '2026-07-20'
 pillars:
 - name: Conflict & Violence
   id: conflict
@@ -27,15 +27,15 @@ pillars:
     source_url: https://ucdp.uu.se/
     search_query: conflict deaths battle casualties war 2024
     articles:
-    - title: 'Editorial Roundup : United States'
-      url: https://mymotherlode.com/news/national/10927679/editorial-roundup-united-states-6.html
-      publication: mymotherlode.com
-    - title: 'Editorial Roundup : United States - MyNorthwest . com'
-      url: https://mynorthwest.com/national/editorial-roundup-united-states-47/4248644
-      publication: mynorthwest.com
-    - title: 'Editorial Roundup : United States – Winnipeg Free Press'
-      url: https://www.winnipegfreepress.com/world/2026/06/16/editorial-roundup-united-states-200
-      publication: winnipegfreepress.com
+    - title: US Military Launches Eighth Night of Strikes Against Iran
+      url: http://www.iranherald.com/news/279196488/us-military-launches-eighth-night-of-strikes-against-iran
+      publication: iranherald.com
+    - title: US Military Launches Eighth Night of Strikes Against Iran
+      url: http://www.chinanationalnews.com/news/279196488/us-military-launches-eighth-night-of-strikes-against-iran
+      publication: chinanationalnews.com
+    - title: US Military Launches Eighth Night of Strikes Against Iran
+      url: http://www.middleeaststar.com/news/279196488/us-military-launches-eighth-night-of-strikes-against-iran
+      publication: middleeaststar.com
   - label: People newly displaced by conflict
     value: 68.3M
     note: UNHCR, 2024
