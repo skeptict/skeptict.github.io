@@ -1,4 +1,4 @@
-last_updated: '2026-07-20'
+last_updated: '2026-07-27'
 pillars:
 - name: Conflict & Violence
   id: conflict
@@ -42,18 +42,16 @@ pillars:
     source_url: https://www.unhcr.org/global-trends
     search_query: refugees displaced people conflict 2024 UNHCR
     articles:
-    - title: 'Pacific . scoop . co . nz » World Refugee Day : Almost 2 Million Children
-        Estimated To Have Returned To  Unliveable Conditions  In Syria In 18 Months'
-      url: https://pacific.scoop.co.nz/2026/06/world-refugee-day-almost-2-million-children-estimated-to-have-returned-to-unliveable-conditions-in-syria-in-18-months/
-      publication: pacific.scoop.co.nz
-    - title: 'World Refugee Day : Almost 2 Million Children Estimated To Have Returned
-        To  Unliveable Conditions  In Syria In 18 Months'
-      url: https://www.scoop.co.nz/stories/WO2606/S00211/world-refugee-day-almost-2-million-children-estimated-to-have-returned-to-unliveable-conditions-in-syria-in-18-months.htm
-      publication: scoop.co.nz
-    - title: Refugee numbers dropped in 2025 – but aid cuts and others trends suggest
-        little to celebrate
-      url: https://theconversation.com/refugee-numbers-dropped-in-2025-but-aid-cuts-and-others-trends-suggest-little-to-celebrate-284801
-      publication: theconversation.com
+    - title: Opinion The Human Cost of Migration Deterrence in Egypt
+      url: http://www.africaleader.com/news/279202698/opinion-the-human-cost-of-migration-deterrence-in-egypt
+      publication: africaleader.com
+    - title: 21 July 2026 - Daily Press Briefing by the Office of the Spokesperson
+        for the Secretary - General
+      url: https://www.globalsecurity.org/military/library/news/2026/07/mil-260721-unbrief01.htm
+      publication: globalsecurity.org
+    - title: 'Lake Chad Displacement : 3 . 5 Million Displaced by Violence'
+      url: https://punchng.com/violence-displaces-3-5-million-across-lake-chad-basin-unhcr/
+      publication: punchng.com
 - name: Humanitarian Crisis
   id: humanitarian
   trend: up
@@ -210,6 +208,10 @@ pillars:
     source_url: https://thebulletin.org/doomsday-clock/
     search_query: doomsday clock nuclear risk midnight 2025
     articles:
+    - title: 85 seconds to midnight  – The real reason super powers fear and buy nuclear
+        weapons at the same time
+      url: https://www.bankingnews.gr/diethni/articles/890150/85-seconds-to-midnight-the-real-reason-super-powers-fear-and-buy-nuclear-weapons-at-the-same-time
+      publication: bankingnews.gr
     - title: 'Beyond managed rivalry : The non - nuclear - weapon state perspective
         on the future of arms control'
       url: https://thebulletin.org/premium/2026-05/beyond-managed-rivalry-the-non-nuclear-weapon-state-perspective-on-the-future-of-arms-control/
@@ -218,24 +220,21 @@ pillars:
         – Socialist Project
       url: https://socialistproject.ca/2026/05/solving-climate-crisis-requires-peace/
       publication: socialistproject.ca
-    - title: The Nuclear Lie at the Center of U . S . Foreign Policy
-      url: https://nuclear-news.net/2026/05/22/2-a1-the-nuclear-lie-at-the-center-of-u-s-foreign-policy/
-      publication: nuclear-news.net
   - label: Nuclear states on heightened alert
     value: '3'
     note: US, Russia, China
     source_url: https://www.sipri.org/
     search_query: nuclear weapons alert posture Russia China United States 2025
     articles:
+    - title: Russia War Of Self - Destruction – Analysis – Eurasia Review
+      url: https://www.eurasiareview.com/08062026-russias-war-of-self-destruction-analysis/
+      publication: eurasiareview.com
     - title: Arms control , risk reduction , and the art of the possible
       url: https://thebulletin.org/premium/2026-05/arms-control-risk-reduction-and-the-art-of-the-possible/
       publication: Bulletin of Atomic Scientists
     - title: China opaque nuclear - weapon ambitions raise red flags
       url: http://www.chinanationalnews.com/news/279099187/china-opaque-nuclear-weapon-ambitions-raise-red-flags
       publication: chinanationalnews.com
-    - title: China opaque nuclear - weapon ambitions raise red flags
-      url: http://www.japanherald.com/news/279099187/china-opaque-nuclear-weapon-ambitions-raise-red-flags
-      publication: japanherald.com
   - label: Confirmed critical infrastructure attacks (2024)
     value: ~420
     note: CyberPeace Institute
