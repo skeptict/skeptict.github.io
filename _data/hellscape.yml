@@ -1,4 +1,4 @@
-last_updated: '2026-08-10'
+last_updated: '2026-08-17'
 pillars:
 - name: Conflict & Violence
   id: conflict
@@ -42,16 +42,16 @@ pillars:
     source_url: https://www.unhcr.org/global-trends
     search_query: refugees displaced people conflict 2024 UNHCR
     articles:
-    - title: Opinion The Human Cost of Migration Deterrence in Egypt
-      url: http://www.africaleader.com/news/279202698/opinion-the-human-cost-of-migration-deterrence-in-egypt
-      publication: africaleader.com
-    - title: 21 July 2026 - Daily Press Briefing by the Office of the Spokesperson
-        for the Secretary - General
-      url: https://www.globalsecurity.org/military/library/news/2026/07/mil-260721-unbrief01.htm
+    - title: 'World News in Brief : Afghanistan education , Myanmar flooding , Syria
+        recovery , homecare workers in New York'
+      url: https://www.globalsecurity.org/military/library/news/2026/08/mil-260813-unnews03.htm
       publication: globalsecurity.org
-    - title: 'Lake Chad Displacement : 3 . 5 Million Displaced by Violence'
-      url: https://punchng.com/violence-displaces-3-5-million-across-lake-chad-basin-unhcr/
-      publication: punchng.com
+    - title: 'Global Brief : Afghan Schools , Myanmar Floods , Syrian Aid , NY Caregivers'
+      url: https://www.miragenews.com/global-brief-afghan-schools-myanmar-floods-1726984/
+      publication: miragenews.com
+    - title: 'Forced migration : The emerging humanitarian time bomb'
+      url: https://www.vanguardngr.com/2026/08/forced-migration-the-emerging-humanitarian-time-bomb/
+      publication: vanguardngr.com
 - name: Humanitarian Crisis
   id: humanitarian
   trend: up
@@ -141,17 +141,17 @@ pillars:
     source_url: https://www.munichre.com/en/risks/natural-disasters.html
     search_query: economic losses natural disasters billion 2024 insurance
     articles:
-    - title: 'PM Edition : Top 10 Business Articles on LiveNews . co . nz for June
-        6 , 2026 – Full Text – LiveNews . co . nz'
-      url: https://livenews.co.nz/2026/06/06/pm-edition-top-10-business-articles-on-livenews-co-nz-for-june-6-2026-full-text/
-      publication: livenews.co.nz
-    - title: Placing and Offer for Subscription | Company Announcement
-      url: https://www.investegate.co.uk/announcement/rns/investment-company--inv/placing-and-offer-for-subscription/9600728
-      publication: investegate.co.uk
-    - title: 'Federal Register :: Designation - Restrict the Operation of Unmanned
-        Aircraft in Close Proximity to a Fixed Site Facility'
-      url: https://www.federalregister.gov/documents/2026/05/06/2026-08943/designation-restrict-the-operation-of-unmanned-aircraft-in-close-proximity-to-a-fixed-site-facility
-      publication: federalregister.gov
+    - title: USDA Extends Supplemental Disaster Relief Program Application Deadline
+        , Announces New Flexibilities for 2023 and 2024 Quality Losses
+      url: https://www.kltz.com/news/usda-extends-supplemental-disaster-relief-program-application-deadline-announces-new-flexibilities-for-2023-and-2024-quality-losses
+      publication: kltz.com
+    - title: 'JD . com , Inc .: JD . com Announces Second Quarter and Interim 2026
+        Results'
+      url: https://www.finanznachrichten.de/nachrichten-2026-08/69301645-jd-com-inc-jd-com-announces-second-quarter-and-interim-2026-results-399.htm
+      publication: finanznachrichten.de
+    - title: Heatwaves are reducing Spain economic growth by more than 1 %
+      url: https://www.surinenglish.com/spain/heatwaves-reducing-spains-20260810142552-nt.html
+      publication: surinenglish.com
 - name: Governance & Instability
   id: governance
   trend: up
