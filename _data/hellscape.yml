@@ -1,4 +1,4 @@
-last_updated: '2026-08-17'
+last_updated: '2026-08-24'
 pillars:
 - name: Conflict & Violence
   id: conflict
@@ -42,16 +42,17 @@ pillars:
     source_url: https://www.unhcr.org/global-trends
     search_query: refugees displaced people conflict 2024 UNHCR
     articles:
-    - title: 'World News in Brief : Afghanistan education , Myanmar flooding , Syria
-        recovery , homecare workers in New York'
-      url: https://www.globalsecurity.org/military/library/news/2026/08/mil-260813-unnews03.htm
-      publication: globalsecurity.org
-    - title: 'Global Brief : Afghan Schools , Myanmar Floods , Syrian Aid , NY Caregivers'
-      url: https://www.miragenews.com/global-brief-afghan-schools-myanmar-floods-1726984/
-      publication: miragenews.com
-    - title: 'Forced migration : The emerging humanitarian time bomb'
-      url: https://www.vanguardngr.com/2026/08/forced-migration-the-emerging-humanitarian-time-bomb/
-      publication: vanguardngr.com
+    - title: 'World Humanitarian Day 2026 : Why aid workers face record attacks with
+        little accountability'
+      url: https://www.arabnews.com/node/2655145/world
+      publication: arabnews.com
+    - title: When will she be safe ? The continuum of violence in refugee and migrant
+        women lives
+      url: https://mg.co.za/thought-leader/2026-08-18-when-will-she-be-safe-the-continuum-of-violence-in-refugee-and-migrant-women-s-lives/
+      publication: mg.co.za
+    - title: The Ledger of Conditional Universalism
+      url: https://countercurrents.org/2026/08/the-ledger-of-conditional-universalism/
+      publication: countercurrents.org
 - name: Humanitarian Crisis
   id: humanitarian
   trend: up
