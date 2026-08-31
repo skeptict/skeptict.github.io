@@ -1,4 +1,4 @@
-last_updated: '2026-08-24'
+last_updated: '2026-08-31'
 pillars:
 - name: Conflict & Violence
   id: conflict
@@ -210,18 +210,16 @@ pillars:
     source_url: https://thebulletin.org/doomsday-clock/
     search_query: doomsday clock nuclear risk midnight 2025
     articles:
+    - title: 'Editorial Roundup : United States – Winnipeg Free Press'
+      url: https://www.winnipegfreepress.com/world/2026/08/18/editorial-roundup-united-states-209
+      publication: winnipegfreepress.com
+    - title: 'Rich Van Dellen : Risk from nuclear weapons continues to grow'
+      url: https://www.postbulletin.com/opinion/columns/rich-van-dellen-risk-from-nuclear-weapons-continues-to-grow
+      publication: postbulletin.com
     - title: 85 seconds to midnight  – The real reason super powers fear and buy nuclear
         weapons at the same time
       url: https://www.bankingnews.gr/diethni/articles/890150/85-seconds-to-midnight-the-real-reason-super-powers-fear-and-buy-nuclear-weapons-at-the-same-time
       publication: bankingnews.gr
-    - title: 'Beyond managed rivalry : The non - nuclear - weapon state perspective
-        on the future of arms control'
-      url: https://thebulletin.org/premium/2026-05/beyond-managed-rivalry-the-non-nuclear-weapon-state-perspective-on-the-future-of-arms-control/
-      publication: Bulletin of Atomic Scientists
-    - title: Solving the Climate Crisis Requires Peace , and Peace a Stable Climate
-        – Socialist Project
-      url: https://socialistproject.ca/2026/05/solving-climate-crisis-requires-peace/
-      publication: socialistproject.ca
   - label: Nuclear states on heightened alert
     value: '3'
     note: US, Russia, China
