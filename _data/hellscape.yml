@@ -1,4 +1,4 @@
-last_updated: '2026-09-07'
+last_updated: '2026-09-14'
 pillars:
 - name: Conflict & Violence
   id: conflict
@@ -142,17 +142,18 @@ pillars:
     source_url: https://www.munichre.com/en/risks/natural-disasters.html
     search_query: economic losses natural disasters billion 2024 insurance
     articles:
-    - title: USDA Extends Supplemental Disaster Relief Program Application Deadline
-        , Announces New Flexibilities for 2023 and 2024 Quality Losses
-      url: https://www.kltz.com/news/usda-extends-supplemental-disaster-relief-program-application-deadline-announces-new-flexibilities-for-2023-and-2024-quality-losses
-      publication: kltz.com
-    - title: 'JD . com , Inc .: JD . com Announces Second Quarter and Interim 2026
-        Results'
-      url: https://www.finanznachrichten.de/nachrichten-2026-08/69301645-jd-com-inc-jd-com-announces-second-quarter-and-interim-2026-results-399.htm
-      publication: finanznachrichten.de
-    - title: Heatwaves are reducing Spain economic growth by more than 1 %
-      url: https://www.surinenglish.com/spain/heatwaves-reducing-spains-20260810142552-nt.html
-      publication: surinenglish.com
+    - title: 'AM Edition : Top 10 Politics Articles on LiveNews . co . nz for September
+        13 , 2026 – Full Text – LiveNews . co . nz'
+      url: https://livenews.co.nz/2026/09/13/am-edition-top-10-politics-articles-on-livenews-co-nz-for-september-13-2026-full-text/
+      publication: livenews.co.nz
+    - title: Nepal flood bill could hit $5 billion . Where will the money come from
+        ?
+      url: https://timesofindia.indiatimes.com/world/south-asia/nepals-flood-bill-could-hit-5-billion-where-will-the-money-come-from/articleshow/133961939.cms
+      publication: timesofindia.indiatimes.com
+    - title: 'A perfect mess : El Niño and geopolitical conflict raise risks of environmental
+        damages and rising food prices in 2026 – 2027'
+      url: https://eastcountymagazine.org/a-perfect-mess-el-nino-and-geopolitical-conflict-raise-risks-of-environmental-damages-and-rising-food-prices-in-2026-2027/
+      publication: eastcountymagazine.org
 - name: Governance & Instability
   id: governance
   trend: up
