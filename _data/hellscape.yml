@@ -1,4 +1,4 @@
-last_updated: '2026-09-14'
+last_updated: '2026-09-21'
 pillars:
 - name: Conflict & Violence
   id: conflict
@@ -42,17 +42,16 @@ pillars:
     source_url: https://www.unhcr.org/global-trends
     search_query: refugees displaced people conflict 2024 UNHCR
     articles:
-    - title: 'World Humanitarian Day 2026 : Why aid workers face record attacks with
-        little accountability'
-      url: https://www.arabnews.com/node/2655145/world
-      publication: arabnews.com
-    - title: When will she be safe ? The continuum of violence in refugee and migrant
-        women lives
-      url: https://mg.co.za/thought-leader/2026-08-18-when-will-she-be-safe-the-continuum-of-violence-in-refugee-and-migrant-women-s-lives/
-      publication: mg.co.za
-    - title: The Ledger of Conditional Universalism
-      url: https://countercurrents.org/2026/08/the-ledger-of-conditional-universalism/
-      publication: countercurrents.org
+    - title: 4 September 2026 - Daily Press Briefing by the Office of the Spokesperson
+        for the Secretary - General
+      url: https://www.globalsecurity.org/military/library/news/2026/09/mil-260904-unbrief01.htm
+      publication: globalsecurity.org
+    - title: Chad Refugee Crisis Is Becoming a Crisis of Integration – Sri Lanka Guardian
+      url: https://slguardian.org/chads-refugee-crisis-is-becoming-a-crisis-of-integration/
+      publication: slguardian.org
+    - title: How  stop the boat changed the world
+      url: https://www.abc.net.au/news/2026-08-26/tampa-affair-anniversary-refugee-asylum-policy-howard/106948294
+      publication: abc.net.au
 - name: Humanitarian Crisis
   id: humanitarian
   trend: up
