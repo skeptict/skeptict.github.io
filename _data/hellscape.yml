@@ -1,4 +1,4 @@
-last_updated: '2026-09-21'
+last_updated: '2026-09-28'
 pillars:
 - name: Conflict & Violence
   id: conflict
@@ -98,15 +98,9 @@ pillars:
     source_url: https://www.rescue.org/article/5-urgent-problems-world-faces-2026
     search_query: humanitarian crisis deterioration emergency watchlist 2025 2026
     articles:
-    - title: IRC Emergency Watchlist 2026
-      url: https://www.rescue.org/article/5-urgent-problems-world-faces-2026
-      publication: International Rescue Committee
-    - title: 'ACAPS: countries at risk of humanitarian deterioration'
-      url: https://www.acaps.org/en/countries
-      publication: ACAPS
-    - title: The crises the world is ignoring in 2025
-      url: https://www.theatlantic.com
-      publication: The Atlantic
+    - title: What you need to know about the earthquake in Colombia
+      url: https://www.rescue.org/article/what-to-know-about-Colombia-earthquake
+      publication: rescue.org
 - name: Climate & Environment
   id: climate
   trend: up
@@ -141,18 +135,16 @@ pillars:
     source_url: https://www.munichre.com/en/risks/natural-disasters.html
     search_query: economic losses natural disasters billion 2024 insurance
     articles:
+    - title: Insurance has role in pricing climate resilience , report says
+      url: https://www.royalgazette.com/reinsurance/business/article/20260924/insurance-has-role-in-pricing-climate-resilience-report-says/
+      publication: royalgazette.com
+    - title: Govt plans ₹10 , 000 - crore push to modernise India weather forecasting
+      url: https://www.livemint.com/economy/mission-mausam-rs-10000-crore-weather-forecasting-india-11789887815607.html
+      publication: livemint.com
     - title: 'AM Edition : Top 10 Politics Articles on LiveNews . co . nz for September
         13 , 2026 – Full Text – LiveNews . co . nz'
       url: https://livenews.co.nz/2026/09/13/am-edition-top-10-politics-articles-on-livenews-co-nz-for-september-13-2026-full-text/
       publication: livenews.co.nz
-    - title: Nepal flood bill could hit $5 billion . Where will the money come from
-        ?
-      url: https://timesofindia.indiatimes.com/world/south-asia/nepals-flood-bill-could-hit-5-billion-where-will-the-money-come-from/articleshow/133961939.cms
-      publication: timesofindia.indiatimes.com
-    - title: 'A perfect mess : El Niño and geopolitical conflict raise risks of environmental
-        damages and rising food prices in 2026 – 2027'
-      url: https://eastcountymagazine.org/a-perfect-mess-el-nino-and-geopolitical-conflict-raise-risks-of-environmental-damages-and-rising-food-prices-in-2026-2027/
-      publication: eastcountymagazine.org
 - name: Governance & Instability
   id: governance
   trend: up
