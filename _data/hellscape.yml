@@ -1,4 +1,4 @@
-last_updated: '2026-10-12'
+last_updated: '2026-10-19'
 pillars:
 - name: Conflict & Violence
   id: conflict
@@ -27,15 +27,16 @@ pillars:
     source_url: https://ucdp.uu.se/
     search_query: conflict deaths battle casualties war 2024
     articles:
-    - title: US Military Launches Eighth Night of Strikes Against Iran
-      url: http://www.iranherald.com/news/279196488/us-military-launches-eighth-night-of-strikes-against-iran
-      publication: iranherald.com
-    - title: US Military Launches Eighth Night of Strikes Against Iran
-      url: http://www.chinanationalnews.com/news/279196488/us-military-launches-eighth-night-of-strikes-against-iran
-      publication: chinanationalnews.com
-    - title: US Military Launches Eighth Night of Strikes Against Iran
-      url: http://www.middleeaststar.com/news/279196488/us-military-launches-eighth-night-of-strikes-against-iran
-      publication: middleeaststar.com
+    - title: Indeed , God does not alter the affairs of a people until they alter
+        their own affairs .
+      url: https://dailythepatriot.com/indeed-god-does-not-alter-the-affairs-of-a-people-until-they-alter-their-own-affairs/
+      publication: dailythepatriot.com
+    - title: 'Gaza GenoLIE : The campaign fighting  a modern blood libel'
+      url: http://www.jpost.com/diaspora/antisemitism/article-908304
+      publication: jpost.com
+    - title: 'AP News in Brief at 6 : 04 p . m . EDT'
+      url: http://www.idahostatejournal.com/news/national/ap-news-in-brief-at-6-04-p-m-edt/article_03ef3f1c-9b14-5d43-9bc6-6cfd9911b785.html
+      publication: idahostatejournal.com
   - label: People newly displaced by conflict
     value: 68.3M
     note: UNHCR, 2024
