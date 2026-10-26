@@ -1,4 +1,4 @@
-last_updated: '2026-10-19'
+last_updated: '2026-10-26'
 pillars:
 - name: Conflict & Violence
   id: conflict
@@ -10,17 +10,17 @@ pillars:
     source_url: https://ucdp.uu.se/
     search_query: armed conflict wars active 2024 2025
     articles:
-    - title: 'Air Weapons : American Drone Swarm'
-      url: http://www.strategypage.com/htmw/htairw/articles/2026061364455.aspx
-      publication: strategypage.com
-    - title: 'Someone will turn on you : The short life and violent death of an alleged
-        Surrey gang hitman'
-      url: https://www.edmontonexaminer.com:443/news/short-life-violent-death-of-alleged-surrey-gang-hitman/wcm/8bd446d4-7982-4150-b4e6-fc0ac2e08565
-      publication: edmontonexaminer.com
-    - title: 'Someone will turn on you : The short life and violent death of an alleged
-        Surrey gang hitman'
-      url: https://theprovince.com/news/short-life-violent-death-of-alleged-surrey-gang-hitman/wcm/69545061-7623-4d10-a76f-371d3abfb6dc
-      publication: theprovince.com
+    - title: Clashes with Kurdish and Baluch Armed Groups , How Iran is Keeping its
+        Economy Running Amid Blockade and Diplomacy Under Threat of War – NIAC
+      url: https://niacouncil.org/clashes-with-kurdish-and-baluch-armed-groups-how-iran-is-keeping-its-economy-running-amid-blockade-and-diplomacy-under-threat-of-war/
+      publication: niacouncil.org
+    - title: Technology , War , and the Limits of Innovation Power in the Middle East
+      url: https://www.washingtoninstitute.org/policy-analysis/technology-war-and-limits-innovation-power-middle-east
+      publication: washingtoninstitute.org
+    - title: Who Gadi Eisenkot , former Israeli top cop and Netanyahu key rival in
+        upcoming elections
+      url: https://www.presstv.co.uk/Detail/2026/10/21/778858/who-gadi-eisenkot-former-israeli-top-cop-netanyahu-key-rival-elections
+      publication: presstv.co.uk
   - label: Conflict deaths (2024)
     value: ~220,000
     note: UCDP estimate
@@ -63,19 +63,16 @@ pillars:
     source_url: https://www.unhcr.org/global-trends
     search_query: forcibly displaced refugees asylum seekers record 2024
     articles:
-    - title: APO Group - Africa Newsroom / Press release | Acute food insecurity and
-        malnutrition remain alarmingly high as crises deepen , United Nations ( UN
-        ), European Union ( EU ) and partners warn in new report
-      url: https://www.africa-newsroom.com/press/acute-food-insecurity-and-malnutrition-remain-alarmingly-high-as-crises-deepen-united-nations-un-european-union-eu-and-partners-warn-in-new-report
-      publication: africa-newsroom.com
-    - title: UN , EU warn of rising malnutrition and famine risks – Shafaqna English
-        | International Shia News & Fatwas
-      url: https://en.shafaqna.com/447790/un-eu-warn-of-rising-malnutrition-and-famine-risks/
-      publication: en.shafaqna.com
-    - title: Acute food insecurity and malnutrition remain alarmingly high as crises
-        deepen , UN , EU and partners warn in new report
-      url: https://yubanet.com/world/acute-food-insecurity-and-malnutrition-remain-alarmingly-high-as-crises-deepen-un-eu-and-partners-warn-in-new-report/
-      publication: yubanet.com
+    - title: UN agency warns funding crisis could leave 8 . 3 million people without
+        aid
+      url: https://bworldonline.com/world/2026/09/29/782936/un-agency-warns-funding-crisis-could-leave-8-3-million-people-without-aid/
+      publication: bworldonline.com
+    - title: UNHCR funding crisis puts 8 . 3 million on the brink
+      url: https://www.middle-east-online.com/en/unhcr-funding-crisis-puts-83-million-brink
+      publication: middle-east-online.com
+    - title: '8 . 3 mn refugees at risk due to  severe  funding cuts : UN'
+      url: https://www.standardmedia.co.ke/world/article/2001558921/8-3-mn-refugees-at-risk-due-to-severe-funding-cuts-un
+      publication: standardmedia.co.ke
   - label: People in acute food crisis
     value: 282M
     note: FSIN, 2024
@@ -156,31 +153,28 @@ pillars:
     source_url: https://www.jonathanmpowell.com/coup-detat-dataset.html
     search_query: coup military takeover government overthrow 2024 2025
     articles:
-    - title: Will Zimbabwe David finally confront Goliath ?
-      url: https://www.thestandard.co.zw/standard-people/article/200058935/will-zimbabwes-david-finally-confront-goliath
-      publication: thestandard.co.zw
-    - title: Nigerian Colonel Behind Alleged Tinubu Coup Plot Says Failed Promotion
-        Pushed Him , Reveals How He Was Lured By Army Chiefs
-      url: https://saharareporters.com/2026/07/31/nigerian-colonel-behind-alleged-tinubu-coup-plot-says-failed-promotion-pushed-him
-      publication: saharareporters.com
-    - title: 'Uganda : Gen . Moses Ali , the  Lion of Adjumani  Final Chapter'
-      url: https://allafrica.com/stories/202607200694.html
-      publication: allafrica.com
+    - title: Afenifere leader Reuben Fasoranti dies at 100
+      url: https://punchng.com/fasoranti-awo-loyalist-afenifere-leader-bows-out-at-100/
+      publication: punchng.com
+    - title: Iranian expat politics has sunk into the swamp of genocidal Zionism
+      url: https://www.middleeasteye.net/opinion/iranian-expat-politics-has-sunk-swamp-genocidal-zionism
+      publication: middleeasteye.net
+    - title: FACULTY AT ELITE US UNIVERSITIES LINKED TO CIA FRONT NATIONAL ENDOWMENT
+        FOR DEMOCRACY – The Greanville Post
+      url: https://www.greanvillepost.com/faculty-at-elite-us-universities-linked-to-cia-front-national-endowment-for-democracy/
+      publication: greanvillepost.com
   - label: Internet shutdowns (2024)
     value: '283'
     note: Access Now
     source_url: https://www.accessnow.org/keepiton/
     search_query: internet shutdown blackout government censorship 2024 2025
     articles:
-    - title: Iran internet shutdown crushes businesses in battered economy
-      url: https://www.dailybulletin.com/2026/05/01/iran-internet-shutdown-economy/
-      publication: dailybulletin.com
-    - title: Iran internet shutdown crushes businesses in battered economy
-      url: https://www.presstelegram.com/2026/05/01/iran-internet-shutdown-economy/
-      publication: presstelegram.com
-    - title: Iran internet shutdown crushes businesses in battered economy
-      url: https://www.redlandsdailyfacts.com/2026/05/01/iran-internet-shutdown-economy/
-      publication: redlandsdailyfacts.com
+    - title: When Big Tech becomes a tool of state control in Kenya
+      url: https://globalvoices.org/2026/10/21/when-big-tech-becomes-a-tool-of-state-control-in-kenya/
+      publication: globalvoices.org
+    - title: Internet Shutdown Surpasses 100 Days in Pakistan - Occupied Kashmir
+      url: https://pjmedia.com/uzay-bulut/2026/09/21/internet-shutdown-surpasses-100-days-in-pakistan-occupied-kashmir-n4957474
+      publication: pjmedia.com
   - label: Countries under emergency law
     value: ~60
     note: ACAPS
